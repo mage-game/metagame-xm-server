@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<sceneid>503</sceneid>											<!-- 副本场景id -->
+	<enterpos>														<!-- 入口坐标 -->
+		<pos_x>183</pos_x>											
+		<pos_y>162</pos_y>
+	</enterpos>
+	
+	<putong_baozangcfg>												<!-- 普通宝藏-->
+		<monster_id>101</monster_id>								<!-- 怪物id -->
+		<max_num>280</max_num>										<!-- 最大数量 -->
+	</putong_baozangcfg>
+	
+	<yuangu_baozangcfg>												<!-- 远古宝藏 -->
+		<monster_id>102</monster_id>								<!-- 怪物id -->	
+		<max_num>50</max_num>										<!-- 最大数量 -->
+	</yuangu_baozangcfg>
+	
+	<shenlong_baozangcfg>											<!-- 神龙配置 -->
+		<boss_id>103</boss_id>										<!-- 神龙怪物id -->
+		<monster_id>104</monster_id>								<!-- 神龙宝藏id -->
+		<boss_max_num>4</boss_max_num>								<!-- 神龙BOSS最大数量 -->
+		<monster_max_num>3</monster_max_num>						<!-- 神龙宝藏最大数量 -->
+	</shenlong_baozangcfg>
+	
+	<baozang_giftlist>												<!-- 宝藏礼包 -->
+		<gift>
+			<type>0</type>											<!-- 普通礼包 -->
+			
+			<gift>
+				<item_id>28519</item_id>
+				<is_bind>1</is_bind>
+				<num>1</num>
+			</gift>
+			
+			<need_putong_baozang>5</need_putong_baozang>			<!-- 兑换所需宝藏 -->	
+			<need_yuangu_baozang>0</need_yuangu_baozang>
+			<need_shenlong_baozang>0</need_shenlong_baozang>
+		</gift>
+		<gift>
+			<type>1</type>											<!-- 远古礼包 -->	
+			
+			<gift>
+				<item_id>28071</item_id>
+				<is_bind>1</is_bind>
+				<num>1</num>
+			</gift>
+			
+			<need_putong_baozang>0</need_putong_baozang>			<!-- 兑换所需宝藏 -->	
+			<need_yuangu_baozang>3</need_yuangu_baozang>
+			<need_shenlong_baozang>0</need_shenlong_baozang>
+		</gift>
+		<gift>
+			<type>2</type>											<!-- 神龙礼包-->	
+			
+			<gift>
+				<item_id>28072</item_id>
+				<is_bind>1</is_bind>
+				<num>1</num>
+			</gift>
+			
+			<need_putong_baozang>0</need_putong_baozang>			<!-- 兑换所需宝藏 -->	
+			<need_yuangu_baozang>2</need_yuangu_baozang>
+			<need_shenlong_baozang>1</need_shenlong_baozang>
+		</gift>
+	</baozang_giftlist>
+	
+	<explore_range>5</explore_range>             <!-- 远古宝藏探测距离 -->
+	
+	<skill_list>
+		<skill>
+			<index>0</index>									<!-- 铁铲 -->
+			<name>铁铲</name>									<!-- 技能名字 -->
+			<cd_s>1</cd_s>										<!-- 铁铲CD 为0秒 全局CD控制即可 -->
+			<param>100</param>									<!-- 每次扣取伤害 -->
+			<range>10</range>									<!-- 施法距离 -->
+			<lauch_type>1</lauch_type>							<!-- 释放类型 -->
+			<action_type>1</action_type>						<!-- 动作类型 -->
+			<desc>对单个宝藏使用，可造成100点伤害</desc>						<!-- 描述 -->
+		</skill>
+		<skill>
+			<index>1</index>									<!-- 玄冥铲 -->
+			<name>玄冥铲</name>									<!-- 技能名字 -->
+			<cd_s>15</cd_s>										<!-- 玄冥铲CD 15秒 -->
+			<param>1000</param>									<!-- 每次扣取伤害 -->
+			<range>10</range>									<!-- 施法距离 -->
+			<lauch_type>1</lauch_type>							<!-- 释放类型 -->
+			<action_type>1</action_type>						<!-- 动作类型 -->
+			<desc>对单个宝藏使用，可造成1000点伤害</desc>						<!-- 描述 -->
+		</skill>
+		<skill>
+			<index>2</index>									<!-- 烟雾弹 -->
+			<name>烟雾弹</name>									<!-- 技能名字 -->
+			<cd_s>20</cd_s>										<!-- 铁铲CD 为0 全局CD控制即可 -->
+			<param>3000</param>									<!-- 目标眩晕时间 单位是毫秒-->
+			<range>10</range>									<!-- 施法距离 -->
+			<lauch_type>1</lauch_type>							<!-- 释放类型 -->
+			<action_type>1</action_type>						<!-- 动作类型 -->
+			<desc>对单个角色目标使用，使其3秒内处于眩晕状态，无法进行移动等其他操作</desc>						<!-- 描述 -->	
+		</skill>
+		<skill>
+			<index>3</index>									<!-- 轻功 -->
+			<name>破隐·轻功</name>									<!-- 技能名字 -->
+			<cd_s>10</cd_s>										<!-- 轻功CD 为0 全局CD控制即可 -->
+			<param>100</param>									<!-- 固定伤害 只能打怪 -->
+			<range>10</range>									<!-- 伤害范围 -->
+			<lauch_type>6</lauch_type>							<!-- 释放类型 -->
+			<action_type>1</action_type>						<!-- 动作类型 -->
+			<desc>纵身跃向鼠标指定位置，并对周围一定范围内的宝藏造成100点伤害。</desc>							<!-- 描述 -->	
+		</skill>
+	</skill_list>
+	
+	<monster_pos>
+		<rect><!-- 上区域 -->
+			<area_index>1</area_index>
+			<left>67</left>										<!-- 左 -->
+			<top>12</top>										<!-- 上 -->
+			<right>283</right>									<!-- 右 -->
+			<bottom>50</bottom>									<!-- 下 -->
+		</rect>
+		<rect>
+			<area_index>1</area_index>
+			<left>98</left>					   				    <!-- 左 -->
+			<top>50</top>										<!-- 上 -->
+			<right>241</right>									<!-- 右 -->
+			<bottom>89</bottom>								    <!-- 下 -->
+		</rect>
+		<rect>
+			<area_index>1</area_index>
+			<left>158</left>					   				    <!-- 左 -->
+			<top>89</top>										<!-- 上 -->
+			<right>220</right>									<!-- 右 -->
+			<bottom>118</bottom>								    <!-- 下 -->
+		</rect>
+		<rect><!-- 右区域 -->
+			<area_index>2</area_index>
+			<left>257</left>									<!-- 左 -->
+			<top>89</top>										<!-- 上 -->
+			<right>286</right>									<!-- 右 -->
+			<bottom>214</bottom>							    	<!-- 下 -->
+		</rect>
+		<rect>
+			<area_index>2</area_index>
+			<left>287</left>									<!-- 左 -->
+			<top>69</top>										<!-- 上 -->
+			<right>339</right>									<!-- 右 -->
+			<bottom>229</bottom>								<!-- 下 -->
+		</rect>
+<!-- 		<rect>
+			<area_index>2</area_index>
+			<left>162</left>									左
+			<top>128</top>										上
+			<right>194</right>									右
+			<bottom>141</bottom>								下
+		</rect> -->
+
+		<rect><!-- 下区域 -->
+			<area_index>3</area_index>
+			<left>41</left>									    <!-- 左 -->
+			<top>310</top>										<!-- 上 -->
+			<right>284</right>									<!-- 右 -->
+			<bottom>344</bottom>								<!-- 下 -->
+		</rect>
+		<rect>
+			<area_index>3</area_index>
+			<left>86</left>									<!-- 左 -->
+			<top>264</top>										<!-- 上 -->
+			<right>278</right>									<!-- 右 -->
+			<bottom>309</bottom>								<!-- 下 -->
+		</rect>	
+		<rect>
+			<area_index>3</area_index>
+			<left>134</left>									    <!-- 左 -->
+			<top>219</top>										<!-- 上 -->
+			<right>265</right>									<!-- 右 -->
+			<bottom>265</bottom>								<!-- 下 -->
+		</rect>
+
+		<rect><!-- 左区域 -->
+			<area_index>4</area_index>
+			<left>7</left>									    <!-- 左 -->
+			<top>51</top>										<!-- 上 -->
+			<right>46</right>									<!-- 右 -->
+			<bottom>257</bottom>								<!-- 下 -->
+		</rect>
+		<rect>
+			<area_index>4</area_index>
+			<left>47</left>									    <!-- 左 -->
+			<top>94</top>										<!-- 上 -->
+			<right>88</right>									<!-- 右 -->
+			<bottom>234</bottom>								<!-- 下 -->
+		</rect>
+		<rect>
+			<area_index>4</area_index>
+			<left>89</left>									    <!-- 左 -->
+			<top>122</top>										<!-- 上 -->
+			<right>125</right>									<!-- 右 -->
+			<bottom>206</bottom>								<!-- 下 -->
+		</rect>
+
+	</monster_pos>
+	
+	<boss_pos>	<!-- 神龙Boss刷新区域 -->
+		<rect><!-- 上区域 -->
+			<area_index>1</area_index>
+			<left>163</left>										<!-- 左 -->
+			<top>37</top>										<!-- 上 -->
+			<right>213</right>									<!-- 右 -->
+			<bottom>68</bottom>									<!-- 下 -->
+		</rect>
+		<rect><!-- 右区域 -->
+			<area_index>2</area_index>
+			<left>275</left>									<!-- 左 -->
+			<top>119</top>										<!-- 上 -->
+			<right>312</right>									<!-- 右 -->
+			<bottom>179</bottom>							    	<!-- 下 -->
+		</rect>
+		<rect><!-- 下区域 -->
+			<area_index>3</area_index>
+			<left>159</left>									    <!-- 左 -->
+			<top>247</top>										<!-- 上 -->
+			<right>227</right>									<!-- 右 -->
+			<bottom>292</bottom>								<!-- 下 -->
+		</rect>
+		<rect><!-- 左区域 -->
+			<area_index>4</area_index>
+			<left>55</left>									    <!-- 左 -->
+			<top>118</top>										<!-- 上 -->
+			<right>108</right>									<!-- 右 -->
+			<bottom>203</bottom>								<!-- 下 -->
+		</rect>
+	</boss_pos>
+</config>
+

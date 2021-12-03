@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--男子5-->
+	<id>20562</id>
+	<default_dialog_id>20562</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>7014</id>
+	<name>无尽之塔五层</name>
+	<mapid>7014</mapid>
+	<levellimit>0</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>28</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>7014</sceneid>
+		<scenex>43</scenex>
+		<sceney>41</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints>
+		<point>
+			<monsterid>402</monsterid>
+			<interval>1000</interval>
+			<num>1</num>
+			<histroytotalnum>0</histroytotalnum>
+			<x>62</x>
+			<y>85</y>
+		</point>
+		<point>
+			<monsterid>402</monsterid>
+			<interval>1000</interval>
+			<num>1</num>
+			<histroytotalnum>0</histroytotalnum>
+			<x>39</x>
+			<y>85</y>
+		</point>
+		<point>
+			<monsterid>402</monsterid>
+			<interval>1000</interval>
+			<num>1</num>
+			<histroytotalnum>0</histroytotalnum>
+			<x>62</x>
+			<y>40</y>
+		</point>
+		<point>
+			<monsterid>402</monsterid>
+			<interval>1000</interval>
+			<num>1</num>
+			<histroytotalnum>0</histroytotalnum>
+			<x>39</x>
+			<y>63</y>
+		</point>
+		<point>
+			<monsterid>402</monsterid>
+			<interval>1000</interval>
+			<num>1</num>
+			<histroytotalnum>0</histroytotalnum>
+			<x>84</x>
+			<y>40</y>
+		</point>
+		<point>
+			<monsterid>402</monsterid>
+			<interval>1000</interval>
+			<num>1</num>
+			<histroytotalnum>0</histroytotalnum>
+			<x>39</x>
+			<y>40</y>
+		</point>
+		<point>
+			<monsterid>402</monsterid>
+			<interval>1000</interval>
+			<num>1</num>
+			<histroytotalnum>0</histroytotalnum>
+			<x>84</x>
+			<y>63</y>
+		</point>
+	</monsterpoints>
+	<doors />
+	<gatherpoints />
+</scene>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--神秘商人-->
+	<id>20124</id>
+	<default_dialog_id>20124</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

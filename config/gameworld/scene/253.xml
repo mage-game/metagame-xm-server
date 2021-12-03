@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>253</id>
+	<name>幻溟秘道</name>
+	<mapid>253</mapid>
+	<levellimit>350</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>1</is_forbid_pk>
+	<speciallogic_type>0</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>253</sceneid>
+		<scenex>41</scenex>
+		<sceney>62</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors>
+		<door>
+			<id>209</id>
+			<type>0</type>
+			<level>450</level>
+			<target_scene_id>209</target_scene_id>
+			<target_door_id>0</target_door_id>
+			<x>29</x>
+			<y>90</y>
+		</door>
+		<door>
+			<id>210</id>
+			<type>0</type>
+			<level>550</level>
+			<target_scene_id>210</target_scene_id>
+			<target_door_id>0</target_door_id>
+			<x>44</x>
+			<y>90</y>
+		</door>
+		<door>
+			<id>107</id>
+			<type>0</type>
+			<level>350</level>
+			<target_scene_id>107</target_scene_id>
+			<target_door_id>253</target_door_id>
+			<x>41</x>
+			<y>29</y>
+		</door>
+	</doors>
+	<gatherpoints />
+</scene>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <id>8001</id>
+  <name>藏宝秘境</name>
+  <mapid>8001</mapid>
+  <istax>0</istax>
+  <is_forbid_pk>0</is_forbid_pk>
+  <speciallogic_type>0</speciallogic_type>
+  <scene_timeout>0</scene_timeout>
+  <is_timeout_kick>0</is_timeout_kick>
+  <npcs/>
+  <doors>
+    <door>
+      <id>1210</id>
+      <x>116</x>
+      <y>54</y>
+    </door>
+  </doors>
+  <triggerareas/>
+  <triggers/>
+  <townpoint>
+    <sceneid>8001</sceneid>
+    <scenex>98</scenex>
+    <sceney>68</sceney>
+  </townpoint>
+  <monsterpoints/>
+  <gatherpoints/>
+</scene>

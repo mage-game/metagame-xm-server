@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <id>612</id>
+  <name>巅峰竞技</name>
+  <mapid>612</mapid>
+  <istax>0</istax>
+  <is_forbid_pk>0</is_forbid_pk>
+  <speciallogic_type>0</speciallogic_type>
+  <scene_timeout>125</scene_timeout>
+  <is_timeout_kick>1</is_timeout_kick>
+  <npcs/>
+  <doors/>
+  <triggerareas/>
+  <triggers/>
+  <townpoint>
+    <sceneid>612</sceneid>
+    <scenex>15</scenex>
+    <sceney>30</sceney>
+  </townpoint>
+  <monsterpoints/>
+  <gatherpoints/>
+</scene>

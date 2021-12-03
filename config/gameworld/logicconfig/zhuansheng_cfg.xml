@@ -1,0 +1,3950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <other>
+    <data>
+      <common_roll_cost>100</common_roll_cost>
+      <super_roll_cost>900</super_roll_cost>
+      <super_roll_cost_item_id>26000</super_roll_cost_item_id>
+      <free_cold_down_time_h>48</free_cold_down_time_h>
+      <grade_3_attr_add_percent_8>2</grade_3_attr_add_percent_8>
+      <grade_5_attr_add_percent_8>5</grade_5_attr_add_percent_8>
+    </data>
+  </other>
+  <zhuansheng_attr_cfg>
+    <data>
+      <level>0</level>
+      <consume_xiuwei>50000</consume_xiuwei>
+      <maxhp>0</maxhp>
+      <gongji>0</gongji>
+      <fangyu>0</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>0</extra_exp_add>
+    </data>
+    <data>
+      <level>1</level>
+      <consume_xiuwei>60000</consume_xiuwei>
+      <maxhp>800</maxhp>
+      <gongji>99</gongji>
+      <fangyu>79</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>40</extra_exp_add>
+    </data>
+    <data>
+      <level>2</level>
+      <consume_xiuwei>150000</consume_xiuwei>
+      <maxhp>2000</maxhp>
+      <gongji>248</gongji>
+      <fangyu>198</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>99</extra_exp_add>
+    </data>
+    <data>
+      <level>3</level>
+      <consume_xiuwei>440000</consume_xiuwei>
+      <maxhp>3600</maxhp>
+      <gongji>446</gongji>
+      <fangyu>357</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>179</extra_exp_add>
+    </data>
+    <data>
+      <level>4</level>
+      <consume_xiuwei>1330000</consume_xiuwei>
+      <maxhp>6400</maxhp>
+      <gongji>794</gongji>
+      <fangyu>635</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>317</extra_exp_add>
+    </data>
+    <data>
+      <level>5</level>
+      <consume_xiuwei>3330000</consume_xiuwei>
+      <maxhp>9600</maxhp>
+      <gongji>1190</gongji>
+      <fangyu>952</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>476</extra_exp_add>
+    </data>
+    <data>
+      <level>6</level>
+      <consume_xiuwei>6670000</consume_xiuwei>
+      <maxhp>14000</maxhp>
+      <gongji>1736</gongji>
+      <fangyu>1389</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>694</extra_exp_add>
+    </data>
+    <data>
+      <level>7</level>
+      <consume_xiuwei>13340000</consume_xiuwei>
+      <maxhp>19200</maxhp>
+      <gongji>2381</gongji>
+      <fangyu>1905</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>952</extra_exp_add>
+    </data>
+    <data>
+      <level>8</level>
+      <consume_xiuwei>29640000</consume_xiuwei>
+      <maxhp>25200</maxhp>
+      <gongji>3125</gongji>
+      <fangyu>2500</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>1250</extra_exp_add>
+    </data>
+    <data>
+      <level>9</level>
+      <consume_xiuwei>44450000</consume_xiuwei>
+      <maxhp>32400</maxhp>
+      <gongji>4018</gongji>
+      <fangyu>3214</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>1607</extra_exp_add>
+    </data>
+    <data>
+      <level>10</level>
+      <consume_xiuwei>444500000</consume_xiuwei>
+      <maxhp>40000</maxhp>
+      <gongji>4960</gongji>
+      <fangyu>3968</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>1984</extra_exp_add>
+    </data>
+    <data>
+      <level>11</level>
+      <consume_xiuwei>444500000</consume_xiuwei>
+      <maxhp>40000</maxhp>
+      <gongji>4960</gongji>
+      <fangyu>3968</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>1984</extra_exp_add>
+    </data>
+    <data>
+      <level>12</level>
+      <consume_xiuwei>444500000</consume_xiuwei>
+      <maxhp>40000</maxhp>
+      <gongji>4960</gongji>
+      <fangyu>3968</fangyu>
+      <mingzhong>0</mingzhong>
+      <shanbi>0</shanbi>
+      <baoji>0</baoji>
+      <jianren>0</jianren>
+      <extra_exp_add>1984</extra_exp_add>
+    </data>
+  </zhuansheng_attr_cfg>
+  <equip_info_cfg />
+  <change_xiuwei_cfg>
+    <data>
+      <seq>0</seq>
+      <consume_gold>0</consume_gold>
+      <consume_coin>1000000</consume_coin>
+      <reward_xiuwei>3000</reward_xiuwei>
+    </data>
+    <data>
+      <seq>1</seq>
+      <consume_gold>150</consume_gold>
+      <consume_coin>0</consume_coin>
+      <reward_xiuwei>4500</reward_xiuwei>
+    </data>
+    <data>
+      <seq>2</seq>
+      <consume_gold>250</consume_gold>
+      <consume_coin>0</consume_coin>
+      <reward_xiuwei>6000</reward_xiuwei>
+    </data>
+    <data>
+      <seq>3</seq>
+      <consume_gold>350</consume_gold>
+      <consume_coin>0</consume_coin>
+      <reward_xiuwei>7500</reward_xiuwei>
+    </data>
+    <data>
+      <seq>4</seq>
+      <consume_gold>450</consume_gold>
+      <consume_coin>0</consume_coin>
+      <reward_xiuwei>9000</reward_xiuwei>
+    </data>
+  </change_xiuwei_cfg>
+  <roll_info_cfg>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>0</seq>
+      <reward_equip_id>1</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>1</seq>
+      <reward_equip_id>11</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>2</seq>
+      <reward_equip_id>21</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>3</seq>
+      <reward_equip_id>31</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>4</seq>
+      <reward_equip_id>41</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>5</seq>
+      <reward_equip_id>51</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>6</seq>
+      <reward_equip_id>61</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>7</seq>
+      <reward_equip_id>71</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>8</seq>
+      <reward_equip_id>2</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>9</seq>
+      <reward_equip_id>12</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>10</seq>
+      <reward_equip_id>22</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>11</seq>
+      <reward_equip_id>32</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>12</seq>
+      <reward_equip_id>42</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>13</seq>
+      <reward_equip_id>52</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>14</seq>
+      <reward_equip_id>62</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>15</seq>
+      <reward_equip_id>72</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>16</seq>
+      <reward_equip_id>3</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>17</seq>
+      <reward_equip_id>13</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>18</seq>
+      <reward_equip_id>23</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>19</seq>
+      <reward_equip_id>33</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>20</seq>
+      <reward_equip_id>43</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>21</seq>
+      <reward_equip_id>53</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>22</seq>
+      <reward_equip_id>63</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>23</seq>
+      <reward_equip_id>73</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>24</seq>
+      <reward_equip_id>4</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>25</seq>
+      <reward_equip_id>14</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>26</seq>
+      <reward_equip_id>24</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>27</seq>
+      <reward_equip_id>34</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>28</seq>
+      <reward_equip_id>44</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>29</seq>
+      <reward_equip_id>54</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>30</seq>
+      <reward_equip_id>64</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>31</seq>
+      <reward_equip_id>74</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>32</seq>
+      <reward_equip_id>5</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>33</seq>
+      <reward_equip_id>15</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>34</seq>
+      <reward_equip_id>25</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>35</seq>
+      <reward_equip_id>35</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>36</seq>
+      <reward_equip_id>45</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>37</seq>
+      <reward_equip_id>55</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>38</seq>
+      <reward_equip_id>65</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>39</seq>
+      <reward_equip_id>75</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>40</seq>
+      <reward_equip_id>6</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>41</seq>
+      <reward_equip_id>16</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>42</seq>
+      <reward_equip_id>26</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>43</seq>
+      <reward_equip_id>36</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>44</seq>
+      <reward_equip_id>46</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>45</seq>
+      <reward_equip_id>56</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>46</seq>
+      <reward_equip_id>66</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>47</seq>
+      <reward_equip_id>76</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>48</seq>
+      <reward_equip_id>7</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>49</seq>
+      <reward_equip_id>17</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>50</seq>
+      <reward_equip_id>27</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>51</seq>
+      <reward_equip_id>37</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>52</seq>
+      <reward_equip_id>47</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>53</seq>
+      <reward_equip_id>57</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>54</seq>
+      <reward_equip_id>67</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>55</seq>
+      <reward_equip_id>77</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>56</seq>
+      <reward_equip_id>8</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>57</seq>
+      <reward_equip_id>18</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>58</seq>
+      <reward_equip_id>28</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>59</seq>
+      <reward_equip_id>38</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>60</seq>
+      <reward_equip_id>48</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>61</seq>
+      <reward_equip_id>58</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>62</seq>
+      <reward_equip_id>68</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>63</seq>
+      <reward_equip_id>78</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>64</seq>
+      <reward_equip_id>9</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>65</seq>
+      <reward_equip_id>19</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>66</seq>
+      <reward_equip_id>29</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>67</seq>
+      <reward_equip_id>39</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>68</seq>
+      <reward_equip_id>49</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>69</seq>
+      <reward_equip_id>59</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>70</seq>
+      <reward_equip_id>69</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>71</seq>
+      <reward_equip_id>79</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>72</seq>
+      <reward_equip_id>10</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>73</seq>
+      <reward_equip_id>20</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>74</seq>
+      <reward_equip_id>30</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>75</seq>
+      <reward_equip_id>40</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>76</seq>
+      <reward_equip_id>50</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>77</seq>
+      <reward_equip_id>60</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>78</seq>
+      <reward_equip_id>70</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>79</seq>
+      <reward_equip_id>80</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>80</seq>
+      <reward_equip_id>81</reward_equip_id>
+      <weight>1600</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>81</seq>
+      <reward_equip_id>82</reward_equip_id>
+      <weight>800</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>82</seq>
+      <reward_equip_id>83</reward_equip_id>
+      <weight>600</weight>
+    </data>
+    <data>
+      <section_start>1</section_start>
+      <section_end>30</section_end>
+      <seq>83</seq>
+      <reward_equip_id>84</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>0</seq>
+      <reward_equip_id>1</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>1</seq>
+      <reward_equip_id>11</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>2</seq>
+      <reward_equip_id>21</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>3</seq>
+      <reward_equip_id>31</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>4</seq>
+      <reward_equip_id>41</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>5</seq>
+      <reward_equip_id>51</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>6</seq>
+      <reward_equip_id>61</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>7</seq>
+      <reward_equip_id>71</reward_equip_id>
+      <weight>615</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>8</seq>
+      <reward_equip_id>2</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>9</seq>
+      <reward_equip_id>12</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>10</seq>
+      <reward_equip_id>22</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>11</seq>
+      <reward_equip_id>32</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>12</seq>
+      <reward_equip_id>42</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>13</seq>
+      <reward_equip_id>52</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>14</seq>
+      <reward_equip_id>62</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>15</seq>
+      <reward_equip_id>72</reward_equip_id>
+      <weight>195</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>16</seq>
+      <reward_equip_id>3</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>17</seq>
+      <reward_equip_id>13</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>18</seq>
+      <reward_equip_id>23</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>19</seq>
+      <reward_equip_id>33</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>20</seq>
+      <reward_equip_id>43</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>21</seq>
+      <reward_equip_id>53</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>22</seq>
+      <reward_equip_id>63</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>23</seq>
+      <reward_equip_id>73</reward_equip_id>
+      <weight>65</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>24</seq>
+      <reward_equip_id>4</reward_equip_id>
+      <weight>23</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>25</seq>
+      <reward_equip_id>14</reward_equip_id>
+      <weight>23</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>26</seq>
+      <reward_equip_id>24</reward_equip_id>
+      <weight>23</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>27</seq>
+      <reward_equip_id>34</reward_equip_id>
+      <weight>23</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>28</seq>
+      <reward_equip_id>44</reward_equip_id>
+      <weight>23</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>29</seq>
+      <reward_equip_id>54</reward_equip_id>
+      <weight>23</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>30</seq>
+      <reward_equip_id>64</reward_equip_id>
+      <weight>23</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>31</seq>
+      <reward_equip_id>74</reward_equip_id>
+      <weight>23</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>32</seq>
+      <reward_equip_id>5</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>33</seq>
+      <reward_equip_id>15</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>34</seq>
+      <reward_equip_id>25</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>35</seq>
+      <reward_equip_id>35</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>36</seq>
+      <reward_equip_id>45</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>37</seq>
+      <reward_equip_id>55</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>38</seq>
+      <reward_equip_id>65</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>39</seq>
+      <reward_equip_id>75</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>40</seq>
+      <reward_equip_id>6</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>41</seq>
+      <reward_equip_id>16</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>42</seq>
+      <reward_equip_id>26</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>43</seq>
+      <reward_equip_id>36</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>44</seq>
+      <reward_equip_id>46</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>45</seq>
+      <reward_equip_id>56</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>46</seq>
+      <reward_equip_id>66</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>47</seq>
+      <reward_equip_id>76</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>48</seq>
+      <reward_equip_id>7</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>49</seq>
+      <reward_equip_id>17</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>50</seq>
+      <reward_equip_id>27</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>51</seq>
+      <reward_equip_id>37</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>52</seq>
+      <reward_equip_id>47</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>53</seq>
+      <reward_equip_id>57</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>54</seq>
+      <reward_equip_id>67</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>55</seq>
+      <reward_equip_id>77</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>56</seq>
+      <reward_equip_id>8</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>57</seq>
+      <reward_equip_id>18</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>58</seq>
+      <reward_equip_id>28</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>59</seq>
+      <reward_equip_id>38</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>60</seq>
+      <reward_equip_id>48</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>61</seq>
+      <reward_equip_id>58</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>62</seq>
+      <reward_equip_id>68</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>63</seq>
+      <reward_equip_id>78</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>64</seq>
+      <reward_equip_id>9</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>65</seq>
+      <reward_equip_id>19</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>66</seq>
+      <reward_equip_id>29</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>67</seq>
+      <reward_equip_id>39</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>68</seq>
+      <reward_equip_id>49</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>69</seq>
+      <reward_equip_id>59</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>70</seq>
+      <reward_equip_id>69</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>71</seq>
+      <reward_equip_id>79</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>72</seq>
+      <reward_equip_id>10</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>73</seq>
+      <reward_equip_id>20</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>74</seq>
+      <reward_equip_id>30</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>75</seq>
+      <reward_equip_id>40</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>76</seq>
+      <reward_equip_id>50</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>77</seq>
+      <reward_equip_id>60</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>78</seq>
+      <reward_equip_id>70</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>79</seq>
+      <reward_equip_id>80</reward_equip_id>
+      <weight>0</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>80</seq>
+      <reward_equip_id>81</reward_equip_id>
+      <weight>1600</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>81</seq>
+      <reward_equip_id>82</reward_equip_id>
+      <weight>800</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>82</seq>
+      <reward_equip_id>83</reward_equip_id>
+      <weight>600</weight>
+    </data>
+    <data>
+      <section_start>31</section_start>
+      <section_end>0</section_end>
+      <seq>83</seq>
+      <reward_equip_id>84</reward_equip_id>
+      <weight>0</weight>
+    </data>
+  </roll_info_cfg>
+  <suit_add_attr>
+    <data>
+      <grade>1</grade>
+      <maxhp>0</maxhp>
+      <gongji>0</gongji>
+      <fangyu>0</fangyu>
+      <min_gongji>0</min_gongji>
+      <baoji>0</baoji>
+      <per_pofang>0</per_pofang>
+      <per_mianshang>0</per_mianshang>
+      <per_to_role_shang>100</per_to_role_shang>
+      <per_to_role_mianshang>100</per_to_role_mianshang>
+    </data>
+    <data>
+      <grade>2</grade>
+      <maxhp>0</maxhp>
+      <gongji>0</gongji>
+      <fangyu>0</fangyu>
+      <min_gongji>0</min_gongji>
+      <baoji>0</baoji>
+      <per_pofang>0</per_pofang>
+      <per_mianshang>0</per_mianshang>
+      <per_to_role_shang>200</per_to_role_shang>
+      <per_to_role_mianshang>200</per_to_role_mianshang>
+    </data>
+    <data>
+      <grade>3</grade>
+      <maxhp>0</maxhp>
+      <gongji>0</gongji>
+      <fangyu>0</fangyu>
+      <min_gongji>0</min_gongji>
+      <baoji>0</baoji>
+      <per_pofang>0</per_pofang>
+      <per_mianshang>0</per_mianshang>
+      <per_to_role_shang>300</per_to_role_shang>
+      <per_to_role_mianshang>300</per_to_role_mianshang>
+    </data>
+    <data>
+      <grade>4</grade>
+      <maxhp>0</maxhp>
+      <gongji>0</gongji>
+      <fangyu>0</fangyu>
+      <min_gongji>0</min_gongji>
+      <baoji>0</baoji>
+      <per_pofang>0</per_pofang>
+      <per_mianshang>0</per_mianshang>
+      <per_to_role_shang>400</per_to_role_shang>
+      <per_to_role_mianshang>400</per_to_role_mianshang>
+    </data>
+    <data>
+      <grade>5</grade>
+      <maxhp>0</maxhp>
+      <gongji>0</gongji>
+      <fangyu>0</fangyu>
+      <min_gongji>0</min_gongji>
+      <baoji>0</baoji>
+      <per_pofang>0</per_pofang>
+      <per_mianshang>0</per_mianshang>
+      <per_to_role_shang>550</per_to_role_shang>
+      <per_to_role_mianshang>550</per_to_role_mianshang>
+    </data>
+    <data>
+      <grade>6</grade>
+      <maxhp>0</maxhp>
+      <gongji>0</gongji>
+      <fangyu>0</fangyu>
+      <min_gongji>0</min_gongji>
+      <baoji>0</baoji>
+      <per_pofang>0</per_pofang>
+      <per_mianshang>0</per_mianshang>
+      <per_to_role_shang>700</per_to_role_shang>
+      <per_to_role_mianshang>700</per_to_role_mianshang>
+    </data>
+    <data>
+      <grade>7</grade>
+      <maxhp>0</maxhp>
+      <gongji>0</gongji>
+      <fangyu>0</fangyu>
+      <min_gongji>0</min_gongji>
+      <baoji>0</baoji>
+      <per_pofang>0</per_pofang>
+      <per_mianshang>0</per_mianshang>
+      <per_to_role_shang>850</per_to_role_shang>
+      <per_to_role_mianshang>850</per_to_role_mianshang>
+    </data>
+    <data>
+      <grade>8</grade>
+      <maxhp>0</maxhp>
+      <gongji>0</gongji>
+      <fangyu>0</fangyu>
+      <min_gongji>0</min_gongji>
+      <baoji>0</baoji>
+      <per_pofang>0</per_pofang>
+      <per_mianshang>0</per_mianshang>
+      <per_to_role_shang>1000</per_to_role_shang>
+      <per_to_role_mianshang>1000</per_to_role_mianshang>
+    </data>
+    <data>
+      <grade>9</grade>
+      <maxhp>0</maxhp>
+      <gongji>0</gongji>
+      <fangyu>0</fangyu>
+      <min_gongji>0</min_gongji>
+      <baoji>0</baoji>
+      <per_pofang>0</per_pofang>
+      <per_mianshang>0</per_mianshang>
+      <per_to_role_shang>1150</per_to_role_shang>
+      <per_to_role_mianshang>1150</per_to_role_mianshang>
+    </data>
+    <data>
+      <grade>10</grade>
+      <maxhp>0</maxhp>
+      <gongji>0</gongji>
+      <fangyu>0</fangyu>
+      <min_gongji>0</min_gongji>
+      <baoji>0</baoji>
+      <per_pofang>0</per_pofang>
+      <per_mianshang>0</per_mianshang>
+      <per_to_role_shang>1300</per_to_role_shang>
+      <per_to_role_mianshang>1300</per_to_role_mianshang>
+    </data>
+  </suit_add_attr>
+  <xiuweidan_cfg>
+    <data />
+    <data />
+    <data />
+    <data />
+  </xiuweidan_cfg>
+  <show>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </show>
+  <rand_attr_count>
+    <data>
+      <type>1</type>
+      <rand_attr_0_rate>100</rand_attr_0_rate>
+      <rand_attr_1_rate>0</rand_attr_1_rate>
+      <rand_attr_2_rate>0</rand_attr_2_rate>
+      <rand_attr_3_rate>0</rand_attr_3_rate>
+    </data>
+    <data>
+      <type>2</type>
+      <rand_attr_0_rate>100</rand_attr_0_rate>
+      <rand_attr_1_rate>0</rand_attr_1_rate>
+      <rand_attr_2_rate>0</rand_attr_2_rate>
+      <rand_attr_3_rate>0</rand_attr_3_rate>
+    </data>
+    <data>
+      <type>3</type>
+      <rand_attr_0_rate>65</rand_attr_0_rate>
+      <rand_attr_1_rate>35</rand_attr_1_rate>
+      <rand_attr_2_rate>0</rand_attr_2_rate>
+      <rand_attr_3_rate>0</rand_attr_3_rate>
+    </data>
+    <data>
+      <type>4</type>
+      <rand_attr_0_rate>60</rand_attr_0_rate>
+      <rand_attr_1_rate>35</rand_attr_1_rate>
+      <rand_attr_2_rate>5</rand_attr_2_rate>
+      <rand_attr_3_rate>0</rand_attr_3_rate>
+    </data>
+    <data>
+      <type>5</type>
+      <rand_attr_0_rate>33</rand_attr_0_rate>
+      <rand_attr_1_rate>60</rand_attr_1_rate>
+      <rand_attr_2_rate>5</rand_attr_2_rate>
+      <rand_attr_3_rate>2</rand_attr_3_rate>
+    </data>
+  </rand_attr_count>
+  <rand_attr_rate>
+    <data>
+      <attr_type>33</attr_type>
+      <rate>70</rate>
+    </data>
+    <data>
+      <attr_type>35</attr_type>
+      <rate>70</rate>
+    </data>
+    <data>
+      <attr_type>36</attr_type>
+      <rate>70</rate>
+    </data>
+    <data>
+      <attr_type>37</attr_type>
+      <rate>100</rate>
+    </data>
+    <data>
+      <attr_type>38</attr_type>
+      <rate>100</rate>
+    </data>
+    <data>
+      <attr_type>39</attr_type>
+      <rate>100</rate>
+    </data>
+    <data>
+      <attr_type>40</attr_type>
+      <rate>100</rate>
+    </data>
+  </rand_attr_rate>
+  <rand_attr_val>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>1279</attr_value_max>
+      <attr_value_min>128</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>62</attr_value_max>
+      <attr_value_min>6</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>75</attr_value_max>
+      <attr_value_min>8</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>119</attr_value_max>
+      <attr_value_min>12</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>99</attr_value_max>
+      <attr_value_min>10</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>75</attr_value_max>
+      <attr_value_min>7</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>94</attr_value_max>
+      <attr_value_min>9</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>1918</attr_value_max>
+      <attr_value_min>192</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>94</attr_value_max>
+      <attr_value_min>9</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>113</attr_value_max>
+      <attr_value_min>11</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>179</attr_value_max>
+      <attr_value_min>18</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>149</attr_value_max>
+      <attr_value_min>15</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>112</attr_value_max>
+      <attr_value_min>11</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>141</attr_value_max>
+      <attr_value_min>14</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>3197</attr_value_max>
+      <attr_value_min>320</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>156</attr_value_max>
+      <attr_value_min>16</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>188</attr_value_max>
+      <attr_value_min>19</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>298</attr_value_max>
+      <attr_value_min>30</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>249</attr_value_max>
+      <attr_value_min>25</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>186</attr_value_max>
+      <attr_value_min>19</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>236</attr_value_max>
+      <attr_value_min>24</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>4795</attr_value_max>
+      <attr_value_min>480</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>234</attr_value_max>
+      <attr_value_min>23</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>282</attr_value_max>
+      <attr_value_min>28</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>448</attr_value_max>
+      <attr_value_min>45</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>373</attr_value_max>
+      <attr_value_min>37</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>280</attr_value_max>
+      <attr_value_min>28</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>353</attr_value_max>
+      <attr_value_min>35</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>6393</attr_value_max>
+      <attr_value_min>639</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>312</attr_value_max>
+      <attr_value_min>31</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>376</attr_value_max>
+      <attr_value_min>38</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>597</attr_value_max>
+      <attr_value_min>60</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>497</attr_value_max>
+      <attr_value_min>50</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>373</attr_value_max>
+      <attr_value_min>37</attr_value_min>
+    </data>
+    <data>
+      <equip_level>201</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>471</attr_value_max>
+      <attr_value_min>47</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>1790</attr_value_max>
+      <attr_value_min>179</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>87</attr_value_max>
+      <attr_value_min>9</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>105</attr_value_max>
+      <attr_value_min>11</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>167</attr_value_max>
+      <attr_value_min>17</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>139</attr_value_max>
+      <attr_value_min>14</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>104</attr_value_max>
+      <attr_value_min>10</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>132</attr_value_max>
+      <attr_value_min>13</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>2685</attr_value_max>
+      <attr_value_min>269</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>131</attr_value_max>
+      <attr_value_min>13</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>158</attr_value_max>
+      <attr_value_min>16</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>251</attr_value_max>
+      <attr_value_min>25</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>209</attr_value_max>
+      <attr_value_min>21</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>157</attr_value_max>
+      <attr_value_min>16</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>198</attr_value_max>
+      <attr_value_min>20</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>4475</attr_value_max>
+      <attr_value_min>448</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>218</attr_value_max>
+      <attr_value_min>22</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>263</attr_value_max>
+      <attr_value_min>26</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>418</attr_value_max>
+      <attr_value_min>42</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>348</attr_value_max>
+      <attr_value_min>35</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>261</attr_value_max>
+      <attr_value_min>26</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>330</attr_value_max>
+      <attr_value_min>33</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>6713</attr_value_max>
+      <attr_value_min>671</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>327</attr_value_max>
+      <attr_value_min>33</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>395</attr_value_max>
+      <attr_value_min>39</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>627</attr_value_max>
+      <attr_value_min>63</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>522</attr_value_max>
+      <attr_value_min>52</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>392</attr_value_max>
+      <attr_value_min>39</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>495</attr_value_max>
+      <attr_value_min>49</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>8950</attr_value_max>
+      <attr_value_min>895</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>437</attr_value_max>
+      <attr_value_min>44</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>526</attr_value_max>
+      <attr_value_min>53</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>835</attr_value_max>
+      <attr_value_min>84</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>696</attr_value_max>
+      <attr_value_min>70</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>522</attr_value_max>
+      <attr_value_min>52</attr_value_min>
+    </data>
+    <data>
+      <equip_level>301</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>659</attr_value_max>
+      <attr_value_min>66</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>2506</attr_value_max>
+      <attr_value_min>251</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>122</attr_value_max>
+      <attr_value_min>12</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>147</attr_value_max>
+      <attr_value_min>15</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>234</attr_value_max>
+      <attr_value_min>23</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>195</attr_value_max>
+      <attr_value_min>19</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>146</attr_value_max>
+      <attr_value_min>15</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>185</attr_value_max>
+      <attr_value_min>18</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>3759</attr_value_max>
+      <attr_value_min>376</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>183</attr_value_max>
+      <attr_value_min>18</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>221</attr_value_max>
+      <attr_value_min>22</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>351</attr_value_max>
+      <attr_value_min>35</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>292</attr_value_max>
+      <attr_value_min>29</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>219</attr_value_max>
+      <attr_value_min>22</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>277</attr_value_max>
+      <attr_value_min>28</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>6265</attr_value_max>
+      <attr_value_min>627</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>306</attr_value_max>
+      <attr_value_min>31</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>369</attr_value_max>
+      <attr_value_min>37</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>585</attr_value_max>
+      <attr_value_min>58</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>487</attr_value_max>
+      <attr_value_min>49</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>365</attr_value_max>
+      <attr_value_min>37</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>462</attr_value_max>
+      <attr_value_min>46</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>9398</attr_value_max>
+      <attr_value_min>940</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>458</attr_value_max>
+      <attr_value_min>46</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>553</attr_value_max>
+      <attr_value_min>55</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>877</attr_value_max>
+      <attr_value_min>88</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>731</attr_value_max>
+      <attr_value_min>73</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>548</attr_value_max>
+      <attr_value_min>55</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>692</attr_value_max>
+      <attr_value_min>69</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>12530</attr_value_max>
+      <attr_value_min>1253</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>611</attr_value_max>
+      <attr_value_min>61</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>737</attr_value_max>
+      <attr_value_min>74</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>1170</attr_value_max>
+      <attr_value_min>117</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>975</attr_value_max>
+      <attr_value_min>97</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>731</attr_value_max>
+      <attr_value_min>73</attr_value_min>
+    </data>
+    <data>
+      <equip_level>401</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>923</attr_value_max>
+      <attr_value_min>92</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>3508</attr_value_max>
+      <attr_value_min>351</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>171</attr_value_max>
+      <attr_value_min>17</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>206</attr_value_max>
+      <attr_value_min>21</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>327</attr_value_max>
+      <attr_value_min>33</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>273</attr_value_max>
+      <attr_value_min>27</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>205</attr_value_max>
+      <attr_value_min>20</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>259</attr_value_max>
+      <attr_value_min>26</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>5263</attr_value_max>
+      <attr_value_min>526</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>257</attr_value_max>
+      <attr_value_min>26</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>310</attr_value_max>
+      <attr_value_min>31</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>491</attr_value_max>
+      <attr_value_min>49</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>409</attr_value_max>
+      <attr_value_min>41</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>307</attr_value_max>
+      <attr_value_min>31</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>388</attr_value_max>
+      <attr_value_min>39</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>8771</attr_value_max>
+      <attr_value_min>877</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>428</attr_value_max>
+      <attr_value_min>43</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>516</attr_value_max>
+      <attr_value_min>52</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>819</attr_value_max>
+      <attr_value_min>82</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>682</attr_value_max>
+      <attr_value_min>68</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>512</attr_value_max>
+      <attr_value_min>51</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>646</attr_value_max>
+      <attr_value_min>65</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>13157</attr_value_max>
+      <attr_value_min>1316</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>642</attr_value_max>
+      <attr_value_min>64</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>774</attr_value_max>
+      <attr_value_min>77</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>1228</attr_value_max>
+      <attr_value_min>123</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>1023</attr_value_max>
+      <attr_value_min>102</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>767</attr_value_max>
+      <attr_value_min>77</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>969</attr_value_max>
+      <attr_value_min>97</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>17542</attr_value_max>
+      <attr_value_min>1754</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>856</attr_value_max>
+      <attr_value_min>86</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>1032</attr_value_max>
+      <attr_value_min>103</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>1637</attr_value_max>
+      <attr_value_min>164</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>1364</attr_value_max>
+      <attr_value_min>136</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>1023</attr_value_max>
+      <attr_value_min>102</attr_value_min>
+    </data>
+    <data>
+      <equip_level>501</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>1293</attr_value_max>
+      <attr_value_min>129</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>5263</attr_value_max>
+      <attr_value_min>526</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>257</attr_value_max>
+      <attr_value_min>26</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>310</attr_value_max>
+      <attr_value_min>31</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>491</attr_value_max>
+      <attr_value_min>49</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>409</attr_value_max>
+      <attr_value_min>41</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>307</attr_value_max>
+      <attr_value_min>31</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>388</attr_value_max>
+      <attr_value_min>39</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>7894</attr_value_max>
+      <attr_value_min>789</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>385</attr_value_max>
+      <attr_value_min>39</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>464</attr_value_max>
+      <attr_value_min>46</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>737</attr_value_max>
+      <attr_value_min>74</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>614</attr_value_max>
+      <attr_value_min>61</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>461</attr_value_max>
+      <attr_value_min>46</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>582</attr_value_max>
+      <attr_value_min>58</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>13157</attr_value_max>
+      <attr_value_min>1316</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>642</attr_value_max>
+      <attr_value_min>64</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>774</attr_value_max>
+      <attr_value_min>77</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>1228</attr_value_max>
+      <attr_value_min>123</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>1023</attr_value_max>
+      <attr_value_min>102</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>768</attr_value_max>
+      <attr_value_min>77</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>969</attr_value_max>
+      <attr_value_min>97</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>19736</attr_value_max>
+      <attr_value_min>1974</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>963</attr_value_max>
+      <attr_value_min>96</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>1161</attr_value_max>
+      <attr_value_min>116</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>1842</attr_value_max>
+      <attr_value_min>184</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>1535</attr_value_max>
+      <attr_value_min>154</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>1151</attr_value_max>
+      <attr_value_min>115</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>1454</attr_value_max>
+      <attr_value_min>145</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>26315</attr_value_max>
+      <attr_value_min>2631</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>1284</attr_value_max>
+      <attr_value_min>128</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>1548</attr_value_max>
+      <attr_value_min>155</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>2456</attr_value_max>
+      <attr_value_min>246</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>2047</attr_value_max>
+      <attr_value_min>205</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>1535</attr_value_max>
+      <attr_value_min>154</attr_value_min>
+    </data>
+    <data>
+      <equip_level>601</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>1939</attr_value_max>
+      <attr_value_min>194</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>8420</attr_value_max>
+      <attr_value_min>842</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>411</attr_value_max>
+      <attr_value_min>41</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>495</attr_value_max>
+      <attr_value_min>50</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>786</attr_value_max>
+      <attr_value_min>79</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>655</attr_value_max>
+      <attr_value_min>65</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>491</attr_value_max>
+      <attr_value_min>49</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>620</attr_value_max>
+      <attr_value_min>62</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>12630</attr_value_max>
+      <attr_value_min>1263</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>616</attr_value_max>
+      <attr_value_min>62</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>743</attr_value_max>
+      <attr_value_min>74</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>1179</attr_value_max>
+      <attr_value_min>118</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>982</attr_value_max>
+      <attr_value_min>98</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>737</attr_value_max>
+      <attr_value_min>74</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>931</attr_value_max>
+      <attr_value_min>93</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>21051</attr_value_max>
+      <attr_value_min>2105</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>1027</attr_value_max>
+      <attr_value_min>103</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>1238</attr_value_max>
+      <attr_value_min>124</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>1965</attr_value_max>
+      <attr_value_min>196</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>1637</attr_value_max>
+      <attr_value_min>164</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>1228</attr_value_max>
+      <attr_value_min>123</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>1551</attr_value_max>
+      <attr_value_min>155</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>31576</attr_value_max>
+      <attr_value_min>3158</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>1540</attr_value_max>
+      <attr_value_min>154</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>1857</attr_value_max>
+      <attr_value_min>186</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>2947</attr_value_max>
+      <attr_value_min>295</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>2456</attr_value_max>
+      <attr_value_min>246</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>1842</attr_value_max>
+      <attr_value_min>184</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>2327</attr_value_max>
+      <attr_value_min>233</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>42101</attr_value_max>
+      <attr_value_min>4210</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>2054</attr_value_max>
+      <attr_value_min>205</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>2477</attr_value_max>
+      <attr_value_min>248</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>3929</attr_value_max>
+      <attr_value_min>393</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>3275</attr_value_max>
+      <attr_value_min>327</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>2456</attr_value_max>
+      <attr_value_min>246</attr_value_min>
+    </data>
+    <data>
+      <equip_level>701</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>3102</attr_value_max>
+      <attr_value_min>310</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>13472</attr_value_max>
+      <attr_value_min>1347</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>657</attr_value_max>
+      <attr_value_min>66</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>792</attr_value_max>
+      <attr_value_min>79</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>1257</attr_value_max>
+      <attr_value_min>126</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>1048</attr_value_max>
+      <attr_value_min>105</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>786</attr_value_max>
+      <attr_value_min>79</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>993</attr_value_max>
+      <attr_value_min>99</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>20209</attr_value_max>
+      <attr_value_min>2021</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>986</attr_value_max>
+      <attr_value_min>99</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>1189</attr_value_max>
+      <attr_value_min>119</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>1886</attr_value_max>
+      <attr_value_min>189</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>1572</attr_value_max>
+      <attr_value_min>157</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>1179</attr_value_max>
+      <attr_value_min>118</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>1489</attr_value_max>
+      <attr_value_min>149</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>33681</attr_value_max>
+      <attr_value_min>3368</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>1643</attr_value_max>
+      <attr_value_min>164</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>1981</attr_value_max>
+      <attr_value_min>198</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>3144</attr_value_max>
+      <attr_value_min>314</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>2620</attr_value_max>
+      <attr_value_min>262</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>1965</attr_value_max>
+      <attr_value_min>196</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>2482</attr_value_max>
+      <attr_value_min>248</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>50521</attr_value_max>
+      <attr_value_min>5052</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>2464</attr_value_max>
+      <attr_value_min>246</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>2972</attr_value_max>
+      <attr_value_min>297</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>4715</attr_value_max>
+      <attr_value_min>472</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>3929</attr_value_max>
+      <attr_value_min>393</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>2947</attr_value_max>
+      <attr_value_min>295</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>3723</attr_value_max>
+      <attr_value_min>372</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>67362</attr_value_max>
+      <attr_value_min>6736</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>3286</attr_value_max>
+      <attr_value_min>329</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>3962</attr_value_max>
+      <attr_value_min>396</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>6287</attr_value_max>
+      <attr_value_min>629</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>5239</attr_value_max>
+      <attr_value_min>524</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>3929</attr_value_max>
+      <attr_value_min>393</attr_value_min>
+    </data>
+    <data>
+      <equip_level>801</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>4964</attr_value_max>
+      <attr_value_min>496</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>21556</attr_value_max>
+      <attr_value_min>2156</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>1052</attr_value_max>
+      <attr_value_min>105</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>1268</attr_value_max>
+      <attr_value_min>127</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>2012</attr_value_max>
+      <attr_value_min>201</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>1677</attr_value_max>
+      <attr_value_min>168</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>1257</attr_value_max>
+      <attr_value_min>126</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>1</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>1588</attr_value_max>
+      <attr_value_min>159</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>32334</attr_value_max>
+      <attr_value_min>3233</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>1577</attr_value_max>
+      <attr_value_min>158</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>1902</attr_value_max>
+      <attr_value_min>190</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>3018</attr_value_max>
+      <attr_value_min>302</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>2515</attr_value_max>
+      <attr_value_min>251</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>1886</attr_value_max>
+      <attr_value_min>189</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>2</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>2383</attr_value_max>
+      <attr_value_min>238</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>53890</attr_value_max>
+      <attr_value_min>5389</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>2629</attr_value_max>
+      <attr_value_min>263</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>3170</attr_value_max>
+      <attr_value_min>317</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>5030</attr_value_max>
+      <attr_value_min>503</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>4191</attr_value_max>
+      <attr_value_min>419</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>3144</attr_value_max>
+      <attr_value_min>314</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>3</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>3971</attr_value_max>
+      <attr_value_min>397</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>80835</attr_value_max>
+      <attr_value_min>8084</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>3943</attr_value_max>
+      <attr_value_min>394</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>4755</attr_value_max>
+      <attr_value_min>476</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>7545</attr_value_max>
+      <attr_value_min>754</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>6287</attr_value_max>
+      <attr_value_min>629</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>4715</attr_value_max>
+      <attr_value_min>472</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>4</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>5956</attr_value_max>
+      <attr_value_min>596</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>33</attr_type>
+      <attr_value_max>107781</attr_value_max>
+      <attr_value_min>10778</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>35</attr_type>
+      <attr_value_max>5258</attr_value_max>
+      <attr_value_min>526</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>36</attr_type>
+      <attr_value_max>6340</attr_value_max>
+      <attr_value_min>634</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>37</attr_type>
+      <attr_value_max>10060</attr_value_max>
+      <attr_value_min>1006</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>38</attr_type>
+      <attr_value_max>8383</attr_value_max>
+      <attr_value_min>838</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>39</attr_type>
+      <attr_value_max>6287</attr_value_max>
+      <attr_value_min>629</attr_value_min>
+    </data>
+    <data>
+      <equip_level>901</equip_level>
+      <equip_color>5</equip_color>
+      <attr_type>40</attr_type>
+      <attr_value_max>7942</attr_value_max>
+      <attr_value_min>794</attr_value_min>
+    </data>
+  </rand_attr_val>
+  <rand_attr_score>
+    <data />
+    <data />
+  </rand_attr_score>
+  <xiuwei_gain>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </xiuwei_gain>
+  <s_grade>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </s_grade>
+  <equip_show>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </equip_show>
+</config>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--铁笔判官-->
+	<id>20576</id>
+	<default_dialog_id>20576</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

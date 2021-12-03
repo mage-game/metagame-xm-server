@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--飞天副本-->
+	<id>20129</id>
+	<default_dialog_id>20129</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--雪琪-->
+	<id>10108</id>
+	<default_dialog_id>10108</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

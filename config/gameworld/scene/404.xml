@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>404</id>
+	<name>万灵神殿</name>
+	<mapid>404</mapid>
+	<levellimit>1</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>39</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>404</sceneid>
+		<scenex>95</scenex>
+		<sceney>88</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors />
+	<gatherpoints />
+</scene>

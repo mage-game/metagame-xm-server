@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--蓬莱使者-->
+	<id>20301</id>
+	<default_dialog_id>20301</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

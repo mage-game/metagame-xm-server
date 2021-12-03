@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--碧瑶-->
+	<id>10101</id>
+	<default_dialog_id>10101</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

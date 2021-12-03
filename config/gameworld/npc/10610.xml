@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--云梦泽的画师-->
+	<id>10610</id>
+	<default_dialog_id>10610</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

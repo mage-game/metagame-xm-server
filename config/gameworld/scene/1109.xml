@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <id>1109</id>
+  <name>绿玉秘境九</name>
+  <mapid>1109</mapid>
+  <istax>0</istax>
+  <is_forbid_pk>0</is_forbid_pk>
+  <speciallogic_type>0</speciallogic_type>
+  <scene_timeout>125</scene_timeout>
+  <is_timeout_kick>1</is_timeout_kick>
+  <npcs/>
+  <doors>
+    <door>
+      <id>1109</id>
+      <x>77</x>
+      <y>91</y>
+    </door>
+  </doors>
+  <triggerareas/>
+  <triggers/>
+  <townpoint>
+    <sceneid>1109</sceneid>
+    <scenex>44</scenex>
+    <sceney>24</sceney>
+  </townpoint>
+  <monsterpoints/>
+  <gatherpoints/>
+</scene>

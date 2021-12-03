@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <other>
+    <data>
+      <consume>50</consume>
+      <reward_role_limit>10</reward_role_limit>
+      <bind_gold_num>10</bind_gold_num>
+    </data>
+  </other>
+</config>

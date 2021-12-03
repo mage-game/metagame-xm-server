@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <other>
+    <data>
+      <injure_maxhp_per>20</injure_maxhp_per>
+      <buff_interval_s>180</buff_interval_s>
+      <buff_cd_s>300</buff_cd_s>
+    </data>
+  </other>
+  <huguozhili_active>
+    <data>
+      <can_active_times>1</can_active_times>
+      <need_die_times>2</need_die_times>
+    </data>
+    <data>
+      <can_active_times>2</can_active_times>
+      <need_die_times>4</need_die_times>
+    </data>
+    <data>
+      <can_active_times>3</can_active_times>
+      <need_die_times>6</need_die_times>
+    </data>
+    <data>
+      <can_active_times>4</can_active_times>
+      <need_die_times>8</need_die_times>
+    </data>
+    <data>
+      <can_active_times>5</can_active_times>
+      <need_die_times>10</need_die_times>
+    </data>
+  </huguozhili_active>
+</config>

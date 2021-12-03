@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <other>
+    <data>
+      <is_open>1</is_open>
+      <open_level>150</open_level>
+      <sceneid>9240</sceneid>
+      <enter_pos_x>66</enter_pos_x>
+      <enter_pos_y>85</enter_pos_y>
+      <event_min_cd_s>6</event_min_cd_s>
+      <event_max_cd_s>8</event_max_cd_s>
+      <pull_count_down_s>15</pull_count_down_s>
+      <reduce_cd_percent_ingroup_2>20</reduce_cd_percent_ingroup_2>
+      <reduce_cd_percent_ingroup_3>30</reduce_cd_percent_ingroup_3>
+      <get_bigfish_rate_1>50</get_bigfish_rate_1>
+      <get_bigfish_rate_2>80</get_bigfish_rate_2>
+      <get_bigfish_rate_3>100</get_bigfish_rate_3>
+      <give_bait_count>20</give_bait_count>
+      <max_rubber_count>2</max_rubber_count>
+      <net_get_fish_max_count>3</net_get_fish_max_count>
+      <spear_get_fish_max_count>2</spear_get_fish_max_count>
+      <oil_reduce_event_cd_s>4</oil_reduce_event_cd_s>
+      <oil_special_status_duration>60</oil_special_status_duration>
+      <auto_fishing_need_gold>50</auto_fishing_need_gold>
+      <steal_count>10</steal_count>
+      <be_stealed_count>10</be_stealed_count>
+      <steal_succ_rate>50</steal_succ_rate>
+      <steal_buy_count>5</steal_buy_count>
+      <player_fishing_range>5</player_fishing_range>
+      <fishing_gather_id>909</fishing_gather_id>
+      <fishing_gather_times>6000</fishing_gather_times>
+      <rank_title_id>3018</rank_title_id>
+      <rank_title_item_id>22291</rank_title_item_id>
+      <exp_factor>1</exp_factor>
+    </data>
+  </other>
+  <activity_open_time>
+    <data>
+      <activity_week_day>0</activity_week_day>
+      <activity_ready_time>1558</activity_ready_time>
+      <activity_start_time>1600</activity_start_time>
+      <activity_end_time>1620</activity_end_time>
+    </data>
+    <data>
+      <activity_week_day>1</activity_week_day>
+      <activity_ready_time>1558</activity_ready_time>
+      <activity_start_time>1600</activity_start_time>
+      <activity_end_time>1620</activity_end_time>
+    </data>
+    <data>
+      <activity_week_day>2</activity_week_day>
+      <activity_ready_time>1558</activity_ready_time>
+      <activity_start_time>1600</activity_start_time>
+      <activity_end_time>1620</activity_end_time>
+    </data>
+    <data>
+      <activity_week_day>3</activity_week_day>
+      <activity_ready_time>1558</activity_ready_time>
+      <activity_start_time>1600</activity_start_time>
+      <activity_end_time>1620</activity_end_time>
+    </data>
+    <data>
+      <activity_week_day>4</activity_week_day>
+      <activity_ready_time>1558</activity_ready_time>
+      <activity_start_time>1600</activity_start_time>
+      <activity_end_time>1620</activity_end_time>
+    </data>
+    <data>
+      <activity_week_day>5</activity_week_day>
+      <activity_ready_time>1558</activity_ready_time>
+      <activity_start_time>1600</activity_start_time>
+      <activity_end_time>1620</activity_end_time>
+    </data>
+    <data>
+      <activity_week_day>6</activity_week_day>
+      <activity_ready_time>1558</activity_ready_time>
+      <activity_start_time>1600</activity_start_time>
+      <activity_end_time>1620</activity_end_time>
+    </data>
+  </activity_open_time>
+  <fish>
+    <data>
+      <type>1</type>
+      <score>100</score>
+      <be_stealed_rate>3100</be_stealed_rate>
+      <is_rare>0</is_rare>
+      <steal_score>100</steal_score>
+    </data>
+    <data>
+      <type>2</type>
+      <score>100</score>
+      <be_stealed_rate>3000</be_stealed_rate>
+      <is_rare>0</is_rare>
+      <steal_score>100</steal_score>
+    </data>
+    <data>
+      <type>3</type>
+      <score>200</score>
+      <be_stealed_rate>1500</be_stealed_rate>
+      <is_rare>0</is_rare>
+      <steal_score>200</steal_score>
+    </data>
+    <data>
+      <type>4</type>
+      <score>200</score>
+      <be_stealed_rate>1500</be_stealed_rate>
+      <is_rare>1</is_rare>
+      <steal_score>200</steal_score>
+    </data>
+    <data>
+      <type>5</type>
+      <score>300</score>
+      <be_stealed_rate>900</be_stealed_rate>
+      <is_rare>1</is_rare>
+      <steal_score>300</steal_score>
+    </data>
+  </fish>
+  <combination>
+    <data>
+      <fish_type_1>1</fish_type_1>
+      <fish_type_2>1</fish_type_2>
+      <fish_type_3>0</fish_type_3>
+      <fish_type_4>0</fish_type_4>
+      <fish_type_5>0</fish_type_5>
+      <reward_item>
+        <item_id>26100</item_id>
+        <num>1</num>
+        <is_bind>1</is_bind>
+      </reward_item>
+      <reward_score>200</reward_score>
+    </data>
+    <data>
+      <fish_type_1>1</fish_type_1>
+      <fish_type_2>1</fish_type_2>
+      <fish_type_3>1</fish_type_3>
+      <fish_type_4>0</fish_type_4>
+      <fish_type_5>0</fish_type_5>
+      <reward_item>
+        <item_id>26296</item_id>
+        <num>1</num>
+        <is_bind>1</is_bind>
+      </reward_item>
+      <reward_score>400</reward_score>
+    </data>
+    <data>
+      <fish_type_1>1</fish_type_1>
+      <fish_type_2>1</fish_type_2>
+      <fish_type_3>1</fish_type_3>
+      <fish_type_4>1</fish_type_4>
+      <fish_type_5>0</fish_type_5>
+      <reward_item>
+        <item_id>30933</item_id>
+        <num>1</num>
+        <is_bind>1</is_bind>
+      </reward_item>
+      <reward_score>800</reward_score>
+    </data>
+    <data>
+      <fish_type_1>1</fish_type_1>
+      <fish_type_2>1</fish_type_2>
+      <fish_type_3>1</fish_type_3>
+      <fish_type_4>1</fish_type_4>
+      <fish_type_5>1</fish_type_5>
+      <reward_item>
+        <item_id>30934</item_id>
+        <num>1</num>
+        <is_bind>1</is_bind>
+      </reward_item>
+      <reward_score>1200</reward_score>
+    </data>
+  </combination>
+  <fish_bait>
+    <data>
+      <type>0</type>
+      <item_id>27786</item_id>
+      <gold_price>5</gold_price>
+      <fail_rate>0</fail_rate>
+      <fish_type_1>35</fish_type_1>
+      <fish_type_2>35</fish_type_2>
+      <fish_type_3>18</fish_type_3>
+      <fish_type_4>9</fish_type_4>
+      <fish_type_5>3</fish_type_5>
+      <fish_type_6>0</fish_type_6>
+      <fish_type_7>0</fish_type_7>
+    </data>
+    <data>
+      <type>1</type>
+      <item_id>27815</item_id>
+      <gold_price>10</gold_price>
+      <fail_rate>0</fail_rate>
+      <fish_type_1>30</fish_type_1>
+      <fish_type_2>33</fish_type_2>
+      <fish_type_3>15</fish_type_3>
+      <fish_type_4>10</fish_type_4>
+      <fish_type_5>12</fish_type_5>
+      <fish_type_6>0</fish_type_6>
+      <fish_type_7>0</fish_type_7>
+    </data>
+    <data>
+      <type>2</type>
+      <item_id>27816</item_id>
+      <gold_price>100</gold_price>
+      <fail_rate>0</fail_rate>
+      <fish_type_1>21</fish_type_1>
+      <fish_type_2>16</fish_type_2>
+      <fish_type_3>18</fish_type_3>
+      <fish_type_4>20</fish_type_4>
+      <fish_type_5>25</fish_type_5>
+      <fish_type_6>0</fish_type_6>
+      <fish_type_7>0</fish_type_7>
+    </data>
+  </fish_bait>
+  <event>
+    <data>
+      <type>0</type>
+      <trigger_weight>6000</trigger_weight>
+      <low_trigger_weight>6000</low_trigger_weight>
+    </data>
+    <data>
+      <type>1</type>
+      <trigger_weight>1125</trigger_weight>
+      <low_trigger_weight>0</low_trigger_weight>
+    </data>
+    <data>
+      <type>2</type>
+      <trigger_weight>875</trigger_weight>
+      <low_trigger_weight>875</low_trigger_weight>
+    </data>
+    <data>
+      <type>3</type>
+      <trigger_weight>1000</trigger_weight>
+      <low_trigger_weight>1000</low_trigger_weight>
+    </data>
+    <data>
+      <type>4</type>
+      <trigger_weight>1000</trigger_weight>
+      <low_trigger_weight>1000</low_trigger_weight>
+    </data>
+    <data>
+      <type>5</type>
+      <trigger_weight>0</trigger_weight>
+      <low_trigger_weight>1125</low_trigger_weight>
+    </data>
+    <data>
+      <type>6</type>
+      <trigger_weight>0</trigger_weight>
+      <low_trigger_weight>0</low_trigger_weight>
+    </data>
+  </event>
+  <treasure>
+    <data>
+      <seq>0</seq>
+      <reward_item>
+        <item_id>30935</item_id>
+        <num>1</num>
+        <is_bind>1</is_bind>
+      </reward_item>
+      <weight>1000</weight>
+    </data>
+  </treasure>
+  <steal_count_buy>
+    <data>
+      <buy_count>0</buy_count>
+      <need_gold>50</need_gold>
+    </data>
+    <data>
+      <buy_count>1</buy_count>
+      <need_gold>60</need_gold>
+    </data>
+    <data>
+      <buy_count>2</buy_count>
+      <need_gold>70</need_gold>
+    </data>
+    <data>
+      <buy_count>3</buy_count>
+      <need_gold>80</need_gold>
+    </data>
+    <data>
+      <buy_count>4</buy_count>
+      <need_gold>90</need_gold>
+    </data>
+  </steal_count_buy>
+  <score_reward>
+    <data>
+      <stage>0</stage>
+      <need_score>300</need_score>
+      <reward_item_list>
+        <reward_item>
+          <item_id>0</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </reward_item>
+      </reward_item_list>
+      <reward_score>200</reward_score>
+      <exp_reward>500</exp_reward>
+      <exp_factor_stage>7.1429</exp_factor_stage>
+    </data>
+    <data>
+      <stage>1</stage>
+      <need_score>800</need_score>
+      <reward_item_list>
+        <reward_item>
+          <item_id>0</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </reward_item>
+      </reward_item_list>
+      <reward_score>400</reward_score>
+      <exp_reward>500</exp_reward>
+      <exp_factor_stage>8.5714</exp_factor_stage>
+    </data>
+    <data>
+      <stage>2</stage>
+      <need_score>1500</need_score>
+      <reward_item_list>
+        <reward_item>
+          <item_id>0</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </reward_item>
+      </reward_item_list>
+      <reward_score>800</reward_score>
+      <exp_reward>1000</exp_reward>
+      <exp_factor_stage>10</exp_factor_stage>
+    </data>
+    <data>
+      <stage>3</stage>
+      <need_score>2500</need_score>
+      <reward_item_list>
+        <reward_item>
+          <item_id>0</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </reward_item>
+      </reward_item_list>
+      <reward_score>1200</reward_score>
+      <exp_reward>1000</exp_reward>
+      <exp_factor_stage>11.4286</exp_factor_stage>
+    </data>
+    <data>
+      <stage>4</stage>
+      <need_score>3500</need_score>
+      <reward_item_list>
+        <reward_item>
+          <item_id>0</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </reward_item>
+      </reward_item_list>
+      <reward_score>1800</reward_score>
+      <exp_reward>1000</exp_reward>
+      <exp_factor_stage>12.8571</exp_factor_stage>
+    </data>
+  </score_reward>
+  <location>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </location>
+  <ratio>
+    <data>
+      <min_level>0</min_level>
+      <max_level>130</max_level>
+      <level_ratio>1</level_ratio>
+    </data>
+    <data>
+      <min_level>131</min_level>
+      <max_level>220</max_level>
+      <level_ratio>2</level_ratio>
+    </data>
+    <data>
+      <min_level>221</min_level>
+      <max_level>300</max_level>
+      <level_ratio>3</level_ratio>
+    </data>
+    <data>
+      <min_level>301</min_level>
+      <max_level>400</max_level>
+      <level_ratio>4</level_ratio>
+    </data>
+    <data>
+      <min_level>401</min_level>
+      <max_level>500</max_level>
+      <level_ratio>5</level_ratio>
+    </data>
+    <data>
+      <min_level>501</min_level>
+      <max_level>600</max_level>
+      <level_ratio>6</level_ratio>
+    </data>
+    <data>
+      <min_level>601</min_level>
+      <max_level>700</max_level>
+      <level_ratio>7</level_ratio>
+    </data>
+    <data>
+      <min_level>701</min_level>
+      <max_level>800</max_level>
+      <level_ratio>8</level_ratio>
+    </data>
+    <data>
+      <min_level>801</min_level>
+      <max_level>900</max_level>
+      <level_ratio>9</level_ratio>
+    </data>
+    <data>
+      <min_level>901</min_level>
+      <max_level>999</max_level>
+      <level_ratio>10</level_ratio>
+    </data>
+  </ratio>
+  <broadcast_cfg>
+    <data>
+      <interval>600</interval>
+    </data>
+    <data>
+      <interval>300</interval>
+    </data>
+    <data>
+      <interval>120</interval>
+    </data>
+    <data>
+      <interval>60</interval>
+    </data>
+    <data>
+      <interval>60</interval>
+    </data>
+  </broadcast_cfg>
+</config>

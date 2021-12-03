@@ -1,0 +1,57 @@
+
+IPConfig								IP配置
+	DB_Server_Addr						数据库服务器配置
+		NoCacheTable					不缓存的表
+		IsDelayLoad						是否延迟加载（1：是、0：否）
+		NoDelayTables					不延迟加载的表
+		DBAccounter						帐号数据库
+			DB_Config					数据库配置
+				Fast_DB_Name			fast db名
+				Fast_DB_Init_Size_MB	fast db 最大使用共享内存大小
+				Mysql_DB_Username		数据库用户名
+				Mysql_DB_Password		数据库密码
+				Mysql_Addr				ip和端口
+				Mysql_DB_Charset		数据库连接字符集
+				Mysql_DB_Name			数据库名
+				FlushInterval			刷入数据库时间间隔
+			Module_Addr					服务器ip和端口
+		DBGlobal						全局数据库
+		DBName							名字索引数据库
+		DBSystem						管理数据库
+		DBIndexCreateRole				用于创建角色的数据库下标
+		DBRole							角色数据库
+	Rank_Server_Addr					排行服务器
+	Center_Server_Addr					中心服务器
+	Login_Server_Addr					登录服务器
+SessionKey								会话密钥
+GlobalServer_MaxLoginInterval_S			GlobalServer：EnterGlobal超时，不给加入（秒），须小于LoginServer_CannotLoginGlobalTime_S
+LoginServer_MinLoginInterval_S			可以顶号的最小时间（秒）
+LoginServer_CannotLoginGlobalTime_S		LoginServer：EnterGlobal超时，清理user（秒）
+LoginServer_RoleNumRecordInterval		角色在线数日志间隔（秒）
+LoginServer_AccountCheckType			帐号检查类型，0：游客、1：91wan、2：4399、3：台湾育俊、4：360、5：336
+GameWorld_Scene_Status_Log_Interval		场景状态日志间隔（秒）
+YouKe_AntiWallow						游客是否防沉迷，1：通过防沉迷、0：不通过
+TimeOut									超时配置
+	IS_Check_TimeOut					是否检查超时，1：是、0：否
+	Check_TimeOut_Interval_MS			检查超时的间隔（毫秒）
+	Gateway_Heartbeat_DeadTime_MS		Gateway心跳超时时间（毫秒）
+	Gameworld_Heartbeat_DeadTime_MS		Gameworld心跳超时时间（毫秒）
+	LoginServer_Heartbeat_DeadTime_MS	LoginServer心跳超时时间（毫秒）
+	LoginServer_Max_Server_Time_MS		LoginServer登录超时时间（毫秒）
+ChatChannelCD							聊天CD
+	World								世界频道（秒）
+	Country								国家频道（秒）
+Wallow									反沉迷
+	ServerCheck							是否进行反沉迷验证，1：是、0：否 --- 要用0，表示信任客户端的验证上报，在游戏里直接就设置为通过防沉迷了
+	CheckIDRepeate						一个身份证号是否允许验证多个帐号 --- 不用了
+	TimerInterval						统计间隔时间（秒）
+	KickTime							在线多久后踢下线（秒）
+	NoticeAheadOfTime					踢出前多长时间通知（秒）
+	OneHourNoticeTime					第一次防沉迷通知的时间（秒）
+	TwoHourNoticeTime					第二次防沉迷通知的时间（秒）
+	AntiWallowRestTime					禁止登陆时间持续时间（秒）
+	IsOpenAntiWallow					反沉迷是否开启，1：是、0：否   ---- 要用0，得支持后台热更cmd，AntiWallow；0则标记玩家本次游戏期间是通过防沉迷了；1则采用平台的沉迷标记
+dynamic_cfg_path						活动配置路径
+namefilter_open_flag					是否开启名字过滤，1：是、0：否
+
+

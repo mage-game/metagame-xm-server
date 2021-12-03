@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <id>27726</id>
+  <name>废弃的道具</name>
+  <search_type>504</search_type>
+  <color>6</color>
+  <isbind>0</isbind>
+  <candiscard>0</candiscard>
+  <cansell>0</cansell>
+  <sellprice>10</sellprice>
+  <recycltype>0</recycltype>
+  <recyclget>10</recyclget>
+  <pile_limit>999</pile_limit>
+  <isdroprecord>1</isdroprecord>
+  <isbroadcast>0</isbroadcast>
+  <time_length>0</time_length>
+  <invalid_time>0</invalid_time>
+  <limit_prof>5</limit_prof>
+  <limit_sex>2</limit_sex>
+  <limit_level>190</limit_level>
+  <sub_type>0</sub_type>
+  <value>0</value>
+  <other_sex_itemid>0</other_sex_itemid>
+  <guild_storage_score>0</guild_storage_score>
+  <is_curday_valid></is_curday_valid>
+</config>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <other>
+    <data>
+      <reward_interval>60</reward_interval>
+      <reward_times>3</reward_times>
+    </data>
+  </other>
+  <guaji_activity>
+    <data>
+      <scene_id>700</scene_id>
+    </data>
+    <data>
+      <scene_id>701</scene_id>
+    </data>
+    <data>
+      <scene_id>702</scene_id>
+    </data>
+    <data>
+      <scene_id>703</scene_id>
+    </data>
+    <data>
+      <scene_id>704</scene_id>
+    </data>
+  </guaji_activity>
+</config>

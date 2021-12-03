@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <agent_adapt>
+    <data>
+      <spid>ayk</spid>
+      <close_new_role_h>38</close_new_role_h>
+    </data>
+    <data>
+      <spid>asq</spid>
+      <close_new_role_h>38</close_new_role_h>
+    </data>
+    <data>
+      <spid>ajj</spid>
+      <close_new_role_h>38</close_new_role_h>
+    </data>
+    <data>
+      <spid>alj</spid>
+      <close_new_role_h>62</close_new_role_h>
+    </data>
+    <data>
+      <spid>apx</spid>
+      <close_new_role_h>38</close_new_role_h>
+    </data>
+  </agent_adapt>
+</config>

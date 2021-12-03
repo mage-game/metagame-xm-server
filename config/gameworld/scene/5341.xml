@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>5341</id>
+	<name>武器材料5-1</name>
+	<mapid>5341</mapid>
+	<levellimit>0</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>64</speciallogic_type>
+	<scene_timeout>300</scene_timeout>
+	<is_timeout_kick>1</is_timeout_kick>
+	<townpoint>
+		<sceneid>5341</sceneid>
+		<scenex>36</scenex>
+		<sceney>12</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors />
+	<gatherpoints />
+</scene>

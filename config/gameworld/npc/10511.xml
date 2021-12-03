@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--琼华仙地少侠紫瑛-->
+	<id>10511</id>
+	<default_dialog_id>10511</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

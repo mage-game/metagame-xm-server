@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--副本采衣-->
+	<id>10216</id>
+	<default_dialog_id>10216</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

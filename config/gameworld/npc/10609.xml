@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--神秘老人-->
+	<id>10609</id>
+	<default_dialog_id>10609</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

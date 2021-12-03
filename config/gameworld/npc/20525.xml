@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--测璐心-10212-->
+	<id>20525</id>
+	<default_dialog_id>20525</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

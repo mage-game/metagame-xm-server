@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--清风少侠紫瑛-->
+	<id>10702</id>
+	<default_dialog_id>10702</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

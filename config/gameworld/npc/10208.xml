@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--拦路修真者-->
+	<id>10208</id>
+	<default_dialog_id>10208</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

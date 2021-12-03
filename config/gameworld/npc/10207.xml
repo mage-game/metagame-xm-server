@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--夏玮容-->
+	<id>10207</id>
+	<default_dialog_id>10207</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

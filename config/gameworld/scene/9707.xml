@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>9707</id>
+	<name>陨神峡谷</name>
+	<mapid>9707</mapid>
+	<levellimit>0</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>64</speciallogic_type>
+	<scene_timeout>120</scene_timeout>
+	<is_timeout_kick>1</is_timeout_kick>
+	<townpoint>
+		<sceneid>9707</sceneid>
+		<scenex>258</scenex>
+		<sceney>255</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors />
+	<gatherpoints />
+</scene>

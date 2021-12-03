@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--测水灵-144-->
+	<id>20543</id>
+	<default_dialog_id>20543</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

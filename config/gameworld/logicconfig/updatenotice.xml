@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <other>
+    <data>
+      <version>17</version>
+      <is_reward_item>1</is_reward_item>
+      <reward_item>
+        <item_id>22020</item_id>
+        <num>1</num>
+        <is_bind>1</is_bind>
+      </reward_item>
+    </data>
+  </other>
+</config>

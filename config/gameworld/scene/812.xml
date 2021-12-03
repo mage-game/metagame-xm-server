@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <id>812</id>
+  <name>仙府5层</name>
+  <mapid>812</mapid>
+  <istax>0</istax>
+  <is_forbid_pk>0</is_forbid_pk>
+  <speciallogic_type>0</speciallogic_type>
+  <scene_timeout>0</scene_timeout>
+  <is_timeout_kick>0</is_timeout_kick>
+  <npcs/>
+  <doors/>
+  <triggerareas/>
+  <triggers/>
+  <townpoint>
+    <sceneid>812</sceneid>
+    <scenex>76</scenex>
+    <sceney>50</sceney>
+  </townpoint>
+  <monsterpoints/>
+  <gatherpoints/>
+</scene>

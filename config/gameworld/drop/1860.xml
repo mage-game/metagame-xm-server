@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drop>
+  <drop_id>1860</drop_id>
+  <drop_item_prob_list>
+    <drop_item_prob>
+      <item_id>26037</item_id>
+      <is_bind>0</is_bind>
+      <prob>2139864</prob>
+      <num>1</num>
+      <broadcast>0</broadcast>
+    </drop_item_prob>
+    <drop_item_prob>
+      <item_id>26037</item_id>
+      <is_bind>1</is_bind>
+      <prob>7860136</prob>
+      <num>1</num>
+      <broadcast>0</broadcast>
+    </drop_item_prob>
+  </drop_item_prob_list>
+</drop>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--法源真人-->
+	<id>10408</id>
+	<default_dialog_id>10408</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

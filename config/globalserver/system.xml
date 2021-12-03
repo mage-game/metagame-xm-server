@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<max_get_public_notice_time>30</max_get_public_notice_time>
+	<max_get_cmd_time>10</max_get_cmd_time>
+</config>

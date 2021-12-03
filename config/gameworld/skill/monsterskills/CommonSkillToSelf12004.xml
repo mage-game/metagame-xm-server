@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill>
+  <SkillID>12004</SkillID>
+  <skillname>给自己加暴击buff</skillname>
+  <Distance>0</Distance>
+  <ProfLimit>4</ProfLimit>
+  <RangeType>3</RangeType>
+  <Range>0</Range>
+  <IsSelfPos>0</IsSelfPos>
+  <Range2>0</Range2>
+  <CoolDown>1</CoolDown>
+  <CheckShanbi>0</CheckShanbi>
+  <HurtPercent>10000</HurtPercent>
+  <FixHurt>0</FixHurt>
+  <EffectTarget>1</EffectTarget>
+  <ReadingTime>0</ReadingTime>
+  <ContinueTime>0</ContinueTime>
+  <FaZhenType>2</FaZhenType>
+  <FaZhenInterval>0</FaZhenInterval>
+  <FaZhenLifeTime>30</FaZhenLifeTime>
+  <EffectNow>0</EffectNow>
+  <RandZoneCount>0</RandZoneCount>
+  <SubZoneRange>0</SubZoneRange>
+  <RectLength>0</RectLength>
+  <RectWidth>0</RectWidth>
+  <DirType>0</DirType>
+  <effect_list>
+    <effect>
+      <effect_type>11</effect_type>
+      <param0>10</param0>
+      <param1>4000</param1>
+      <param2>30</param2>
+      <param3>0</param3>
+      <param4>0</param4>
+      <param5>0</param5>
+    </effect>
+  </effect_list>
+</Skill>

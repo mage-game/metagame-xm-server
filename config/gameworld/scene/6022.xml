@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <id>6022</id>
+  <name>挑战达人</name>
+  <mapid>6022</mapid>
+  <istax>0</istax>
+  <is_forbid_pk>0</is_forbid_pk>
+  <speciallogic_type>0</speciallogic_type>
+  <scene_timeout>0</scene_timeout>
+  <is_timeout_kick>0</is_timeout_kick>
+  <npcs/>
+  <doors>
+    <door>
+      <id>41</id>
+      <x>20</x>
+      <y>14</y>
+    </door>
+  </doors>
+  <triggerareas/>
+  <triggers/>
+  <townpoint>
+    <sceneid>6022</sceneid>
+    <scenex>28</scenex>
+    <sceney>20</sceney>
+  </townpoint>
+  <monsterpoints/>
+  <gatherpoints/>
+</scene>

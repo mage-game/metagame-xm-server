@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--再遇海棠-->
+	<id>10219</id>
+	<default_dialog_id>10219</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

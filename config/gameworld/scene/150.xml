@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>150</id>
+	<name>仙盟驻地</name>
+	<mapid>150</mapid>
+	<levellimit>1</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>1</is_forbid_pk>
+	<speciallogic_type>1</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>150</sceneid>
+		<scenex>54</scenex>
+		<sceney>26</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors />
+	<gatherpoints />
+</scene>

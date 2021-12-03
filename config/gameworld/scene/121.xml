@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>121</id>
+	<name>祖龙神都</name>
+	<mapid>121</mapid>
+	<levellimit>66</levellimit>
+	<istax>1</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>0</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>103</sceneid>
+		<scenex>155</scenex>
+		<sceney>299</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors />
+	<gatherpoints />
+</scene>

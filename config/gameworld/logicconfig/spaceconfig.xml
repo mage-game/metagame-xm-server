@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <other_cfg>
+    <data>
+      <cai_addrenqi>1</cai_addrenqi>
+      <cai_addhuoli>20</cai_addhuoli>
+      <cai_dayhuoli_limit>600</cai_dayhuoli_limit>
+      <gift_addrenqi>10</gift_addrenqi>
+      <gift_addhuolizhi>100</gift_addhuolizhi>
+      <gift_cost>20</gift_cost>
+    </data>
+  </other_cfg>
+</config>

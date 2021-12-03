@@ -1,0 +1,18 @@
+
+#ifndef DBDEF_H
+#define DBDEF_H
+
+enum DBDATATYPE
+{
+	TYPE_CHAR,
+	TYPE_INT,
+	TYPE_LONG64,
+	TYPE_DOUBLE,
+	TYPE_STRING,
+	TYPE_TIME,
+	TYPE_DATE,
+	TYPE_TIMESTAMP
+};
+
+#endif
+

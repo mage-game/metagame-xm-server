@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--仙盟战二-->
+	<id>5222</id>
+	<default_dialog_id>5222</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

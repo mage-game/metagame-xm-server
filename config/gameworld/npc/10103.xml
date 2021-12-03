@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--逍遥大侠-->
+	<id>10103</id>
+	<default_dialog_id>10103</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

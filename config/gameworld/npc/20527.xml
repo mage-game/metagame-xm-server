@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--测靖原躺-151-->
+	<id>20527</id>
+	<default_dialog_id>20527</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

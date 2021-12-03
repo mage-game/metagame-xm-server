@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShizhuangSuitPool>
+	<suit_id>4</suit_id>
+	<suit_name>怪物猎人套装</suit_name>
+	<attr_type_2>shanbi</attr_type_2>
+	<attr_value_2>62</attr_value_2>
+	<attr_type_3>maxhp</attr_type_3>
+	<attr_value_3>908</attr_value_3>
+	<attr_type_4>gongji</attr_type_4>
+	<attr_value_4>57</attr_value_4>
+</ShizhuangSuitPool>

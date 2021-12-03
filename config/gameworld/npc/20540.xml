@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--测琼华弟子二-146-->
+	<id>20540</id>
+	<default_dialog_id>20540</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

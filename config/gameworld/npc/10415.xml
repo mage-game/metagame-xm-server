@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--眷恋的花妖二-->
+	<id>10415</id>
+	<default_dialog_id>10412</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

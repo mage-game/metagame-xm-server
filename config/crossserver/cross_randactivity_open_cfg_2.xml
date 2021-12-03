@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <other />
+  <act_open_cfg>
+    <data>
+      <activity_type>4000</activity_type>
+      <begin_time>2018_05_11</begin_time>
+      <end_time>2018_05_17</end_time>
+    </data>
+  </act_open_cfg>
+</config>

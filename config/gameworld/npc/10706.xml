@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--藏剑-->
+	<id>10706</id>
+	<default_dialog_id>10706</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

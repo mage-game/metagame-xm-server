@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+注册初始配置
+config：配置根节点
+	scene：出生地，不能超过16个
+		scene_id：登录场景id
+		scene_x：x坐标
+		scene_y：y坐标
+		range: 以xy坐标为左上角的随机出生范围
+
+	knapsack_valid_num：背包上限
+	gold_bind：绑定金
+	coin_bind：绑定银
+	gold：非绑定金
+	coin：非绑定银
+
+-->
+<config>
+	<scenes>
+		<scene>
+			<scene_id>101</scene_id>
+			<scene_x>202</scene_x>
+			<scene_y>345</scene_y>
+			<range>2</range>
+		</scene>
+    </scenes>
+
+	<knapsack_valid_num>100</knapsack_valid_num>
+	<storage_valid_num>20</storage_valid_num>
+
+	<gold_bind>0</gold_bind>
+	<coin_bind>0</coin_bind>
+	<gold>0</gold>
+	<coin>0</coin>
+
+</config>

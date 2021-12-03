@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--魔剑仙-->
+	<id>10109</id>
+	<default_dialog_id>10109</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

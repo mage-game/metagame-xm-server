@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShizhuangPool>
+	<sz_id>1</sz_id>
+	<sz_name>古墓丽影衣服</sz_name>
+	<part>0</part>
+	<seq>1</seq>
+	<zhuozhuang_degree>40</zhuozhuang_degree>
+	<valid_secs>604800</valid_secs>
+	<sz_suit_id>1</sz_suit_id>
+	<maxhp>400</maxhp>
+	<maxmp>0</maxmp>
+	<gongji>0</gongji>
+	<fangyu>150</fangyu>
+	<mingzhong>0</mingzhong>
+	<shanbi>0</shanbi>
+	<baoji>0</baoji>
+	<jianren>0</jianren>
+</ShizhuangPool>

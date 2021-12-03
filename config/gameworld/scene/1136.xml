@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <id>1136</id>
+  <name>橙玉副本六</name>
+  <mapid>1136</mapid>
+  <istax>0</istax>
+  <is_forbid_pk>0</is_forbid_pk>
+  <speciallogic_type>0</speciallogic_type>
+  <scene_timeout>125</scene_timeout>
+  <is_timeout_kick>1</is_timeout_kick>
+  <npcs/>
+  <doors>
+    <door>
+      <id>1136</id>
+      <x>98</x>
+      <y>46</y>
+    </door>
+  </doors>
+  <triggerareas/>
+  <triggers/>
+  <townpoint>
+    <sceneid>1136</sceneid>
+    <scenex>11</scenex>
+    <sceney>23</sceney>
+  </townpoint>
+  <monsterpoints/>
+  <gatherpoints/>
+</scene>

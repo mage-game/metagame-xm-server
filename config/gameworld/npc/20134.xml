@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--仙魂塔-->
+	<id>20134</id>
+	<default_dialog_id>20134</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

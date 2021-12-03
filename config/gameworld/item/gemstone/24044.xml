@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<id>24044</id>
+	<name>5级攻击石</name>
+	<search_type>46</search_type>
+	<color>4</color>
+	<isbind>0</isbind>
+	<candiscard>1</candiscard>
+	<cansell>1</cansell>
+	<sellprice>1</sellprice>
+	<pile_limit>99</pile_limit>
+	<isdroprecord>1</isdroprecord>
+	<isbroadcast>1</isbroadcast>
+	<time_length>0</time_length>
+	<invalid_time>0</invalid_time>
+	<limit_prof>5</limit_prof>
+	<limit_sex>2</limit_sex>
+	<limit_level>1</limit_level>
+	<gemstone_type>2</gemstone_type>
+	<attr_type>gongji</attr_type>
+	<value>370</value>
+	<level>5</level>
+	<other_sex_itemid>0</other_sex_itemid>
+</config>

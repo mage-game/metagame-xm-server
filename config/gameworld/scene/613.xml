@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <id>613</id>
+  <name>神界危机</name>
+  <mapid>613</mapid>
+  <istax>0</istax>
+  <is_forbid_pk>0</is_forbid_pk>
+  <speciallogic_type>0</speciallogic_type>
+  <scene_timeout>0</scene_timeout>
+  <is_timeout_kick>0</is_timeout_kick>
+  <npcs/>
+  <doors/>
+  <triggerareas/>
+  <triggers/>
+  <townpoint>
+    <sceneid>613</sceneid>
+    <scenex>46</scenex>
+    <sceney>163</sceney>
+  </townpoint>
+  <monsterpoints/>
+  <gatherpoints/>
+</scene>

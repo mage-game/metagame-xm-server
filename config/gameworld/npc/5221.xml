@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--仙盟战一-->
+	<id>5221</id>
+	<default_dialog_id>5221</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

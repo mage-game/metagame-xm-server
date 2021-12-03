@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>252</id>
+	<name>炎狱秘道</name>
+	<mapid>252</mapid>
+	<levellimit>250</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>1</is_forbid_pk>
+	<speciallogic_type>0</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>252</sceneid>
+		<scenex>54</scenex>
+		<sceney>44</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors>
+		<door>
+			<id>106</id>
+			<type>0</type>
+			<level>250</level>
+			<target_scene_id>106</target_scene_id>
+			<target_door_id>252</target_door_id>
+			<x>50</x>
+			<y>79</y>
+		</door>
+		<door>
+			<id>206</id>
+			<type>0</type>
+			<level>250</level>
+			<target_scene_id>206</target_scene_id>
+			<target_door_id>0</target_door_id>
+			<x>45</x>
+			<y>15</y>
+		</door>
+		<door>
+			<id>207</id>
+			<type>0</type>
+			<level>350</level>
+			<target_scene_id>207</target_scene_id>
+			<target_door_id>0</target_door_id>
+			<x>67</x>
+			<y>17</y>
+		</door>
+	</doors>
+	<gatherpoints />
+</scene>

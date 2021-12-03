@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>239</id>
+	<name>世界boss</name>
+	<mapid>239</mapid>
+	<levellimit>0</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>0</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>239</sceneid>
+		<scenex>106</scenex>
+		<sceney>74</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors>
+		<door>
+			<id>0</id>
+			<type>0</type>
+			<level>0</level>
+			<target_scene_id>103</target_scene_id>
+			<target_door_id>1</target_door_id>
+			<x>74</x>
+			<y>104</y>
+		</door>
+	</doors>
+	<gatherpoints />
+</scene>

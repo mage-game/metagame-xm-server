@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--王城的姻缘-->
+	<id>20123</id>
+	<default_dialog_id>20123</default_dialog_id>
+	<functions>
+		<function>
+			<npc_type>0</npc_type>
+			<shopitem/>
+		</function>
+	</functions>
+	<tasks/>
+</npc>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--测龙晓月-149-->
+	<id>20534</id>
+	<default_dialog_id>20534</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

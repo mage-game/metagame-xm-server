@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--太上老君-->
+	<id>20111</id>
+	<default_dialog_id>20111</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

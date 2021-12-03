@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>2000</id>
+	<name>水晶护送</name>
+	<mapid>2000</mapid>
+	<levellimit>300</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>86</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>2000</sceneid>
+		<scenex>193</scenex>
+		<sceney>250</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs>
+		<npc>
+			<id>412</id>
+			<x>220</x>
+			<y>81</y>
+		</npc>
+	</npcs>
+	<monsterpoints />
+	<doors />
+	<gatherpoints>
+		<gather>
+			<id>500</id>
+			<index>5</index>
+			<create_interval>2000</create_interval>
+			<gather_time>10000</gather_time>
+			<evil_add>0</evil_add>
+			<disappear_after_gather>1</disappear_after_gather>
+			<x>248</x>
+			<y>250</y>
+		</gather>
+		<gather>
+			<id>501</id>
+			<index>9999</index>
+			<create_interval>100</create_interval>
+			<gather_time>5000</gather_time>
+			<evil_add>0</evil_add>
+			<disappear_after_gather>0</disappear_after_gather>
+			<x>193</x>
+			<y>250</y>
+		</gather>
+	</gatherpoints>
+</scene>

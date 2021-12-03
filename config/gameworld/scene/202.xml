@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>202</id>
+	<name>BOSS凝血冰原</name>
+	<mapid>202</mapid>
+	<levellimit>78</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>0</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>202</sceneid>
+		<scenex>38</scenex>
+		<sceney>5</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors>
+		<door>
+			<id>0</id>
+			<type>0</type>
+			<level>0</level>
+			<target_scene_id>250</target_scene_id>
+			<target_door_id>202</target_door_id>
+			<x>38</x>
+			<y>5</y>
+		</door>
+	</doors>
+	<gatherpoints />
+</scene>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--药童-->
+	<id>20110</id>
+	<default_dialog_id>20110</default_dialog_id>
+	<functions>
+		<function>
+			<npc_type>0</npc_type>
+			<shopitem>
+				<item>
+					<item_id>26000</item_id>
+					<price>40</price>
+					<is_bind>1</is_bind>
+					<level_limit>1</level_limit>
+				</item>
+			</shopitem>
+		</function>
+	</functions>
+	<tasks/>
+</npc>

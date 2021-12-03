@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<ShizhuangSuitPool>
+<!--古墓丽影套装-->
+		<path>shizhuang/sz_suit_config/1.xml</path>
+<!--灵山袈裟套装-->
+		<path>shizhuang/sz_suit_config/2.xml</path>
+<!--诛仙时装套装-->
+		<path>shizhuang/sz_suit_config/3.xml</path>
+<!--怪物猎人套装-->
+		<path>shizhuang/sz_suit_config/4.xml</path>
+<!--炼狱时装套装-->
+		<path>shizhuang/sz_suit_config/5.xml</path>
+<!--修罗时装套装-->
+		<path>shizhuang/sz_suit_config/6.xml</path>
+	</ShizhuangSuitPool>
+	<ShizhuangPool>
+<!--古墓丽影衣服-->
+		<path>shizhuang/sz_config/1.xml</path>
+<!--古墓丽影背饰-->
+		<path>shizhuang/sz_config/1001.xml</path>
+<!--古墓丽影足迹-->
+		<path>shizhuang/sz_config/2001.xml</path>
+<!--古墓丽影武器-->
+		<path>shizhuang/sz_config/3001.xml</path>
+<!--灵山袈裟衣服-->
+		<path>shizhuang/sz_config/2.xml</path>
+<!--灵山袈裟背饰-->
+		<path>shizhuang/sz_config/1002.xml</path>
+<!--灵山袈裟足迹-->
+		<path>shizhuang/sz_config/2002.xml</path>
+<!--灵山袈裟武器-->
+		<path>shizhuang/sz_config/3002.xml</path>
+<!--诛仙衣服-->
+		<path>shizhuang/sz_config/3.xml</path>
+<!--诛仙翅膀-->
+		<path>shizhuang/sz_config/1003.xml</path>
+<!--诛仙足迹-->
+		<path>shizhuang/sz_config/2003.xml</path>
+<!--诛仙武器-->
+		<path>shizhuang/sz_config/3003.xml</path>
+<!--怪物猎人衣服-->
+		<path>shizhuang/sz_config/4.xml</path>
+<!--怪物猎人翅膀-->
+		<path>shizhuang/sz_config/1004.xml</path>
+<!--怪物猎人足迹-->
+		<path>shizhuang/sz_config/2004.xml</path>
+<!--怪物猎人武器-->
+		<path>shizhuang/sz_config/3004.xml</path>
+<!--首冲翅膀-->
+		<path>shizhuang/sz_config/1050.xml</path>
+<!--炼狱衣服-->
+		<path>shizhuang/sz_config/5.xml</path>
+<!--炼狱翅膀-->
+		<path>shizhuang/sz_config/1005.xml</path>
+<!--炼狱足迹-->
+		<path>shizhuang/sz_config/2005.xml</path>
+<!--炼狱武器-->
+		<path>shizhuang/sz_config/3005.xml</path>
+<!--新婚礼服-->
+		<path>shizhuang/sz_config/6.xml</path>
+<!--修罗衣服-->
+		<path>shizhuang/sz_config/7.xml</path>
+<!--修罗翅膀-->
+		<path>shizhuang/sz_config/1007.xml</path>
+<!--修罗足迹-->
+		<path>shizhuang/sz_config/2007.xml</path>
+<!--修罗武器-->
+		<path>shizhuang/sz_config/3007.xml</path>
+	</ShizhuangPool>
+</config>

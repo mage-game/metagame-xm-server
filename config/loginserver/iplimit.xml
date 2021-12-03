@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	IP白名单限制
+
+-->
+<config>
+	<limit_switch>0</limit_switch>
+	<ip_list>
+		<ip>192.168.2.41</ip>
+	</ip_list>
+</config>

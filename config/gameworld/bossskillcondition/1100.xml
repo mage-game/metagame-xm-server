@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <id>1100</id>
+  <goback>1</goback>
+  <hate_drive>1</hate_drive>
+  <cond_list>
+    <cond>
+      <cond_type>6</cond_type>
+      <param0>5000</param0>
+      <param1>0</param1>
+      <param2>0</param2>
+      <param3>0</param3>
+      <skill_list>
+        <skill>
+          <skill_id>13001</skill_id>
+        </skill>
+      </skill_list>
+    </cond>
+  </cond_list>
+</config>

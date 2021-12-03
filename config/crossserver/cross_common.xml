@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!-- 等待场景设置-->
+	<wait_scene_cfg_list>
+
+		<wait_scene_cfg>
+			<cross_activity_type>3073</cross_activity_type>           <!-- 跨服修罗塔 -->
+
+			<wait_scene>
+				<scene_id>101</scene_id>                    <!-- 等待场景ID -->
+				<enter_pos_list>                        <!-- 入口坐标列表 -->
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+				</enter_pos_list>
+			</wait_scene>
+		</wait_scene_cfg>
+
+		<wait_scene_cfg>
+			<cross_activity_type>3074</cross_activity_type>           <!-- 跨服1V1 -->
+
+			<wait_scene>
+				<scene_id>101</scene_id>                    <!-- 等待场景ID -->
+				<enter_pos_list>                        <!-- 入口坐标列表 -->
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+				</enter_pos_list>
+			</wait_scene>
+		</wait_scene_cfg>
+
+		<wait_scene_cfg>
+			<cross_activity_type>3075</cross_activity_type>           <!-- 跨服3V3 -->
+			<wait_scene>
+				<scene_id>101</scene_id>                            <!-- 等待场景ID -->
+				<enter_pos_list>                                    <!-- 入口坐标列表 -->
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+				</enter_pos_list>
+			</wait_scene>
+		</wait_scene_cfg>
+
+		<wait_scene_cfg>
+			<cross_activity_type>3076</cross_activity_type>           <!-- 跨服团战 -->
+			<wait_scene>
+				<scene_id>101</scene_id>                            <!-- 等待场景ID -->
+				<enter_pos_list>                                    <!-- 入口坐标列表 -->
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+				</enter_pos_list>
+			</wait_scene>
+		</wait_scene_cfg>
+
+		<wait_scene_cfg>
+			<cross_activity_type>3077</cross_activity_type>   <!-- 跨服牧场 -->
+			<wait_scene>
+				<scene_id>101</scene_id>                            <!-- 等待场景ID -->
+				<enter_pos_list>                                    <!-- 入口坐标列表 -->
+					<enter_pos>
+						<x>86</x>
+						<y>86</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+					<enter_pos>
+						<x>86</x>
+						<y>86</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+				</enter_pos_list>
+			</wait_scene>
+		</wait_scene_cfg>
+
+		<wait_scene_cfg>
+			<cross_activity_type>3078</cross_activity_type>   <!-- 跨服BOSS -->
+			<wait_scene>
+				<scene_id>101</scene_id>                            <!-- 等待场景ID -->
+				<enter_pos_list>                                    <!-- 入口坐标列表 -->
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+				</enter_pos_list>
+			</wait_scene>
+		</wait_scene_cfg>
+
+		<wait_scene_cfg>
+			<cross_activity_type>3079</cross_activity_type>           <!-- 跨服组队本 -->
+
+			<wait_scene>
+				<scene_id>101</scene_id>                    <!-- 等待场景ID -->
+				<enter_pos_list>                        <!-- 入口坐标列表 -->
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+				</enter_pos_list>
+			</wait_scene>
+		</wait_scene_cfg>
+
+		<wait_scene_cfg>
+			<cross_activity_type>3080</cross_activity_type>           <!-- 跨服温泉 -->
+			<wait_scene>
+				<scene_id>101</scene_id>                   <!-- 等待场景ID -->
+				<enter_pos_list>                        <!-- 入口坐标列表 -->
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+				</enter_pos_list>
+			</wait_scene>
+		</wait_scene_cfg>
+
+		<wait_scene_cfg>
+			<cross_activity_type>3081</cross_activity_type>           <!-- 跨服水晶 -->
+
+			<wait_scene>
+				<scene_id>101</scene_id>                    <!-- 等待场景ID -->
+				<enter_pos_list>                        <!-- 入口坐标列表 -->
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+					<enter_pos>
+						<x>35</x>
+						<y>217</y>
+						<rand_dis>2</rand_dis>
+					</enter_pos>
+				</enter_pos_list>
+			</wait_scene>
+		</wait_scene_cfg>
+
+		<wait_scene_cfg>
+     		 <cross_activity_type>3082</cross_activity_type>			<!-- 跨服帮派战 -->
+     		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>35</x>
+	   					<y>217</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+     		</wait_scene>
+    	</wait_scene_cfg>
+
+		<wait_scene_cfg>
+     		 <cross_activity_type>3083</cross_activity_type>			<!-- 月黑风高（珍宝秘境） -->
+     		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>230</x>
+	   					<y>212</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+     		</wait_scene>
+    	</wait_scene_cfg>
+
+    	<wait_scene_cfg>
+     		 <cross_activity_type>3084</cross_activity_type>			<!-- 跨服钓鱼 -->
+     		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>230</x>
+	   					<y>212</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+     		</wait_scene>
+    	</wait_scene_cfg>
+
+    	<wait_scene_cfg>
+     		 <cross_activity_type>3085</cross_activity_type>			<!-- 跨服夜战王城 -->
+     		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>230</x>
+	   					<y>212</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+     		</wait_scene>
+    	</wait_scene_cfg>
+    	
+    	<wait_scene_cfg>
+     		 <cross_activity_type>3086</cross_activity_type>			<!-- 跨服乱斗战场 -->
+     		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>230</x>
+	   					<y>212</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+     		</wait_scene>
+    	</wait_scene_cfg>
+			
+			<wait_scene_cfg>
+     		 <cross_activity_type>3087</cross_activity_type>			<!-- 跨服灵鲲 -->
+     		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>230</x>
+	   					<y>212</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+     		</wait_scene>
+    	</wait_scene_cfg>
+
+		<wait_scene_cfg>
+ 		 <cross_activity_type>3088</cross_activity_type>			<!-- 跨服vipboss -->
+	 		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>230</x>
+	   					<y>212</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+	 		</wait_scene>
+    	</wait_scene_cfg>
+
+    	<wait_scene_cfg>
+ 		 <cross_activity_type>3089</cross_activity_type>			<!-- 跨服秘藏boss -->
+	 		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>230</x>
+	   					<y>212</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+	 		</wait_scene>
+    	</wait_scene_cfg>
+
+
+    	<wait_scene_cfg>
+ 		 <cross_activity_type>3090</cross_activity_type>			<!-- 跨服幽冥boss -->
+	 		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>230</x>
+	   					<y>212</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+	 		</wait_scene>
+    	</wait_scene_cfg>
+		
+		<wait_scene_cfg>
+ 		 <cross_activity_type>3091</cross_activity_type>			<!-- 假活动号，保留 -->
+	 		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>230</x>
+	   					<y>212</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+	 		</wait_scene>
+    	</wait_scene_cfg>
+		
+		<wait_scene_cfg>
+ 		 <cross_activity_type>3092</cross_activity_type>			<!-- 跨服边境之地 -->
+	 		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>230</x>
+	   					<y>212</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+	 		</wait_scene>
+    	</wait_scene_cfg>
+
+    	<wait_scene_cfg>
+ 		 <cross_activity_type>3093</cross_activity_type>			<!-- 跨服论剑-->
+	 		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>230</x>
+	   					<y>212</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+	 		</wait_scene>
+    	</wait_scene_cfg>
+    	
+    <wait_scene_cfg>	
+ 		 <cross_activity_type>3094</cross_activity_type>			<!-- 跨服护送水晶-->
+	 		 <wait_scene>
+				<scene_id>101</scene_id>				<!-- 等待场景ID -->
+				<enter_pos_list>						<!-- 入口坐标列表 -->
+	 				<enter_pos>
+	  					<x>230</x>
+	   					<y>212</y>
+	  				 	<rand_dis>2</rand_dis>
+	 				</enter_pos>
+				</enter_pos_list>
+	 		</wait_scene>
+    	</wait_scene_cfg>
+
+	</wait_scene_cfg_list>
+</config>

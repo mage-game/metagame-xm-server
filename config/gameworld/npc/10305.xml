@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--白发道人-->
+	<id>10305</id>
+	<default_dialog_id>10305</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

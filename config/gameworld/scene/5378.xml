@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>5378</id>
+	<name>武器材料8-8</name>
+	<mapid>5378</mapid>
+	<levellimit>0</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>64</speciallogic_type>
+	<scene_timeout>300</scene_timeout>
+	<is_timeout_kick>1</is_timeout_kick>
+	<townpoint>
+		<sceneid>5378</sceneid>
+		<scenex>24</scenex>
+		<sceney>23</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors />
+	<gatherpoints />
+</scene>

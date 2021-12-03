@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--法海-->
+	<id>20582</id>
+	<default_dialog_id>20582</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

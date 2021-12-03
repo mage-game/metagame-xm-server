@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <id>1105</id>
+  <name>绿玉秘境五</name>
+  <mapid>1105</mapid>
+  <istax>0</istax>
+  <is_forbid_pk>0</is_forbid_pk>
+  <speciallogic_type>0</speciallogic_type>
+  <scene_timeout>125</scene_timeout>
+  <is_timeout_kick>1</is_timeout_kick>
+  <npcs/>
+  <doors>
+    <door>
+      <id>1105</id>
+      <x>77</x>
+      <y>91</y>
+    </door>
+  </doors>
+  <triggerareas/>
+  <triggers/>
+  <townpoint>
+    <sceneid>1105</sceneid>
+    <scenex>44</scenex>
+    <sceney>24</sceney>
+  </townpoint>
+  <monsterpoints/>
+  <gatherpoints/>
+</scene>

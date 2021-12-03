@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <fb_scene_cfg_list>
+    <data>
+      <scene_type>0</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>1</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>2</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>3</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>4</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>5</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>6</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>7</scene_type>
+      <view_double>1</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>8</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>9</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>10</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>11</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>12</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>13</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>14</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>15</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>16</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>17</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>18</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>19</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>20</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>21</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>22</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>23</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>24</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>25</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>26</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>27</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>28</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>29</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>30</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>31</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>32</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>33</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>34</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>35</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>36</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>37</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>38</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>39</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>40</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>41</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>42</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>43</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>44</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>45</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>46</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>47</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>48</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>49</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>50</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>51</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>52</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>53</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>54</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>55</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>56</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>57</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>58</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>59</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>60</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>61</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>62</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>63</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>64</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>65</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>66</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>67</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>68</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>69</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>70</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>71</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>72</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>73</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>74</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>75</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>76</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>77</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>78</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>79</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>80</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>81</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>82</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>83</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>84</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>0</pb_mount>
+      <pb_fightmount>0</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>85</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+    <data>
+      <scene_type>86</scene_type>
+      <view_double>0</view_double>
+      <pb_mount>1</pb_mount>
+      <pb_fightmount>1</pb_fightmount>
+    </data>
+  </fb_scene_cfg_list>
+  <enterscene_view>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </enterscene_view>
+  <zhangjie_view>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </zhangjie_view>
+  <camera_view>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </camera_view>
+  <ord_camera_view>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </ord_camera_view>
+  <rand_weather>
+    <data />
+    <data />
+    <data />
+    <data />
+  </rand_weather>
+  <scene_show>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </scene_show>
+  <move_view>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </move_view>
+</config>

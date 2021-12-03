@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--黑无常-->
+	<id>20573</id>
+	<default_dialog_id>20573</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

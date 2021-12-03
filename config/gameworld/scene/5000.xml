@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>5000</id>
+	<name>战魂塔</name>
+	<mapid>5000</mapid>
+	<levellimit>80</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>55</speciallogic_type>
+	<scene_timeout>60</scene_timeout>
+	<is_timeout_kick>1</is_timeout_kick>
+	<townpoint>
+		<sceneid>5000</sceneid>
+		<scenex>26</scenex>
+		<sceney>43</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors />
+	<gatherpoints />
+</scene>

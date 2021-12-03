@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <id>2539</id>
+  <name>群魔乱舞</name>
+  <mapid>2539</mapid>
+  <istax>0</istax>
+  <is_forbid_pk>0</is_forbid_pk>
+  <speciallogic_type>0</speciallogic_type>
+  <scene_timeout>300</scene_timeout>
+  <is_timeout_kick>1</is_timeout_kick>
+  <npcs/>
+  <doors/>
+  <triggerareas/>
+  <triggers/>
+  <townpoint>
+    <sceneid>2539</sceneid>
+    <scenex>68</scenex>
+    <sceney>39</sceney>
+  </townpoint>
+  <monsterpoints/>
+  <gatherpoints/>
+</scene>

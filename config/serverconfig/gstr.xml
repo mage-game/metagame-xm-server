@@ -1,0 +1,999 @@
+<!--
+	传闻可视等级：{visible_level;role_level(%d)}
+				role_level->玩家能看到传闻的
+
+	角色信息：{r;rold_id(%d) role_name(%s) camp_id(%d)}
+				role_id->角色id
+				role_num->角色名
+				camp_id->阵营id
+
+			  {r_sex;role_name(%s) sex(%d)}
+			  role_name->角色名
+			  sex->性别
+
+
+	职业：{prof;%d}
+
+	角色位置信息:{point;scene_name(%s) pos_x(%d) pos_y(%d) scene_id(%d) line(%d) iscross(%d)}
+					scene_name->场景名字
+					pos_x,pos_y->场景坐标
+					scene_id->场景id
+					line->线路（场景key）
+					iscross->是否跨服场景（1是，0否）
+					
+	物品信息：{i;item_id(%d)}
+				item_id->物品id
+
+	装备信息：{eq;equip_id(%d) param_str(%s)}
+				equip_id->物品id
+				param_str->装备参数串
+
+	装备品质：{eq_quality;quality(%d)}
+				quality->品质 1:普通品质，2：卓越品质，3：完美品质
+
+	神铸等级：{eq_shenzhu;level(%d)}
+				level-> 神铸等级
+
+	坐骑信息：{mount; grade(%d)}
+				mount_id->坐骑id
+			  {mountfly; grade(%d)}
+				mount_fly_id->坐骑id
+
+	骑兵信息: {qibing; grade(%d)}
+
+	羽翼信息:{wing;jinhua(%d)}
+	光环信息:{halo;jinhua(%d)}
+	神弓信息:{shengong;jinhua(%d)}
+	神翼信息:{shenyi;jinhua(%d)}
+	战斗坐骑信息:{fightmount;jinhua(%d)}
+	足迹信息:{footprint;jinhua(%d)}
+	披风信息{cloak;jinghua(%d)}
+
+	角色等级:{role_level;level(%d)}
+
+	魔戒信息:{mojie;mojie_type(%d) mojie_level(%d)}
+			mojie_type->魔戒类型
+			mojie_level->魔戒等级
+
+	羽翼名称:{wing_name;jinhua(%d) prof(%d)}
+	法阵名称:{fazhen_name;%d}
+
+	仙女信息:{xiannv;id(%d) grade(%d) zizhi(%d) level(%d)}
+				 id->仙女id
+				 grade->仙女阶
+
+	仙女名字:{xiannv_name;id(%d)}
+				 id->仙女id
+
+	仙女光环: {xiannv_halo; level(%d)}
+			 	 level->仙女光环阶数
+
+	仙女缠绵称号
+			{xiannv_chanmian;title_id(%d)}
+
+            仙女法则（圣物）    {xiannv_shengwu;%d}
+	仙女法则技能（圣物）    {xiannv_shengwu_skill;%d}
+
+	仙剑信息:{xj;id(%d)}
+	剑魂信息:{jianhun;id(%d)}
+	卡组信息:{cardzu;cardzu_id(%d)}
+
+	通用数字转汉字{chinese_num;num(%d))
+
+	VIP信息:{vip;level(%d)}
+
+	颜色:{wordsColor;color(%s) string(%s)}
+
+	跨服团战，阵营名字： {cross_tuanzhan_side;%d}
+
+	领土战，领土名:{territory;%d}
+
+	神州六器，魂器名字：{shenzhou_weapon;%d}
+				技能名字：{shenzhou_skill;%d}
+				鉴定等级：{identify_level;%d;%d}
+				元素名字：{element_name;%d}
+
+	神格，神格名字：{shenge;%d}
+
+	神格组合:{shenge_combine;%d}
+	星座套装:{xingzuo_suit;%d}
+	星座装备:{xingzuo_equip;%d}
+	一折礼包:{discount_buy;%d}
+	限购礼包:{time_limit_gift;%d}
+	天降财宝:{tianjiangcaibao_task;%d}
+	掌控阶级:{zhangkong;%d}
+
+	符文注灵阶级:{rune_zhuling;%d;%d}
+
+	神印系统猎魂:{liehun_id;%d}
+
+	链接：{openLink;link_type}
+				link_type->链接类型
+									    "申请加入",    //     0-申请加入公会 ,点击后弹出公会申请界面
+                                        "批准",        //     1-空缺中。。。。
+                                    	"拒绝",        //     2-空缺中。。。。
+ 	                                    "我要强化",    //     3-装备强化，点击后弹出装备强化界面
+                                    	"我要进阶",    //     4-坐骑进阶，点击后弹出坐骑进阶界面
+                                    	"我要护送",    //     5-仙女护送，点击后传送到npc画仙处打开运镖界面
+                                    	"我要升星",    //     6-装备升星，点击后弹出装备升星界面
+                                    	"我要捐献",    //     7-我要捐献，点击后弹出公会捐献界面
+                                	    "我要附灵",    //     8-装备附灵，点击后弹出附灵界面
+                                    	"我要猎魂",    //     9-猎命到紫色，点击后弹出猎命界面
+                                    	"我要升级”，   //     10-精灵升级, 点击后弹出精灵界面
+                                    	"我要提升",    //     11-提升成就
+                                     	"我要继承",    //     12-装备继承
+                                    	"提升仙阶",    //     13-提升仙阶
+                                	    "我要挑战",    //     14-我要挑战
+                                    	"我要提升",    //     15-提升根骨
+                                      	"我要提升",    //     16-提升经脉
+                                    	"我要提升",    //     17-精灵升阶，点击后弹出精灵升阶界面
+                                        "我要升级"，   //     18 装备升级，点击后弹出装备升级的界面
+                                        "我要神铸"，   //     19-我要神铸，点击后弹出装备神铸界面
+                                        "我要镶嵌"，   //     20 宝石镶嵌，点击后弹出装备宝石的界面
+                                        "我要进阶"，   //     21 神装进阶
+                                        "我要进阶"，   //     22 羽翼进阶，点击后弹出羽翼进化的界面
+                                        "我要进阶"，   //     23 光环进阶，点击后弹出光环进化的界面
+                                        "我要进阶"，   //     24 神弓进阶，点击后弹出神弓进化的界面
+                                        "成为vip" ，   //     25 点击后弹出vip的界面
+                                        "我要进阶" ，  //     26 神翼进阶，点击后弹出神翼进化的界面
+                                        "我要进阶" ，  //     27 战斗坐骑进阶，点击后弹出战斗坐骑进化的界面
+                                        "立即前往" ，  //     28 点击进入跨服Boss界面
+                                        "立即前往" ，  //     29 点击前往公会女神
+                                        "前往击杀" ，  //     30 世界boss，点击后打开世界boss界面
+                                        "前往击杀" ，  //     31 精英boss，点击后打开精英boss界面
+                                        "我要寻宝" ，  //     32 点击后打开装备寻宝面板
+                                        "我要寻宝"，   //     33 点击后打开精灵寻宝面板
+                                        "打个招呼"，   //     34 公会入会提醒，点击后随机弹出欢迎祝词
+                                        "公会求救"，   //     35 护送，公会求救
+                                        "立即前往"，   //     36 公会试练-立即前往
+										"前往夺宝",	   //     37 点击后前往上古遗迹
+										"我要购买",	   //     38 购买至尊月卡
+										"我要抽奖",	   //     39 点击后打开幸运转盘面板
+										"我要前往",	   //     40 点击前往大富豪活动地图
+										"我要参加",    //	  41 点击后参加婚宴
+										"我要求婚",    //	  42 点击后打开求婚界面
+										"我要进阶"		//	  43 点击打开法阵进阶界面
+										"加入公会"		//	  44 加入公会
+										"我要飞升"		//	  45 点击打开坐骑飞升界面
+										"我要充值"		//	  46 点击打开首冲界面
+										"我要铸魂"		//	  47 点击打开铸魂界面
+										"查看活动"		//	  48 点击打开单笔充值活动界面
+										"我要附灵"		//	  49 空缺中。。
+										"珍宝阁活动"	//	  50 珍宝阁活动界面
+										"秘境寻宝"		//    52 秘境寻宝活动界面
+										"摇钱树"		//	  53 摇钱树界面
+										"陛下请翻牌"	//	  54 陛下请翻牌
+										"灵器"			//    55 灵器系统
+										"趣味挖矿"		//	  56 趣味挖矿
+										"天命卜卦"		//    57 天命卜卦
+										"翻翻乐"		// 	  58 翻翻乐
+										"牧场精灵"		// 	  59 牧场精灵
+										"双人坐骑"		//    60 双人坐骑进阶
+										"魔卡"			// 	  61 魔卡
+										"我要进阶"		// 	  62 精灵光环
+										"珍宝阁2"		//    63 珍宝阁2
+										"坐骑精魄"		//    64 坐骑精魄
+										"跨服组队"		//    65 跨服组队
+										"立即前往"		//    66 地宫探险
+										"我要进阶"		// 	  67 精灵光环
+										"我要飞升"		//	  68 转生装备
+										"我来瞅瞅"		//	  69 情缘结婚
+										"我要合成"		//	  70 锻造
+										"我要符文"		//	  71 符文寻宝
+										"我要闯关"		//	  72 点击打开"经验塔"
+										"我要升级"		//	  73 点击按钮打开"符文"
+										"立即前往"		//	  74 点击前往星座遗迹
+										"我要闯关"		//	  75 点击打开爬塔副本
+										"前往查看"		//	  76 点击打开开服累充
+										"前往查看"		//	  77 点击打开每日累充
+										“我要升级”		//	  78 点击打开神兵
+										”我要祈福“		//	  79 打开神格的抽奖
+ 										”我要合成“		//	  80 打开神格合成
+										”我要拼图“		//	  81 打开星图
+										"我要投资"		//	  82 点击打开等级投资
+										"我要投资"		//	  83 点击打开月卡投资
+										"我要领取"		//	  84 点击打开零元礼包
+										"我要封神"		//	  85 点击打开封神之路
+										"我要抢购"		//	  86 点击打开一折抢购
+										"我要抢购"		//	  87 点击打开限时礼包
+										"我要特价"		//	  88 点击打开个人抢购
+										"我要升级"		//    89 点击打开神格镶嵌
+										"我要提升"		//    90 点击打开精灵悟性
+										"我要购买"		//    91 点击打开神秘商店
+										"加好友"		//    92 点击成为该角色好友
+										"我要进阶"		// 	  93 点击打开装备合成
+										"我要挑战"		// 	  94 点击打开1V1竞技场
+										"我要升级"		// 	  95 打开掌控
+										"我要投资"		// 	  96 打开聚宝盆
+										"升级永恒"		// 	  97 装备升级永恒
+										"我要升级"		//    98  打开圣物（法则）升级界面
+										"我要升级"		//    99  打开圣物共鸣升级界面
+										"立即前往"		//	  100 立即前往金猪召唤boss处
+										"我要投资"		//	  101 点击打开开服投资
+										"我要兑换"		//	  102 点击打开兑换
+										"我要进阶"		//    103 足迹进阶，点击后弹出足迹进化的界面
+										"地图寻宝"		//    104 地图寻宝，点击打开地图寻宝的界面
+										"限时秒杀"		//    105 打开限时秒杀
+										"我要进阶"		//    106 披风进阶，点击后弹出披风进化的界面
+										"我要捕捉"		//	  107 点击打开精灵奇遇
+										"我要唤灵"		//	  108 点击打开神兽-唤灵
+										"我要寻宝"		//    109 点击打开灯塔寻宝
+										"我要修炼"		//	  110 点击打开神格神躯
+										"我要赋灵"		// 	  111 点击打开形象赋灵
+										"我要祭炼"		//    112 点击打开符文注灵
+										"我要融火"		//    113 点击打开异火融火
+										"我要翻牌"		//    114 点击打开典籍翻牌
+										"我要炼魂"		//	  115 点击打开元素元魂
+										"我要猎魂"		//	  116 点击打开神印猎魂
+										"市场吆喝"	    //	  118 市场吆喝跳转
+										"腰饰进阶"		//    119 点击后弹出腰饰进阶界面
+										"头饰进阶"		//    120 点击后弹出头饰进阶界面
+										"麒麟臂进阶"	//    121 点击后弹出麒麟臂进阶界面
+										"面具进阶"		//    122 点击后弹出面具进阶界面
+										"我要升星",    //     123-点击后弹出转职装备升星界面
+										“邀请协助”		//	  124-邀请协助
+										“立即前往”		//	  125-立即前往灵鲲boss
+										“我要进阶”		//	  126-点击后弹出时装进阶界面
+										“我要请帖”		//	  130-婚宴请帖
+										"立即前往"      //    136-打开跨服boss面板
+										"我要表白"      //    137-打开表白界面
+										"我要投资"		//    138-打开副本投资界面
+										"我要投资"		//	  139-打开boss投资界面
+										"前往查看“		//    140-打开新累计充值界面
+										“我要击杀”      //    141-链接到云游boss小地图
+										"我要投资"		//	  142-打开神域boss投资界面
+										"我要抢购"		//	  143 点击打开限购礼包
+										"我要完成"		//    144 点击打开天书寻主面板
+										"我要合成“		//    145 打开转职装备合成
+                                        "查看排行“		//    146 打开跨服增战榜
+										"查看排行“		//    147 打开跨服增魅榜
+										"查看排行“		//    148 打开跨服情缘榜
+										"我要觉醒“		//    149 打开转职装备觉醒
+										"立即参与“		//    150 打开幸运云购
+										"我要挑战"		// 	  151 点击打开跨服竞技场
+										"我要升级"		// 	  152 点击打开神话-篇章
+										"我要冥想"		// 	  153 点击打开神话-共鸣
+										"我要合成"		// 	  154 点击打开神话-合成
+										"斗气修炼"		//	  155 点击打开斗气修炼
+										"斗气宝箱"		//	  156 点击打开斗气宝箱
+										"斗气炼制"		//	  157 点击打开斗气炼制
+										"前往购买"		//	  158 点击打开狂欢大乐购购买界面
+
+										“我要进阶”		//	  200-点击后弹出进阶界面(200 + upgrade_type)
+
+
+	国家：{camp;%d}
+			camp->国家类型
+
+	三界战场乱斗阵营：{qunxian_side:side(%d)}
+
+	只在某些国家的角色显示：{showcamp;%d;%d}
+
+	百分比: {percent;%d}
+
+	显示位置： {showpos;pos(%d)}	此标签必须出现在字符串最开始
+			pos->显示位置		    1-滚动条 2-聊天频道 3-两处同时显示
+
+	坐标： {activityPos;scene_id(%d);x(%d);y(%d);type}
+			type->描述类型	0:世界boss刷新 1：火速支援 2:前往巡游 3:前往掠夺 4:巡游抢红包 5:立即前往
+
+	公会信息：{guildinfo;guild_id(%d);guild_name(%s)}
+	公会信息2：{guildinfo2;guild_id(%d);guild_name(%s);camp(%d)}
+	加入公会: {guildjoin;guild_id(%d);guild_name(%s)}
+	回公会驻地: {guildback;}
+	公会职位：{guildpost;guild_post(%d)}
+
+	称号： {title;title_id(%d)}
+
+	换行：{newline;}
+
+	时间戳: {time;%d}
+
+	怪物：{monster;%d}
+
+	采集物：{gather;%d}
+
+	根骨称号：{gengu_title;%d}	%d 根骨等级
+	经脉称号: {jingmai_title;%d}	%d 经脉等级
+	合体类型：{mentality_combine_type;%d}
+	合体等级：{mentality_combine_level;%d}
+	合体等级：{mentality_combine_skill;%d}
+
+	属性名称：{attr_type;%d} 33气血 35攻击 36防御 39暴击
+
+	角色技能名：{role_skill;%d}   角色技能id
+
+	出战场滚动传闻过滤：{zc_guolv;}
+
+	百分数转换成小数：{to_decimal;%d}   120 -> 1.2
+
+	/////////////////////////////////////////// 下面是邮件里面的标签 ////////////////////////////////////////////
+
+	直接购买:{buy;seller_uid(%d);sale_index(%d);item_id(%d);item_num(%d);coin_price(%d);gold_price(%d);sale_money(%d)}
+
+
+	金钱：{money;num(%d);type(%d)}
+			type->金钱类型 0：绑定铜币 1：绑定元宝 铜币 2：铜币 3：元宝
+
+	龙徽等级：{longhui;%d}
+
+	神魔之井任务物品：{zhuxie_task_item;%d}
+
+	活动：{act;%d}
+
+	宝石: {stone;%d}  部位号
+
+	鱼类: {fish;%d}  鱼类型
+
+	游戏名字：{gamename;} 客户端解析，如果是腾讯就叫仙侠奇谭，否则叫天天爱仙侠
+
+	红包: {red_paper;(typd)%d;(total_gold_num)%d;(can_fetch_times)%d}
+
+	活动类型：{activity;%d} 活动类型
+
+	卡牌：{card;%d;%d} card_id, prof
+	卡牌颜色：{card_color;%d}
+
+	合服子活动:{csa_sub_type;%d} 子活动类型
+
+	套装: {taozhuang;%d;%d}
+	挖矿:{mine;%d} 配置索引
+
+	魔卡信息： {magic_card;%d}
+
+	灵池捕鱼:  {fish;%d}
+	地宫探险：{wangling_task;%d}
+
+	精灵:{jingling;%d}
+	精灵悟性称号:{wuxing_title;%d}
+
+	开服投资类型:{invest_type;%d}
+	公会女神位置:{guild_xiannv_pos;%d;%d;%d;%d}
+	地图寻宝城市名字:{city;%d}
+	翻翻转字组名字:{fanfan;%d}
+
+	形象赋灵进阶类型:{img_fuling_type;%d}
+	形象赋灵技能索引:{img_fuling_skill_index;%d}
+
+	转职套装: {zhuanzhi_taozhuang;%d;%d}
+
+	转职诛仙、诛神套装  
+	{zhuanzhi_suit_part;%d;%d} suit_index equip_part
+	{zhuanzhi_suit;%d;%d}  suit_index equip_part
+
+	头像框类型:{avatar;%d}
+	属性丹类型:{shuxingdan_type;%d}
+
+	进阶系统类型:{upgrade_type;%d}
+	进阶系统阶数:{upgrade_grade;%d;%d;%d} upgrade_type upgrade_grade skill_level
+
+	夜战王城阵营
+	{night_fight_camp;%d} 0 or 1
+	
+	跨服六界城邦:{cross_gb_city;%d}
+	
+	数字转换为X万/X万亿:{convert_num;%lld}
+	场景名：{scene_name;#xxxxx;%d}
+-->
+
+<gstr>
+	<errors>
+		<test>测试错误码%s</test>
+		<!-- 通用 -->
+		<cur_opengame_day>当前开服天数为{wordsColor;ffff00;%d}天</cur_opengame_day>
+		<cur_adjust_server_role_num>当前服导入人数为{wordsColor;ffff00;%d}人</cur_adjust_server_role_num>
+		<cross_opera_limit>跨服中不允许此操作</cross_opera_limit>
+		<illegal_opera>非法的操作</illegal_opera>
+		<illegal_param>参数错误</illegal_param>
+		<opeara_limit_in_cur_status>当前状态不可操作</opeara_limit_in_cur_status>
+		<role_level_limit>人物等级不足</role_level_limit>
+		<get_cfg_error>读取配置错误</get_cfg_error>
+		<gather_count_limit>采集次数已达上限</gather_count_limit>
+		<opera_interval_limit>操作过于频繁</opera_interval_limit>
+		<fb_enter_stuff_not_enough>门票不足</fb_enter_stuff_not_enough>
+		<server_total_chou_not_enough>全服抽奖次数不足</server_total_chou_not_enough>
+		<person_total_chou_not_enough>个人抽奖次数不足</person_total_chou_not_enough>
+		<discard_fail>分解失败</discard_fail>
+		<nobind_item_limit>不能为绑定物品</nobind_item_limit>
+		<knapsack_full_and_send_mail>背包已满，奖励已通过邮件发放</knapsack_full_and_send_mail>
+
+		<someone_gather_ing>该采集物正在被其他人采集中</someone_gather_ing>
+		<already_buy>您已购买</already_buy>
+		<shuxingdan_use_limit_num>{shuxingdan_type;%d}丹使用数量已达上限</shuxingdan_use_limit_num>
+		<shuxingdan_use_order_limit>{chinese_num;%d}阶开启{shuxingdan_type;%d}</shuxingdan_use_order_limit>
+		<shuxingdan_use_order_limit_1>{upgrade_type;%d}系统{chinese_num;%d}阶开启{shuxingdan_type;%d}</shuxingdan_use_order_limit_1>
+		<shuxingdan_use_level_limit>{chinese_num;%d}级开启{shuxingdan_type;%d}</shuxingdan_use_level_limit>
+
+		<non_guild_can_not_gather>非本仙盟归属，采集失败</non_guild_can_not_gather>
+		<non_guild_can_not_pickup>非本仙盟归属，拾取失败</non_guild_can_not_pickup>
+
+		<!-- 聊天 -->
+		<en_channel_chat_scene_limit>此场景无法进行聊天</en_channel_chat_scene_limit>
+		<en_channel_speaker_scene_limit>此场景无法使用喇叭</en_channel_speaker_scene_limit>
+		<channel_chat_vip_limit_tips>{wordsColor;ffff00;请充值提升至vip%d级开启聊天}</channel_chat_vip_limit_tips>
+		<single_chat_level_limit_tips>{wordsColor;ffff00;角色等级提升至%d级开启聊天}</single_chat_level_limit_tips>
+		<single_chat_limit_tips_and>{wordsColor;ffff00;vip%d级并且角色等级提升至%d级开启聊天}</single_chat_limit_tips_and>
+		<single_chat_limit_tips_or>{wordsColor;ffff00;vip%d级或者角色等级提升至%d级开启聊天}</single_chat_limit_tips_or>
+
+		<!-- 好友 -->
+		<en_target_empty>对象不能为空</en_target_empty>
+
+		<!-- 结婚 -->
+		<qingyuan_marry_only_lover>只能对伴侣求婚哦！</qingyuan_marry_only_lover>
+		<qingyuan_marry_never_proposed>您还没有求过婚</qingyuan_marry_never_proposed>
+		<en_qingyuan_target_same_sex>必须与异性玩家组队</en_qingyuan_target_same_sex>
+		<hunyan_not_be_invalite>您不在邀请名单中</hunyan_not_be_invalite>
+		<en_qingyuan_not_yuyue_wedding>请先预约婚礼</en_qingyuan_not_yuyue_wedding>
+		<hunyan_yuyue_not_allow>当前不允许预约</hunyan_yuyue_not_allow>
+		<lover_hunyan_yuyue_not_allow>对方当前不允许预约</lover_hunyan_yuyue_not_allow>
+		<hunyan_already_open>您已举办过婚宴了</hunyan_already_open>
+		<hunyan_yuyue_time_not_enough>没有婚礼次数</hunyan_yuyue_time_not_enough>
+		<lover_hunyan_yuyue_time_not_enough>对方没有婚礼次数</lover_hunyan_yuyue_time_not_enough>
+		<hunyan_yueyue_time_already_yuyue>当前时间段已经被预约</hunyan_yueyue_time_already_yuyue>
+		<en_hunyan_yuyue_time_has_passed>预约时间已过</en_hunyan_yuyue_time_has_passed>
+		<en_wedding_not_allow_invite_guest>当前不可邀请宾客</en_wedding_not_allow_invite_guest>
+		<en_already_in_wedding_guests>该玩家已经在名单中</en_already_in_wedding_guests>
+		<en_not_in_wedding_guests>该玩家不在名单中</en_not_in_wedding_guests>
+		<en_guests_not_be_invited>您不在宾客名单中</en_guests_not_be_invited>
+		<en_guests_has_full>宾客名单已满</en_guests_has_full>
+		<en_guests_buy_limit>购买名额已达上限</en_guests_buy_limit>
+		<en_guests_had_invited>您已在邀请名单中，请直接参加婚宴</en_guests_had_invited>
+		<en_hunyan_liveness_gather_turn_limit>已达取美酒次数上限，提高婚宴热度可增加取酒次数</en_hunyan_liveness_gather_turn_limit>
+		<en_hunyan_gather_feast_limit>酒席采集已达到上限</en_hunyan_gather_feast_limit>
+		<en_wedding_yuyue_disagree>对方拒绝你的预约请求</en_wedding_yuyue_disagree>
+		<en_wedding_baitang_disagree>对方拒绝你的拜堂请求</en_wedding_baitang_disagree>
+		<en_qingyuan_without_card>婚宴还在准备中，请过几分钟再来</en_qingyuan_without_card>
+		<remove_baby_limit>您不能遗弃该宝宝</remove_baby_limit>
+		<remove_baby_disagree>对方拒绝你的遗弃宝宝请求</remove_baby_disagree>
+		<xunyou_opera_count_limit>次数不足</xunyou_opera_count_limit>
+		<xunyou_opera_limit>当前不是巡游时间，不可操作</xunyou_opera_limit>
+		<xunyou_enter_fb_limit>巡游途中，不可进入副本</xunyou_enter_fb_limit>
+		<xunyou_gather_redbag_count_max>采集次数已达上限</xunyou_gather_redbag_count_max>
+		<special_baby_already_active>您已激活该宝宝</special_baby_already_active>
+
+		<!-- 小宠物 -->
+		<little_pet_no_pet_limit>你还没有小宠物</little_pet_no_pet_limit>
+		<little_pet_no_pet_interact_times>小宠物互动次数已满</little_pet_no_pet_interact_times>
+		<little_pet_no_personal_interact_times>个人互动次数已满</little_pet_no_personal_interact_times>
+		<little_pet_no_enough_qianghua_dan>小宠物强化丹不足</little_pet_no_enough_qianghua_dan>
+		<little_pet_max_feed_degree>小宠物饱食度已满</little_pet_max_feed_degree>
+		<little_pet_max_num>小宠物数量已满</little_pet_max_num>
+		<little_pet_no_enough_score>小宠物友善值不足</little_pet_no_enough_score>
+		<little_pet_can_not_interact_self_pet>不能和自己的小宠物互动</little_pet_can_not_interact_self_pet>
+		<little_pet_feed_level_limit>小宠物喂养已达最大等级</little_pet_feed_level_limit>
+		<little_pet_equipment_level_limit>小宠物玩具已达最大等级</little_pet_equipment_level_limit>
+		<little_pet_equipment_quality_limit>只能装备品阶等于或低于宠物品质的玩具</little_pet_equipment_quality_limit>
+
+		<!-- 转职装备 -->
+		<select_zhuanzhi_equip_limit>请先选择装备再操作</select_zhuanzhi_equip_limit>
+		<zhuanzhi_stone_slot_not_open>该槽还未开启</zhuanzhi_stone_slot_not_open>
+		<select_stone_limit>请先选择玉石再操作</select_stone_limit>
+		<stone_type_limit>玉石类型不匹配</stone_type_limit>
+		<stone_equip_refine_level_full>玉石精炼等级已满</stone_equip_refine_level_full>
+		<equip_order_limit>装备阶数不足</equip_order_limit>
+		<zhuanzhi_suit_pre_not_active>该装备前面的套装还未激活</zhuanzhi_suit_pre_not_active>
+		<zhuanzhi_suit_already_active>该装备已锻造过，无需锻造</zhuanzhi_suit_already_active>
+		<zhuanzhi_suit_limit_order>该装备阶数不足{chinese_num;%d}阶</zhuanzhi_suit_limit_order>
+		<zhuanzhi_suit_limit_color>该装备品质不足</zhuanzhi_suit_limit_color>
+		<en_equip_compose_not_zhizun_equip>合成的装备不是至尊装备</en_equip_compose_not_zhizun_equip>
+		<en_equip_compose_not_zhuanzhi_equip>合成的装备不是转职装备</en_equip_compose_not_zhuanzhi_equip>
+		<en_equip_compose_puton_not_equip>放入的必须是装备</en_equip_compose_puton_not_equip>
+		<en_equip_compose_equip_type_not_same>放入装备类型与合成装备类型不一致</en_equip_compose_equip_type_not_same>
+		<en_equip_compose_equip_order_not_same>放入装备阶数与合成装备阶数不一致</en_equip_compose_equip_order_not_same>
+		<zhuanzhi_level_limit>{chinese_num;%d}{wordsColor;ffff00;转}后可穿戴</zhuanzhi_level_limit>
+		<zhuanzhi_stone_score_not_enough>玉石精粹不足</zhuanzhi_stone_score_not_enough>
+
+		<!-- 斗气装备 -->
+		<en_cross_equip_douqi_exp_not_enough>进阶经验不足</en_cross_equip_douqi_exp_not_enough>
+		<en_cross_equip_douqi_grade_not_enough>斗气阶数不足</en_cross_equip_douqi_grade_not_enough>
+		<en_cross_equip_douqi_xiulian_times_limit>剩余斗气修炼次数不足</en_cross_equip_douqi_xiulian_times_limit>
+		<en_cross_equip_douqi_xiulian_need_mojing_not_enough>修炼所需的魔晶不足</en_cross_equip_douqi_xiulian_need_mojing_not_enough>
+		<en_cross_equip_douqidan_used_times_limit>斗气丹使用次数不足</en_cross_equip_douqidan_used_times_limit>
+		<en_cross_equip_roll_need_grade_limit>请先升级斗气阶段</en_cross_equip_roll_need_grade_limit>
+		<en_cross_equip_grade_not_enough>斗气阶级不足</en_cross_equip_grade_not_enough>
+		<en_cross_equip_chuanshi_frag_not_enough>传世碎片不足</en_cross_equip_chuanshi_frag_not_enough>
+		<en_cross_equip_func_not_open>斗气系统尚未开启</en_cross_equip_func_not_open>
+
+
+		<!-- 进阶系统 -->
+		<upgrade_sys_not_active>{upgrade_type;%d}系统未激活</upgrade_sys_not_active>
+		<upgrade_sys_upgrade_max>{upgrade_type;%d}系统阶级不满足</upgrade_sys_upgrade_max>
+		<upgrade_sys_image_not_active>形象未激活</upgrade_sys_image_not_active>
+		<upgrade_sys_image_upgrade_max>{upgrade_type;%d}形象已达最高级</upgrade_sys_image_upgrade_max>
+		<upgrade_sys_equip_upgrade_max>{upgrade_type;%d}装备已达最高级</upgrade_sys_equip_upgrade_max>
+		<upgrade_sys_skill_upgrade_max>{upgrade_type;%d}技能已达最高级</upgrade_sys_skill_upgrade_max>
+		<upgrade_sys_temporary_image_time_limit>您的体验{upgrade_type;%d}已到期，通过{upgrade_type;%d}进阶可获得更多形象！</upgrade_sys_temporary_image_time_limit>
+
+		<!-- 仙盟 -->
+		<guild_juanxian_limit>捐献已达上限</guild_juanxian_limit>
+		<guild_gongzi_not_enought>仙盟工资未达标</guild_gongzi_not_enought>
+
+		<!--仙盟答题-->
+		<guild_question_not_open>仙盟答题活动未开启</guild_question_not_open>
+		<guild_already_in_guild_question>已经在仙盟答题中了</guild_already_in_guild_question>
+		<guild_question_answer_error>回答错误</guild_question_answer_error>
+		<guild_question_already_gather>你已采集过了</guild_question_already_gather>
+		<guild_question_dismiss_activity_limit>仙盟答题期间禁止解散仙盟</guild_question_dismiss_activity_limit>
+		<guild_question_limit>仙盟答题期间禁止此操作</guild_question_limit>
+
+		<!-- 仙盟BOSS -->
+		<guild_boss_kill_boss_timelimit>击杀灵兽时间剩余%d分钟</guild_boss_kill_boss_timelimit>
+		<guild_boss_gather_timelimit>宝箱采集时间剩余%d分钟</guild_boss_gather_timelimit>
+
+		<!-- 仙盟试炼 -->
+		<guild_fb_limit>仙盟试炼期间禁止此操作</guild_fb_limit>
+
+		<!-- 仙盟宝箱 -->
+		<en_guild_box_uplevel_vip_count_limit>剑炉已满级</en_guild_box_uplevel_vip_count_limit>
+
+		<!-- 仙盟天赐铜币-->
+		<en_guild_tainci_tongbi_already_gather>已经采集 请前往提交</en_guild_tainci_tongbi_already_gather>
+		<en_guild_tianci_tongbi_daily_limit>仙盟经验球获取已达每日限制</en_guild_tianci_tongbi_daily_limit>
+		<en_guild_tianci_tongbi_commit_error>无可提交物品</en_guild_tianci_tongbi_commit_error>
+		<en_guild_tower_defend_tianci_tongbi_limit>仙盟宴会进行中不能开启仙盟守护</en_guild_tower_defend_tianci_tongbi_limit>
+		<en_guild_tianci_tongbi_scene_limit>只能在仙盟驻地开启</en_guild_tianci_tongbi_scene_limit>
+		<en_guild_tianci_tongbi_daycount_limit>今日仙盟宴会已开启</en_guild_tianci_tongbi_daycount_limit>
+		<en_guild_tianci_tongbi_guild_level_limit>仙盟要达到2级才能开启仙盟宴会</en_guild_tianci_tongbi_guild_level_limit>
+		<en_guild_tianci_tongbi_tower_defend_limit>仙盟守护中不能开启仙盟宴会</en_guild_tianci_tongbi_tower_defend_limit>
+		<en_guild_guild_boss_tianci_tongbi_limit>仙盟宴会中不能开启仙盟BOSS</en_guild_guild_boss_tianci_tongbi_limit>
+		<en_guild_tianci_tongbi_guild_boss_limit>仙盟boss期间不能开启仙盟宴会</en_guild_tianci_tongbi_guild_boss_limit>
+		<en_guild_tianci_tongbi_limit>仙盟宴会期间禁止此操作</en_guild_tianci_tongbi_limit>
+		<already_join_tiancitongbi>今日您已参加过仙盟宴会，无法再次采集</already_join_tiancitongbi>
+
+		<!--跨服1v1-->
+		<cross_1v1_times_limit>剩余匹配次数不足</cross_1v1_times_limit>
+		<cross_1v1_wear_ring_limit>最多只能佩戴四枚戒指</cross_1v1_wear_ring_limit>
+
+		<!--仙盟运镖-->
+		<en_guild_yunbiao_time_limit>现在还不是仙盟运镖活动时间</en_guild_yunbiao_time_limit>
+		<en_guild_yunbiao_is_start>今日仙盟运镖活动已经结束</en_guild_yunbiao_is_start>
+		<en_guild_yunbiao_starting>仙盟运镖活动已经开启</en_guild_yunbiao_starting>
+		<en_guild_yunbiao_limit>仙盟运镖期间禁止此操作</en_guild_yunbiao_limit>
+		<en_guild_yunbiao_open_scene_limit>当前不在运镖场景内</en_guild_yunbiao_open_scene_limit>
+
+		<!--聊天头像框-->
+		<en_personalize_avatar_window_level_limit>头像框已达最大等级</en_personalize_avatar_window_level_limit>
+		<en_personalize_avatar_window_not_active>头像框未激活</en_personalize_avatar_window_not_active>
+
+		<!--跨服猎鲲地带-->
+		<cross_liekunfb_guild_no_kill_boss>仙盟尚未击杀任意鲲</cross_liekunfb_guild_no_kill_boss>
+		<cross_liekunfb_guild_not_entry_portal>传送·灵鲲非本仙盟击杀，无法进入传送门</cross_liekunfb_guild_not_entry_portal>		
+		<cross_liekunfb_enter_time_out>外围入口已关闭</cross_liekunfb_enter_time_out>
+
+		<!--boss图鉴-->
+		<bosscard_has_active>您已激活该图鉴</bosscard_has_active>
+		<bosscard_can_not_active>您还不可以激活该图鉴</bosscard_can_not_active>
+		
+		<!--买一送一-->
+		<ra_buy_one_get_one_free_has_buy>物品已购买</ra_buy_one_get_one_free_has_buy>
+		<ra_buy_one_get_one_free_can_not_fetch>奖励不能领取</ra_buy_one_get_one_free_can_not_fetch>
+
+		<cross_boss_enter_limit>只有{wordsColor;00ff00;15:00-17:00}、{wordsColor;00ff00;22:30-1:00}才能进入</cross_boss_enter_limit>
+		
+		<seal_equip_fail>圣印装备失败</seal_equip_fail>
+		<seal_level_fail>圣印升级失败</seal_level_fail>
+		<seal_soul_use_limit_num>圣魂使用超过上限</seal_soul_use_limit_num>
+		<seal_backpack_no_enough_space>圣印背包不足</seal_backpack_no_enough_space>
+		<seal_hun_score_no_enough>圣印精华不足</seal_hun_score_no_enough>
+		<seal_equip_one>一次只能装备一个</seal_equip_one>
+
+		<!--名将-->
+		<greate_soldier_cant_putoff_mainslot>主将位无法卸下</greate_soldier_cant_putoff_mainslot>
+		<greate_soldier_not_active>神魔[%s]尚未激活</greate_soldier_not_active>
+		<greate_soldier_bianshen_cd>神魔技能正在冷却中，无法变身</greate_soldier_bianshen_cd>
+		<greate_soldier_slot_limit>主槽位未装备神魔，无法点将</greate_soldier_slot_limit>
+		<greate_soldier_slot_already_max_level>该将位已达最高级</greate_soldier_slot_already_max_level>
+		<greate_soldier_confirm_wash_potential>潜能为零，不能保存</greate_soldier_confirm_wash_potential>
+		<greate_soldier_wash_attr_full>神魔洗练属性点已满</greate_soldier_wash_attr_full>
+
+		<!-- 狂嗨庆典 -->
+		<en_ra_kuang_hai_not_enought_score>你的嗨点不足</en_ra_kuang_hai_not_enought_score>
+		<en_ra_kuang_hai_has_fetch_reward>您已兑换过该奖励</en_ra_kuang_hai_has_fetch_reward>
+
+		<!-- 礼物收割 -->
+		<en_gift_harvest_round_not_open>本轮礼物收割活动尚未开启</en_gift_harvest_round_not_open>
+		
+		<!--跨服边境之地-->
+		<cross_bjzd_cannot_find_gather>找不到采集对象</cross_bjzd_cannot_find_gather>
+		<cross_bjzd_cannot_gather>只有BOSS仙盟归属的成员才可以采集</cross_bjzd_cannot_gather>
+		<cross_bjzd_already_gather>你已经采集过该宝箱</cross_bjzd_already_gather>
+		<cross_bjzd_guild_fb_limit>百战边境期间禁止此操作</cross_bjzd_guild_fb_limit>
+
+		<!-- 兑换物品 -->
+		<en_score_not_enough>魂晶不足</en_score_not_enough>
+		
+		<!-- 拜谒 -->
+		<worship_baiye_count_not_enouth>拜谒次数已使用完毕</worship_baiye_count_not_enouth>
+		
+		<zodiac_already_activate>星象已经激活</zodiac_already_activate>
+		<zodiac_can_not_levelup>星象无法强化</zodiac_can_not_levelup>
+		<zodiac_backpack_no_enough_space>星象背包不足</zodiac_backpack_no_enough_space>
+		<zodiac_jinghua_num_no_enough>星蕴精华不足</zodiac_jinghua_num_no_enough>
+		<zodiac_already_max_level>该星象已满级</zodiac_already_max_level>
+		
+		<planting_tree_activity_not_begin>中秋玉兔活动还没开始呢</planting_tree_activity_not_begin>
+		<planting_tree_can_not_planting>您不能在这里召唤玉兔</planting_tree_can_not_planting>
+		<planting_tree_planting_count_full>您捕捉了好多玉兔了，休息一会儿吧</planting_tree_planting_count_full>
+		<planting_tree_can_not_watering>您已经捕捉过这只玉兔了</planting_tree_can_not_watering>
+		<planting_tree_not_suit_scene>请前往祖龙神都召唤玉兔</planting_tree_not_suit_scene>
+
+	</errors>
+	
+	<notices>
+		<test>测试提示码%s</test>
+		<!-- 通用 -->
+		<cur_game_time>当前游戏时间为{wordsColor;ffff00;%s}</cur_game_time>
+		<setattack_mode_same_server>当前处于本服模式，只可攻击其他服的玩家</setattack_mode_same_server>
+		<setattack_mode_enemy>当前处于仇人模式，只可攻击仇人列表内的玩家</setattack_mode_enemy>
+
+		<invite_succ>邀请成功</invite_succ>
+		<remove_succ>移除成功</remove_succ>
+		<give_succ>赠送成功</give_succ>
+		<apply_succ>已成功发送请求</apply_succ>
+		<active_succ>激活成功</active_succ>
+		<discard_succ>分解成功</discard_succ>
+		<level_up_succ>升级成功</level_up_succ>
+		
+		<!-- 结婚 -->
+		<wait_press_finger>操作成功,正在等待对方摁手印</wait_press_finger>
+		<nt_wedding_yuyue_succ>婚礼预约成功</nt_wedding_yuyue_succ>
+		<nt_wedding_prepare>婚宴正在准备中，请稍后</nt_wedding_prepare>
+		<nt_wedding_not_begin>婚宴尚未开始</nt_wedding_not_begin>
+		<wait_confirm>操作成功,正在等待对方确认</wait_confirm>
+		<qingyuan_marry_propose_succ>求婚成功！</qingyuan_marry_propose_succ>
+
+		<!-- 表白 -->
+		<profess_to_succ>表白成功</profess_to_succ>
+
+		<!-- 小宠物 -->
+		<little_pet_feed_succ>小宠物喂养成功</little_pet_feed_succ>
+		<little_pet_interact_succ>小宠物互动成功</little_pet_interact_succ>
+		<little_pet_exchange_succ>兑换成功</little_pet_exchange_succ>
+		<little_pet_rename_succ>小宠物改名成功</little_pet_rename_succ>
+
+		<!-- 转职装备 -->
+		<zhuanzhi_stone_inlay_succ>玉石镶嵌成功</zhuanzhi_stone_inlay_succ>
+		<zuanzhi_fuling_succ>附灵成功</zuanzhi_fuling_succ>
+		<zhuanzhi_suit_forge_succ>锻造成功</zhuanzhi_suit_forge_succ>
+
+		<!--聊天头像框-->
+		<nt_chat_use_avatar_success>使用头像框成功</nt_chat_use_avatar_success>
+		<nt_chat_un_use_avatar_success>取消使用头像框成功</nt_chat_un_use_avatar_success>
+
+		<!-- 仙盟天赐铜币 -->
+		<nt_tianci_tongbi_use_gather_succ>进贡成功</nt_tianci_tongbi_use_gather_succ>
+
+		<!-- 仙盟 -->
+		<guild_box_invite_assist_succ>邀请协助消息发送成功</guild_box_invite_assist_succ>
+		<guild_box_thank_assist_succ>感谢消息发送成功</guild_box_thank_assist_succ>
+
+
+		<!--名将-->
+		<greate_soldier_slot_uplevel_succ>神魔升级成功</greate_soldier_slot_uplevel_succ>
+
+		<!-- 百战装备 -->
+
+		<!-- 斗气装备 -->
+		<nt_cross_equip_douqi_xiulian_succ>斗气修炼成功</nt_cross_equip_douqi_xiulian_succ>
+		<nt_cross_equip_lianzhi_succ>炼制成功</nt_cross_equip_lianzhi_succ>
+		
+		<!--跨服边境之地-->
+		<cross_bjzd_gather_succ>采集成功</cross_bjzd_gather_succ>
+		<cross_bjzd_get_task_reward>获得任务奖励</cross_bjzd_get_task_reward>
+		
+		<!--使用物品-->
+		<use_boss_refresh_card_succ>BOSS刷新卡使用成功</use_boss_refresh_card_succ>
+		<use_boss_refresh_card_fail>附近没有可以刷新的BOSS</use_boss_refresh_card_fail>
+		
+		<planting_tree_planting_succ>恭喜你，召唤玉兔成功</planting_tree_planting_succ>
+		<planting_tree_watering_succ>召唤玉兔成功</planting_tree_watering_succ>
+		
+	</notices>
+	
+	<mailcontents>
+		<test>邮件发送测试%d</test>
+
+		<!-- 好友 -->
+		<give_item_mail>{r_sex;%s;%d}与您相见恨晚，给您寄送了精美礼物，快看看吧！</give_item_mail>
+
+		<!-- 结婚 -->
+		<invalite_join_hunyan_mail>全服第{wordsColor;01ab26;%d}对仙侣{r;%d;%s;%d}和{r;%d;%s;%d}金童玉女,天生绝配，将在今天%02d:%02d-%02d:%02d举行婚宴，您已被邀请，请届时到场参加，记得带上您的烟花前去祝福这对新人，丰富奖励等你拿！</invalite_join_hunyan_mail>
+		<buy_qingyuan_gift>您的伴侣购买了情意绵绵礼包，请查收。</buy_qingyuan_gift>
+		<wedding_xunyou_notice_mail>尊敬的玩家，您预订的婚宴将于今天%02d:%02d-%02d:%02d开始，届时结婚双方将会被传送至月老处参加结婚巡游，请妥善安排好时间，祝您新婚快乐！</wedding_xunyou_notice_mail>
+		<buy_halo_mail>您的伴侣购买了光环特购礼包，请查收。结发为夫妻，恩爱两不疑。光环见证你们的爱情！</buy_halo_mail>
+
+		<!-- 跨服钓鱼-->
+        <cross_fishing_treasure_reward_content>这是您在{activity;%d}中获得的宝箱奖励，由于您背包不足现邮件发放，请查收!</cross_fishing_treasure_reward_content>
+		<cross_fishing_score_reward_mail_content>恭喜您在{activity;%d}中积分达到{wordsColor;FFFF00;%d}，特此发放奖励，请查收!</cross_fishing_score_reward_mail_content>
+		<cross_fishing_score_item_reward_mail_content>亲爱的玩家，您在{activity;%d}活动中的积分达到%d，奖励未领取，特此补发，请注意查收！</cross_fishing_score_item_reward_mail_content>
+
+		<!--仙盟-->
+		<guild_boss_hurt_rank_reward>亲爱的玩家，您在{activity;%d}活动中输出排行达到第%d名，这是您的奖励，请注意查收!</guild_boss_hurt_rank_reward>
+		<guild_biaoche_complete_subject>仙盟运镖成功</guild_biaoche_complete_subject>
+		<guild_biaoche_complete_content>恭喜您，本仙盟的镖车安全抵达目的地，请再接再厉！</guild_biaoche_complete_content>
+		<guild_biaoche_fail_subject>仙盟运镖失败</guild_biaoche_fail_subject>
+		<guild_biaoche_fail_content>很遗憾，本仙盟护送的镖车被【{wordsColor;#ffff37;%s}】仙盟劫走，请继续努力！</guild_biaoche_fail_content>
+		<guild_biaoche_activity_end_fail_content>很遗憾，本仙盟的镖车未按时到达终点，请继续努力!</guild_biaoche_activity_end_fail_content>
+		<guild_biaoche_rob_subject>截获仙盟镖车</guild_biaoche_rob_subject>
+		<guild_biaoche_rob_content>恭喜您，本仙盟成功打劫【{wordsColor;#ffff37;%s}】仙盟护送的镖车，请再接再厉！</guild_biaoche_rob_content>
+		<guild_kill_cross_boss_first_subject>神域boss榜第一</guild_kill_cross_boss_first_subject>
+		<guild_kill_cross_boss_first_content>恭喜您，本仙盟在当天的神域boss榜取得第一，请再接再厉！</guild_kill_cross_boss_first_content>
+
+		<guild_gongzi_give_mail>盟主大人发放工资啦！感谢您这段时间的打拼，以下为工资奖励，请及时领取。</guild_gongzi_give_mail>
+
+		<!-- 仙盟答题 -->
+		<guild_question_reward_mail>恭喜您所在仙盟获得%d名，以下为奖励，请查收！</guild_question_reward_mail>
+
+		<!--跨服1v1-->
+		<cross_1v1_join_times_reward_subject>这是您参与跨服1v1活动场次达成%d场奖励!</cross_1v1_join_times_reward_subject>
+		<cross_1v1_season_score_reward_content>上赛季跨服1v1活动已结束，这是您上赛季的段位奖励，祝您游戏愉快！</cross_1v1_season_score_reward_content>
+		<cross_1v1_season_ring_reward_content>上赛季跨服1v1活动已结束，这是您上赛季的段位奖励，祝您游戏愉快！</cross_1v1_season_ring_reward_content>
+		<cross_1v1_season_gongxun_reward_content>上赛季跨服1v1活动已结束，这是您上赛季的功勋奖励，祝您游戏愉快！</cross_1v1_season_gongxun_reward_content>
+		<cross_1v1_score_rank_reward_content>您在上赛季的跨服1v1活动积分排行榜中以共%d积分的成绩排名第%d，奖励通过邮件发送！请注意查收！</cross_1v1_score_rank_reward_content>
+
+		<!--跨服猎鲲地带-->
+		<cross_liekunfb_top_reward_1>恭喜您在灵鲲之战中击杀鲲王，获得了鲲王之王称号，已自动为您激活称号，享受独特战力加持！</cross_liekunfb_top_reward_1>
+
+		<!-- 随机活动 -->
+		<profess_rank_reward>你在表白排行榜中获得表白积分%d，排名第%d，特此发放奖励，请及时领取。</profess_rank_reward>
+		<profess_rank_score_not_enough>你在表白排行榜中获得表白积分%d，排名第%d，不足以获得奖励，请再接再厉。</profess_rank_score_not_enough>
+		<rareward_full_and_send>亲爱的玩家，在{activity;%d}中获取物品，由于你背包空间不足，特此邮件补发！</rareward_full_and_send>
+
+		<!-- 爬塔副本 -->
+		<patafb_auto_reward>您的扫荡奖励请查收！</patafb_auto_reward>
+		
+		<!-- 防具副本-->
+		<towerdefend_new_player>防具副本第一关保底奖励请查收</towerdefend_new_player>
+
+		<!-- 形象比拼 -->
+		<image_competition_reward_mail>恭喜您，在{wordsColor;FFFF00;形象比拼活动}中，{i;%d}提升到{chinese_num;%d}级，排行第{chinese_num;%d}名，获得第{chinese_num;%d}名奖励，特此发放。</image_competition_reward_mail>
+		<image_competition_reward_mail_1>你在{wordsColor;FFFF00;形象比拼活动}中，{i;%d}提升到{chinese_num;%d}级，形象等级未达到第{chinese_num;%d}名要求，实际获得第{chinese_num;%d}名排行奖励。</image_competition_reward_mail_1>
+
+		<!-- 礼物收割 -->
+		<rand_activity_gift_harvest_join_mail>你在本轮鲜花收集活动中获得过积分，现发放参予奖励。</rand_activity_gift_harvest_join_mail>
+		<rand_activity_gift_harvest_rank_mail>你在鲜花收集活动中获得第%d名，现通过邮件发放奖励。</rand_activity_gift_harvest_rank_mail>
+
+		<!-- 跨服竞技场 -->
+		<cross_challengefield_rank_drop>你在跨服论剑中的排位被{wordsColor;#ffff00;%s}抢走！不是我的分毫不取，是我的别人抢不走！</cross_challengefield_rank_drop>
+		<cross_challengefield_rank_reward>恭喜您在跨服论剑排名%d名，特此发放奖励，请查收！</cross_challengefield_rank_reward>
+		<cross_pasture_rank_reward>恭喜您在本次万灵神殿中获得{wordsColor;89f201;第%d名}，特此发放奖励，表示鼓励！</cross_pasture_rank_reward>
+		
+	</mailcontents>
+
+	<sysmsg>
+		<test>传闻测试%d</test>
+		<cross_server_test>跨服传闻测试%d【跨服战区类型:%d】</cross_server_test>
+		
+		<!-- 结婚 -->
+		<wedding_xunyou_begin_notice>{wordsColor;ff8ad1;百年恩爱双心结，千里姻缘一线牵，}{r;%d;%s;%d}{wordsColor;ff8ad1;和}{r;%d;%s;%d}{wordsColor;ff8ad1;情定三生，邀您参加他们的婚礼巡游！}{activityPos;%d;%d;%d;2}</wedding_xunyou_begin_notice>
+		<wedding_xunyou_notice>{r;%d;%s;%d}{wordsColor;ff8ad1;和}{r;%d;%s;%d}{wordsColor;ff8ad1;正在进行婚礼巡游，祥云朵朵、烟花围绕！}{activityPos;%d;%d;%d;2}</wedding_xunyou_notice>
+		<wedding_xunyou_sahongbao_notice>{wordsColor;ff8ad1;堂开蓬莱景，红包满神都，}{r;%d;%s;%d}{wordsColor;ff8ad1;为答谢各位发出了红包！}{activityPos;%d;%d;%d;4}</wedding_xunyou_sahongbao_notice>
+		<wedding_xunyou_end_notice>{wordsColor;ff8ad1;笙箫奏凤凰，鼓乐迎嘉宾，巡游已经结束，请移步前往}{r;%d;%s;%d}{wordsColor;ff8ad1;和}{r;%d;%s;%d}{wordsColor;ff8ad1;的婚宴！}{openLink;130}</wedding_xunyou_end_notice>
+		<wedding_stand_by_notice_content>{wordsColor;ff8ad1;全服第}{wordsColor;fea700;%d}{wordsColor;ff8ad1;对仙侣}{r;%d;%s;%d}{wordsColor;ff8ad1;和}{r;%d;%s;%d}{wordsColor;ff8ad1;的豪华婚礼即将开始，希望大家踊跃参加，献上美好祝福，还有丰富奖励哦！}</wedding_stand_by_notice_content>
+		<wedding_start_notice_content>{wordsColor;ff8ad1;全服第}{wordsColor;fea700;%d}{wordsColor;ff8ad1;对仙侣}{r;%d;%s;%d}{wordsColor;ff8ad1;和}{r;%d;%s;%d}{wordsColor;ff8ad1;的豪华婚礼开始了，让我们共聚一堂，献上最美好的祝愿！}{openLink;130}</wedding_start_notice_content>
+		<wedding_give_redbag_notice>{r;%d;%s;%d}{wordsColor;ff8ad1;给}{r;%d;%s;%d}{wordsColor;ff8ad1;赠送了}{wordsColor;00ff00;%d}{wordsColor;ff8ad1;元宝，献上了其真诚的祝福！}</wedding_give_redbag_notice>
+		<wedding_give_flower_notice>{r;%d;%s;%d}{wordsColor;ff8ad1;给}{r;%d;%s;%d}{wordsColor;ff8ad1;赠送了}{i;%d}{wordsColor;ff8ad1;，献上了其真诚的祝福！}</wedding_give_flower_notice>
+		<wedding_baitang_content>{wordsColor;ff8ad1;新郎新娘开始拜堂！大家快送上自己的祝福吧！}</wedding_baitang_content>
+		<wedding_use_yanhua_notice>{wordsColor;ff8ad1;火树银花合，星桥铁锁开，}{r;%d;%s;%d}{wordsColor;ff8ad1;燃放了}{i;%d}{wordsColor;ff8ad1;，为婚宴增加了}{wordsColor;00ff00;%d}{wordsColor;ff8ad1;点热度！}</wedding_use_yanhua_notice>
+		<wedding_liveness_notice>{wordsColor;ff8ad1;隔座送钩春酒暖，分曹射覆蜡灯红，婚宴热度达到}{wordsColor;00ff00;%d}{wordsColor;ff8ad1;，奖励已刷新！}</wedding_liveness_notice>
+
+		<!-- 表白 -->
+		<profess_notice_anonymity1>{showpos;1} {wordsColor;F540F1;香气四处弥漫，原来是}{r;%d;%s;%d}{wordsColor;F540F1;向}{r;%d;%s;%d}{wordsColor;F540F1;赠送了}{i;%d}{wordsColor;F540F1;，倾述着浓浓的爱意}{openLink;137}</profess_notice_anonymity1>
+      	<profess_notice_anonymity2>{showpos;1} {wordsColor;F540F1;忽然间天摇地动，原来是}{r;%d;%s;%d}{wordsColor;F540F1;向}{r;%d;%s;%d}{wordsColor;F540F1;赠送了}{i;%d}{wordsColor;F540F1;，倾述着浓浓的爱意}{openLink;137}</profess_notice_anonymity2>
+      	<profess_notice_anonymity3>{showpos;1} {wordsColor;F540F1;远处传来一阵轰鸣，原来是}{r;%d;%s;%d}{wordsColor;F540F1;向}{r;%d;%s;%d}{wordsColor;F540F1;赠送了}{i;%d}{wordsColor;F540F1;，倾述着浓浓的爱意}{openLink;137}</profess_notice_anonymity3>
+
+		<!-- 小宠物 -->
+		<choujiang_broadcast_content>号外号外！{r;%d;%s;%d}在宠物商店中人品爆发，抽中萌萌哒的{i;%d}，迷倒众生！</choujiang_broadcast_content>
+		<top_rank_get_title_content>恭喜你昨日获得小宠物战力排行榜第一名，获得小宠物称号：{title;%d}！</top_rank_get_title_content>
+
+		<!-- 进阶系统-->
+		<upgrade_sys_upgrade_notice>{showpos;2} 惊闻一声天雷，{r;%d;%s;%d} 的{upgrade_type;%d}成功进阶至{chinese_num;%d}{wordsColor;ffff00;阶}·{upgrade_grade;%d;%d;%d}，战斗力直线飙升，来顶礼膜拜吧！{openLink;%d}</upgrade_sys_upgrade_notice>
+
+		<!-- 腰饰-->
+		<yaoshi_upgrade>{showpos;2} 惊闻一声天雷，{r;%d;%s;%d} 的腰饰成功进阶至{chinese_num;%d}{wordsColor;ffff00;阶}·{yaoshi;%d}，战斗力直线飙升，来顶礼膜拜吧！{openLink;119}</yaoshi_upgrade>
+
+		<!-- 头饰-->
+		<toushi_upgrade>{showpos;2} 惊闻一声天雷，{r;%d;%s;%d} 的头饰成功进阶至{chinese_num;%d}{wordsColor;ffff00;阶}·{toushi;%d}，战斗力直线飙升，来顶礼膜拜吧！{openLink;120}</toushi_upgrade>
+
+		<!-- 麒麟臂-->
+		<qilinbi_upgrade>{showpos;2} 惊闻一声天雷，{r;%d;%s;%d} 的麒麟臂成功进阶至{chinese_num;%d}{wordsColor;ffff00;阶}·{qilinbi;%d}，战斗力直线飙升，来顶礼膜拜吧！{openLink;121}</qilinbi_upgrade>
+
+		<!-- 面具-->
+		<mask_upgrade>{showpos;2} 惊闻一声天雷，{r;%d;%s;%d} 的面具成功进阶至{chinese_num;%d}{wordsColor;ffff00;阶}·{mask;%d}，战斗力直线飙升，来顶礼膜拜吧！{openLink;122}</mask_upgrade>
+
+		<!-- 转职装备 -->
+		<zhuanzhi_equip_up_star>{showpos;2} {r;%d;%s;%d} 一声怒吼，把{eq;%d;%s}升星到{wordsColor;ffff37;%d级}，战力大幅提升！{openLink;123}</zhuanzhi_equip_up_star>
+		<zhuanzhi_equip_upstar_total>{showpos;3} {r;%d;%s;%d} 一声怒吼，将全身装备升星到{wordsColor;ffff37;%d级}，激活了{zhuanzhi_taozhuang;%d;%d}！{openLink;123}</zhuanzhi_equip_upstar_total>
+		<zhuanzhi_suit_active_notice>恭喜{r;%d;%s;%d}成功锻造{zhuanzhi_suit_part;%d;%d}，激活{wordsColor;ffff00;%d件}{zhuanzhi_suit;%d;%d}，增加{wordsColor;ffff00;%d}战力！</zhuanzhi_suit_active_notice>
+		<zhuanzhi_wake_notice>{r;%d;%s;%d}成功觉醒出满级{zhuanzhi_wake;%d;%d}，已然无敌于世了！{openLink;149}</zhuanzhi_wake_notice>
+		<zhuanzhi_compose_notice>恭喜{r;%d;%s;%d}成功合成%d星{eq;%d;%s}，令人羡慕不已{openLink;145}</zhuanzhi_compose_notice>
+
+		<!-- 百战装备 -->
+		<baizhuan_equip_uplevel>经历千辛万苦，{r;%d;%s;%d}终于合成出【{i;%d}】，已然无敌于世了！</baizhuan_equip_uplevel>
+
+		<!-- 斗气装备 -->
+		<douqi_upgrade>天道酬勤！恭喜玩家{r;%d;%s;%d}在斗气修炼中突破至{douqi_grade;%d}！{openLink;155}</douqi_upgrade>
+		<chuancheng_box_flush>试炼塔主已往塔内重新投放试炼宝箱，试炼宝箱内含珍稀品质的传世装备，各位修行者不可错过！{openLink;156}</chuancheng_box_flush>
+		<cross_equip_lianzhi>冠绝天下，传世无双！玩家{r;%d;%s;%d}经过多方努力，终于成功炼制出了{cross_equip;%d}！{openLink;157}</cross_equip_lianzhi>
+
+		<!-- 仙盟 -->
+		<guildsignup>{r;%d;%s;%d}在仙盟签到，获得丰厚签到奖励。总签到{wordsColor;00ff00;%d}人，签到人数达到{wordsColor;00ff00;%d}人可获得{wordsColor;0000f1;万众一心}称号。</guildsignup>
+		<guildpaosaizi>{r;%d;%s;%d}掷了{wordsColor;00ff00;%d}，累计{wordsColor;00ff00;%d}点，当前仙盟掷骰总积分排名{wordsColor;00ff00;%d}</guildpaosaizi>
+
+		<guild_tiancitongbi_close_notice>{wordsColor;#ffff37;【%s】}仙盟圆满结束了仙盟宴会，以{r;%d;%s;%d}为首的群雄们豪取了大量魔晶、绑元，真是群英荟萃啊！</guild_tiancitongbi_close_notice>
+		<guild_tiancitongbi_notice>天道酬勤！{wordsColor;#ffff37;【%s】}仙盟开启了{wordsColor;#ffff37;【仙盟宴会】}活动,参与可获得海量{wordsColor;#ffff37;魔晶、经验}奖励！</guild_tiancitongbi_notice>
+
+		<guild_box_invite_assist>我正在仙盟铸剑，请助我一臂之力！{openLink;124}</guild_box_invite_assist>
+		<guild_box_thank_assist>非常感谢你的协助，若有需要，我也必定鼎力相助!</guild_box_thank_assist>
+
+		<!-- 仙盟工资 -->
+		<guild_gongzi_give_chat>本次一共发放了{wordsColor;00ff00;%d}绑元，大家可以邮件领取，感谢各位仙友们这段时间的努力！</guild_gongzi_give_chat>
+		<guild_gongzi_killboss_chat>{wordsColor;00ff00;%s}击杀{monster;%d}，增加了{wordsColor;00ff00;%d}点工资</guild_gongzi_killboss_chat>
+		<guild_gongzi_guild_killboss_chat>仙盟成功击杀{monster;%d}，获得{wordsColor;00ff00;%d}点仙盟工资</guild_gongzi_guild_killboss_chat>
+		<guild_gongzi_gongchengzhan_chat>恭喜仙盟在攻城之战活动中夺得王城，获得{wordsColor;00ff00;%d}点仙盟工资</guild_gongzi_gongchengzhan_chat>
+		<guild_gongzi_guildbattle_new_chat>恭喜仙盟在仙盟抢旗活动中排名第%d，获得{wordsColor;00ff00;%d}点仙盟工资</guild_gongzi_guildbattle_new_chat>
+		<guild_gongzi_cross_guildbattle_chat>恭喜仙盟在连服夺城活动中占领{scene_id;%d}, 获得{wordsColor;00ff00;%d}点仙盟工资</guild_gongzi_cross_guildbattle_chat>
+
+		<guild_fb_end_chat>仙盟试炼结束了，各位盟友辛苦了！</guild_fb_end_chat>
+
+		<!-- 仙盟BOSS -->
+		<guild_boss_kill_boss_timelimit>击杀灵兽时间剩余%d分钟</guild_boss_kill_boss_timelimit>
+		<guild_boss_gather_timelimit>宝箱采集时间剩余%d分钟</guild_boss_gather_timelimit>
+
+		<!-- 仙盟答题 -->
+		<guild_question_reward_notice1>仙盟答题活动已结束，第一名为【{wordsColor;ffff37;%s}】仙盟</guild_question_reward_notice1>
+		<guild_question_reward_notice2>仙盟答题活动已结束，第一名为【{wordsColor;ffff37;%s}】仙盟；第二名为【{wordsColor;ffff37;%s}】仙盟</guild_question_reward_notice2>
+		<guild_question_reward_notice3>仙盟答题活动已结束，第一名为【{wordsColor;ffff37;%s}】仙盟；第二名为【{wordsColor;ffff37;%s}】仙盟；第三名为【{wordsColor;ffff37;%s}】仙盟</guild_question_reward_notice3>
+		<guildquestion_top_answer>{wordsColor;ffff37;%s}仙盟的{wordsColor;ffff37;%s}在仙盟答题中舌（tuo）战（mo）群（heng）儒（fei），成就学霸之身！</guildquestion_top_answer>
+		<guild_question_answer_max>题目已全部回答完毕！答题准确率高达%d%%！目前仙盟答题排名第%d！</guild_question_answer_max>
+
+		<!--仙盟镖车-->
+		<guild_biaoche_start_notice>天道酬勤！{wordsColor;#ffff37;【%s】}开启了{wordsColor;#ffff37;【仙盟运镖】}活动，镖车现从{activityPos;%d;%d;%d;5}驶出</guild_biaoche_start_notice>
+		<guild_biaoche_pos_report>【{wordsColor;#ffff37;%s}】的镖车已行驶了%d%%的路程，请该仙盟成员速到此处护送镖车！{activityPos;%d;%d;%d;5}</guild_biaoche_pos_report>
+		<guild_biaoche_be_hurt>本盟镖车正遭遇攻击，请速去救援！{activityPos;%d;%d;%d;1}</guild_biaoche_be_hurt>
+		<guild_biaoche_rob_notice>【{wordsColor;#ffff37;%s}】仙盟成功打劫【{wordsColor;#ffff37;%s}】仙盟的镖车，获得大量奖励！</guild_biaoche_rob_notice>
+		<guild_biaoche_succ_notice>恭喜本仙盟的镖车安全抵达目的地，参与人员获得大量仙盟贡献奖励，请再接再厉！</guild_biaoche_succ_notice>
+		
+		<!--仙盟聊天-->
+		<guild_gongchengzhan_sysmsg_title>攻城之战结束，本场功勋：{newline;}{newline;}{wordsColor;ff0000;仙盟MVP：}{wordsColor;00ff00;%s}{newline;}</guild_gongchengzhan_sysmsg_title>
+		<guild_gongchengzhan_sysmsg_killflag>{wordsColor;f7710f;占领最多：}{wordsColor;00ff00;%s}（{wordsColor;ffff00;%d}）{newline;}</guild_gongchengzhan_sysmsg_killflag>
+		<guild_gongchengzhan_sysmsg_killrole>{wordsColor;ff00fd;击杀最多：}{wordsColor;00ff00;%s}（{wordsColor;ffff00;%d}）{newline;}</guild_gongchengzhan_sysmsg_killrole>
+		<guild_gongchengzhan_sysmsg_hurtrole>{wordsColor;00ffff;玩家输出最高：}{wordsColor;00ff00;%s}（{convert_num;%lld}）{newline;}</guild_gongchengzhan_sysmsg_hurtrole>
+		
+		<guild_guildbattlenew_sysmsg_title>仙盟抢旗结束，本场功勋：{newline;}{newline;}{wordsColor;ff0000;仙盟MVP：}{wordsColor;00ff00;%s}{newline;}</guild_guildbattlenew_sysmsg_title>
+		<guild_guildbattlenew_sysmsg_killflag>{wordsColor;f7710f;占领最多：}{wordsColor;00ff00;%s}（{wordsColor;ffff00;%d}）{newline;}</guild_guildbattlenew_sysmsg_killflag>
+		<guild_guildbattlenew_sysmsg_killrole>{wordsColor;ff00fd;击杀最多：}{wordsColor;00ff00;%s}（{wordsColor;ffff00;%d}）{newline;}</guild_guildbattlenew_sysmsg_killrole>
+		<guild_guildbattlenew_sysmsg_hurtrole>{wordsColor;00ffff;玩家输出最高：}{wordsColor;00ff00;%s}（{convert_num;%lld}）{newline;}</guild_guildbattlenew_sysmsg_hurtrole>
+		
+		<guild_crossguildbattle_sysmsg_title>连服夺城结束，本场功勋：{newline;}{newline;}{wordsColor;ff0000;仙盟MVP：}{wordsColor;00ff00;%s}{newline;}</guild_crossguildbattle_sysmsg_title>
+		<guild_crossguildbattle_sysmsg_killflag>{wordsColor;f7710f;占领最多：}{wordsColor;00ff00;%s}（{wordsColor;ffff00;%d}）{newline;}</guild_crossguildbattle_sysmsg_killflag>
+		<guild_crossguildbattle_sysmsg_killrole>{wordsColor;ff00fd;击杀最多：}{wordsColor;00ff00;%s}（{wordsColor;ffff00;%d}）{newline;}</guild_crossguildbattle_sysmsg_killrole>
+		<guild_crossguildbattle_sysmsg_hurtrole>{wordsColor;00ffff;玩家输出最高：}{wordsColor;00ff00;%s}（{convert_num;%lld}）{newline;}</guild_crossguildbattle_sysmsg_hurtrole>
+		
+
+		<yunyou_boss_refresh_notice>敌情来报！大批神秘云游BOSS潜入各大地图，请速速击杀{openLink;141}</yunyou_boss_refresh_notice>
+		<!--神域boss榜-->
+		<guild_cross_boss_rank_notice1>今日神域击杀榜第一名为【{wordsColor;ffff37;%s}】仙盟；</guild_cross_boss_rank_notice1>
+		<guild_cross_boss_rank_notice2>今日神域击杀榜第一名为【{wordsColor;ffff37;%s}】仙盟；今日神域击杀榜第二名为【{wordsColor;ffff37;%s}】仙盟</guild_cross_boss_rank_notice2>
+		<guild_cross_boss_rank_notice3>今日神域击杀榜第一名为【{wordsColor;ffff37;%s}】仙盟；第二名为【{wordsColor;ffff37;%s}】仙盟；第三名为【{wordsColor;ffff37;%s}】仙盟</guild_cross_boss_rank_notice3>
+		<guild_cross_boss_rank_top>恭喜【{wordsColor;ffff37;%s}】盟主获得神级技能：隐身术，所有成员获得3个剑阵宝箱！</guild_cross_boss_rank_top>
+
+		<!-- 跨服钓鱼-->
+        <cross_fishing_get_treasure>{r;%d;%s;%d}运气逆天，钓到一个珍贵稀有的宝箱！</cross_fishing_get_treasure>
+        <cross_fishing_be_robbed>{r;%d;%s;%d}被强盗抢走了{cross_fish;%d}X%d，真让我替你感到心碎！</cross_fishing_be_robbed>
+        <cross_fishing_get_fish>凡鱼不敢朝仙人，英雄豪杰只钓宝！恭喜{r;%d;%s;%d}钓到了{cross_fish;%d}</cross_fishing_get_fish>
+        <cross_fishing_steal_fish>鱼满堪偷直须拿，莫待无鱼望空篓。恭喜{r;%d;%s;%d}偷到{r;%d;%s;%d}的{cross_fish;%d}！</cross_fishing_steal_fish>
+		<cross_fishing_end_notice>还有%d分钟活动就要结束了，记得去鱼篓兑换奖励哦！</cross_fishing_end_notice>
+		<cross_fishing_activity_notice_content>本次{activity;%d}即将结束,请尽快前往鱼篓兑换奖励!</cross_fishing_activity_notice_content>
+		<cross_frishing_rank_top1>跨服钓鱼活动已结束，本次跨服钓鱼第一名为{wordsColor;b7d3f9;%s},恭喜夺得荣耀！</cross_frishing_rank_top1>
+		<cross_frishing_rank_top2>跨服钓鱼活动已结束，本次跨服钓鱼第一名为{wordsColor;b7d3f9;%s},第二名为{wordsColor;b7d3f9;%s},恭喜他们夺得荣耀！</cross_frishing_rank_top2>
+		<cross_frishing_rank_top3>跨服钓鱼活动已结束，本次跨服钓鱼第一名为{wordsColor;b7d3f9;%s},第二名为{wordsColor;b7d3f9;%s},第三名为{wordsColor;b7d3f9;%s},恭喜他们夺得荣耀！</cross_frishing_rank_top3>
+		
+		
+
+		<!--聊天头像框-->
+		<avatar_rim_active_notice>{r;%d;%s;%d}成功激活{avatar;%d}，从此聊天界面更加萌萌哒！</avatar_rim_active_notice>
+
+		<!--跨服猎鲲地带-->
+		<cross_liekunfb_kill_jy_boss_0>鲲王大陆的怪物被{wordsColor;#F0F172;%d}服的仙盟{wordsColor;#F0F172;%s}所击杀，仙友们快来拿宝箱吧！{openLink;125}</cross_liekunfb_kill_jy_boss_0>
+		<cross_liekunfb_kill_jy_boss_1>西海的怪物被{wordsColor;#F0F172;%d}服的仙盟{wordsColor;#F0F172;%s}所击杀，仙友们快来拿宝箱吧！{openLink;125}</cross_liekunfb_kill_jy_boss_1>
+		<cross_liekunfb_kill_jy_boss_2>北海的怪物被{wordsColor;#F0F172;%d}服的仙盟{wordsColor;#F0F172;%s}所击杀，仙友们快来拿宝箱吧！{openLink;125}</cross_liekunfb_kill_jy_boss_2>
+		<cross_liekunfb_kill_jy_boss_3>南海的怪物被{wordsColor;#F0F172;%d}服的仙盟{wordsColor;#F0F172;%s}所击杀，仙友们快来拿宝箱吧！{openLink;125}</cross_liekunfb_kill_jy_boss_3>
+		<cross_liekunfb_kill_jy_boss_4>东海的怪物被{wordsColor;#F0F172;%d}服的仙盟{wordsColor;#F0F172;%s}所击杀，仙友们快来拿宝箱吧！{openLink;125}</cross_liekunfb_kill_jy_boss_4>
+		<cross_liekunfb_flush_minor_zone_boss>灵鲲之战的外围传送·灵鲲已刷新，击杀的仙盟可进入鲲王大陆{openLink;125}</cross_liekunfb_flush_minor_zone_boss>
+		<cross_liekunfb_kill_minor_zone_boss_0>{wordsColor;#F0F172;%d}服的仙盟{wordsColor;#F0F172;%s}在鲲王大陆击杀了{monster;%d}，获得进入下一层争夺称号{title;%d}的荣耀{openLink;125}</cross_liekunfb_kill_minor_zone_boss_0>
+		<cross_liekunfb_kill_minor_zone_boss_1>{wordsColor;#F0F172;%d}服的仙盟{wordsColor;#F0F172;%s}在西海击杀了{monster;%d}，获得进入下一层争夺称号{title;%d}的荣耀{openLink;125}</cross_liekunfb_kill_minor_zone_boss_1>
+		<cross_liekunfb_kill_minor_zone_boss_2>{wordsColor;#F0F172;%d}服的仙盟{wordsColor;#F0F172;%s}在北海击杀了{monster;%d}，获得进入下一层争夺称号{title;%d}的荣耀{openLink;125}</cross_liekunfb_kill_minor_zone_boss_2>
+		<cross_liekunfb_kill_minor_zone_boss_3>{wordsColor;#F0F172;%d}服的仙盟{wordsColor;#F0F172;%s}在南海击杀了{monster;%d}，获得进入下一层争夺称号{title;%d}的荣耀{openLink;125}</cross_liekunfb_kill_minor_zone_boss_3>
+		<cross_liekunfb_kill_minor_zone_boss_4>{wordsColor;#F0F172;%d}服的仙盟{wordsColor;#F0F172;%s}在东海击杀了{monster;%d}，获得进入下一层争夺称号{title;%d}的荣耀{openLink;125}</cross_liekunfb_kill_minor_zone_boss_4>
+		<cross_liekunfb_kill_main_zone_boss>恭喜{wordsColor;#F0F172;%d}服的仙盟{wordsColor;#F0F172;%s}击杀鲲王，拿到传说中的弑鲲宝藏！</cross_liekunfb_kill_main_zone_boss>
+
+		<!-- 夜战王城-->
+		<night_fight_kill_boss_notice>{night_fight_camp;%d}阵营在{r;%d;%s;%d}的带领下成功拿下{monster;%d}，获得海量积分!</night_fight_kill_boss_notice>
+		<night_fight_rank_top1>积分争夺活动已结束，本次积分争夺{wordsColor;f9463b;%s}获得荣耀称号，恭喜他们！</night_fight_rank_top1>
+		<night_fight_rank_top2>积分争夺活动已结束，本次积分争夺{wordsColor;f9463b;%s}，{wordsColor;f9463b;%s}获得荣耀称号，恭喜他们！</night_fight_rank_top2>
+		<night_fight_rank_top3>积分争夺活动已结束，本次积分争夺{wordsColor;f9463b;%s}, {wordsColor;f9463b;%s},{wordsColor;f9463b;%s}获得荣耀称号，恭喜他们！</night_fight_rank_top3>
+		
+		<!--活动称号-->
+		<guild_activity_title_notice>恭喜您的仙盟在{activity;%d}中取得胜利，获得{title;%d;f9463b}称号，已自动为您激活称号，享受独特战力加持！</guild_activity_title_notice>
+		<fight_activity_title_notice>恭喜您在{activity;%d}中取得第%d名，获得了{title;%d;f9463b}称号，已自动为您激活称号，享受独特战力加持！</fight_activity_title_notice>
+		<cross_guild_battle_title_notice>恭喜您的仙盟在连服夺城活动中占领{cross_gb_city;%d}，获得{title;%d;f9463b}称号，已自动为您激活称号，享受独特战力加持！</cross_guild_battle_title_notice>
+		<acitivity_title_reset_notice>您在上一次{activity;%d}中获得的{title;%d;f9463b}称号已消失，期待您在以后的活动中取得更好的战绩！</acitivity_title_reset_notice>
+		<cross_liekunfb_top_reward>恭喜您所在的仙盟在灵鲲之战中击杀鲲王，获得了鲲王之王称号，已自动为您激活称号，享受独特战力加持！</cross_liekunfb_top_reward>
+		
+		<xiuluo_tower_rank_title1>跨服无尽之塔活动已结束，本次跨服无尽之塔第一名为{wordsColor;b7d3f9;%s},恭喜夺得荣耀！</xiuluo_tower_rank_title1>
+		<xiuluo_tower_rank_title2>跨服无尽之塔活动已结束，本次跨服无尽之塔第一名为{wordsColor;b7d3f9;%s},第二名为{wordsColor;b7d3f9;%s},恭喜他们夺得荣耀！</xiuluo_tower_rank_title2>
+		<xiuluo_tower_rank_title3>跨服无尽之塔活动已结束，本次跨服无尽之塔第一名为{wordsColor;b7d3f9;%s},第二名为{wordsColor;b7d3f9;%s},第三名为{wordsColor;b7d3f9;%s},恭喜他们夺得荣耀！</xiuluo_tower_rank_title3>
+		
+		<!--战场播报-->
+		<guilder_die_notice>{r;%d;%s;%d}大喊是兄弟就来...，被{r;%d;%s;%d}砍杀</guilder_die_notice>
+		<role_die_count_notie>{r;%d;%s;%d}视死如归，已累计牺牲{wordsColor;00ff47;%d}次</role_die_count_notie>
+		<lian_zhan_notice>{r;%d;%s;%d}化身嗜血魔神，连续击杀{wordsColor;00ff47;%d}人！</lian_zhan_notice>
+		<lian_zhan_end_notice>刀光剑影间，{r;%d;%s;%d}被{r;%d;%s;%d}中断%d连杀</lian_zhan_end_notice>
+		<monster_on_attack_warning>{monster;%d}正在被攻击！请立即前往守卫！</monster_on_attack_warning>
+		<on_attack_warning_guild>仙盟的{monster;%d}正在被攻击！请立即前往守卫！</on_attack_warning_guild>
+		<monster_hp_warning>{monster;%d}血量剩余%d%%！</monster_hp_warning>
+		<monster_die_notice>帮派{wordsColor;00ff47;%s}浴血奋战，成功占领{monster;%d}！</monster_die_notice>
+		<rob_biao_che_notice>帮派{wordsColor;00ff47;%s}浴血奋战，成功抢夺%s的镖车</rob_biao_che_notice>
+		<biao_che_hp_notice>{wordsColor;00ff47;%s}镖车的血量低于%d%！立即前往守卫</biao_che_hp_notice>
+		<rank_top_notice1>第一{wordsColor;00ff47;%s}</rank_top_notice1>
+		<rank_top_notice2>第一{wordsColor;00ff47;%s}，第二{wordsColor;00ff47;%s}</rank_top_notice2>
+		<rank_top_notice3>第一{wordsColor;00ff47;%s}，第二{wordsColor;00ff47;%s}，第三{wordsColor;00ff47;%s}</rank_top_notice3>
+		<rank_top_first_notice>榜首易主，恭喜{wordsColor;00ff47;%s}登顶第一</rank_top_first_notice>
+		<cross_guild_battle_top1>{cross_gb_city;%d}第一{wordsColor;00ff47;%s}</cross_guild_battle_top1>
+		<cross_guild_battle_top2>{cross_gb_city;%d}第一{wordsColor;00ff47;%s}，第二{wordsColor;00ff47;%s}</cross_guild_battle_top2>
+		<cross_guild_battle_top3>{cross_gb_city;%d}第一{wordsColor;00ff47;%s}，第二{wordsColor;00ff47;%s}，第三{wordsColor;00ff47;%s}</cross_guild_battle_top3>
+		<cross_guild_battle_first>{cross_gb_city;%d}榜首易主，恭喜{wordsColor;00ff47;%s}登顶第一</cross_guild_battle_first>
+		<cross_guild_battle_occupied>{cross_gb_city;%d}的{monster;%d}已被占领！请再接再厉！</cross_guild_battle_occupied>
+		
+		<!--名将-->
+		<greate_soldier_active>神魂不灭，{r;%d;%s;%d}激活了神魔{wordsColor;00ff47;%s}，举世无双，所向披靡。</greate_soldier_active>
+
+		<!--随机活动-->
+		<rand_act_reward_notice>{r;%d;%s;%d}在{activity;%d}中刷到了珍稀物品{i;%d}，真是太幸运了!</rand_act_reward_notice>
+
+		<rand_act_perfect_lover_notice>恭喜{wordsColor;#ffff37;%s}和{wordsColor;#ffff37;%s}完成3档婚礼，成为本服第{wordsColor;#ffff37;%d}对完美情人，获得绝版称号{i;%d}!</rand_act_perfect_lover_notice>
+		<rand_act_cracybuy_reward>{r;%d;%s;%d}抓住机遇，购置了狂欢大乐购的{i;%d}，已跻身强者行列！{openLink;158}</rand_act_cracybuy_reward>
+		
+		<!--仇人-->
+		<add_enemy_be_kill_0>你TM给我等着！！</add_enemy_be_kill_0>
+		<add_enemy_kill_other_0>不服来战！</add_enemy_kill_other_0>
+		<add_enemy_be_kill_1>下次我绝对饶不了你！</add_enemy_be_kill_1>
+		<add_enemy_kill_other_1>呵呵！</add_enemy_kill_other_1>
+		<add_enemy_be_kill_2>已将你标记为仇人，腥风血雨即将来袭。</add_enemy_be_kill_2>
+		<add_enemy_kill_other_2>不服来战!</add_enemy_kill_other_2>
+		<add_enemy_be_kill_3>不就是装备厉害了点，有什么了不起！</add_enemy_be_kill_3>
+		<add_enemy_kill_other_3>一句话：不服来战！</add_enemy_kill_other_3>
+		<add_enemy_be_kill_4>下次别让我看见你！</add_enemy_be_kill_4>
+		<add_enemy_kill_other_4>少废话，要打就打！</add_enemy_kill_other_4>
+		<add_enemy_be_kill_5>你TM给我等着！！</add_enemy_be_kill_5>
+		<add_enemy_kill_other_5>不服来战！</add_enemy_kill_other_5>
+		<add_enemy_be_kill_6>下次我绝对饶不了你！</add_enemy_be_kill_6>
+		<add_enemy_kill_other_6>呵呵！</add_enemy_kill_other_6>
+		<add_enemy_be_kill_7>不就是装备厉害了点，有什么了不起！</add_enemy_be_kill_7>
+		<add_enemy_kill_other_7>一句话：不服来战！</add_enemy_kill_other_7>
+		<add_enemy_be_kill_8>下次别让我看见你！</add_enemy_be_kill_8>
+		<add_enemy_kill_other_8>少废话，要打就打！</add_enemy_kill_other_8>
+		<add_enemy_be_kill_9>已将你标记为仇人，腥风血雨即将来袭。</add_enemy_be_kill_9>
+		<add_enemy_kill_other_9>不服来战!</add_enemy_kill_other_9>
+		
+		<!--跨服边境之地-->
+		<cross_bjzd_reflush_notice>{wordsColor;00ff00;%d}{wordsColor;f08229;秒后刷新}{wordsColor;ffff00;，边境BOSS}</cross_bjzd_reflush_notice>
+		<cross_bjzd_already_reflush_notice>{monster;%d}{wordsColor;f08229;已刷新}</cross_bjzd_already_reflush_notice>
+		<cross_bjzd_kill_boss>{wordsColor;ffff00;%s仙盟}{wordsColor;b7d3f9;成功击杀}{monster;%d}{wordsColor;b7d3f9;，掉落}{gather;%d}</cross_bjzd_kill_boss>
+		<cross_bjzd_boss_come>{wordsColor;b7d3f9;一股强大的气息出现了！}{wordsColor;ffff00;，边境BOSS}{wordsColor;b7d3f9;携带珍宝出现在战场！}</cross_bjzd_boss_come>
+		
+		<!--通用SOS-->
+		<cross_guild_sos_sysmsg>{r;%d;%s;%d}受到袭击正在请求支援中，请前往{point;%s;%d;%d;%d;%d;%d}</cross_guild_sos_sysmsg>
+		
+		<!--跨服目标-->
+		<cross_goal_role_final>{r;%d;%s;%d}历经千辛万苦，完成所有个人跨服目标，获得绝世百战神装{i;%d}，已然无敌于世了！</cross_goal_role_final>
+		<cross_goal_guild_final>%s众志成城，完成所有仙盟跨服目标，他们的威名将刻印在辉煌的历史之！</cross_goal_guild_final>
+		<cross_goal_guild_one>在盟主 {wordsColor;00ff00;%s} 的带领下，本仙盟众志成城，完成了跨服目标，快去跨服目标界面领奖吧！</cross_goal_guild_one>
+
+		<!-- 跨服论剑 -->
+		<cross_challengefield_rankpos_first_changed>{showpos;3} {r;%d;%s;%d}在跨服论剑中击败了第%d名的{r;%d;%s;%d}，令人佩服！{openLink;151}</cross_challengefield_rankpos_first_changed>
+		<cross_challengefield_liansheng_notice>{r;%d;%s;%d}越战越勇，在跨服论剑中获得%d连胜！{openLink;151}</cross_challengefield_liansheng_notice>
+
+	</sysmsg>
+</gstr>

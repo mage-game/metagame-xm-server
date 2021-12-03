@@ -1,0 +1,119 @@
+{{define "H"}}#ifndef {{toupper .Class_Name}}_CONFIG_H
+#define {{toupper .Class_Name}}_CONFIG_H
+
+#include <map>
+
+class {{tolower .Class_Name}}
+{
+private:
+	{{tolower .Class_Name}}() {}
+public:
+	~{{tolower .Class_Name}}() {}
+
+	static {{tolower .Class_Name}}& Instance()
+	{
+		static {{tolower .Class_Name}} m_instance;
+		return m_instance;
+	}
+	bool Init(const std::string &path, std::string *err);
+	{{range .Sub_Configs}}{{if .Fields}}{{if .Key.Type}}
+public:
+	struct {{.En_name}}_struct {
+	{{.En_name}}_struct():
+	{{range .Fields}}{{if ne .Type "std::string"}}m_{{.Name}}(0),
+	{{end}}{{end}}{}
+	{{range .Fields}}
+	{{.Type}} m_{{.Name}};{{end}}
+	};
+	std::string Init{{.En_name}}Cfg(const PugiXmlNode& RootElement);
+	const {{.En_name}}_struct* Get{{.En_name}}Cfg({{.Key.Type}} key) const {
+		std::map<{{.Key.Type}}, {{.En_name}}_struct>::iterator it = m_{{.En_name}}_cfg.find(key);
+		if (it != m_{{.En_name}}_cfg.end() {
+			return &(it->second);
+		}
+		return NULL;
+	}
+private:
+	std::map<{{.Key.Type}}, {{.En_name}}_struct> m_{{.En_name}}_cfg;{{end}}{{end}}{{end}}
+};
+#endif
+{{end}}
+
+
+
+
+{{define "CPP"}}#include "{{tolower .Class_Name}}.h"
+#include "servercommon/configcommon.h"
+#include "servercommon/servercommon.h"
+
+bool {{tolower .Class_Name}}::Init(const std::string &path, std::string *err)
+{
+	PugiXmlDocument document;
+	pugi::xml_parse_result result = document.load_file((path).c_str());
+	if ((path) == "" || pugi::status_ok != result.status)
+	{
+		*err = std::string("Load ") + "{{.Class_Name}}" + " Error.";
+		*err += result.description();
+		return false;
+	}
+	
+	PugiXmlNode RootElement = document.document_element();
+	if (RootElement.empty())
+	{
+		*err = path + ": xml root node error.";
+		return false;
+	}
+	
+	{{range .Sub_Configs}}{{if .Fields}}{{if .Key.Type}}
+	
+	{
+		// {{.Zh_name}}
+		PugiXmlNode root_element = RootElement.child("{{.En_name}}");
+		if (root_element.empty())
+		{
+			*err = path + ": xml no {{.En_name}} node";
+			return false;
+		}
+
+		*err = Init{{.En_name}}Cfg(root_element);
+		if (*err != "")
+		{
+			return false;
+		}
+	}
+	{{end}}{{end}}{{end}}
+	return true;
+}
+
+{{$class_name := tolower .Class_Name}}
+{{range .Sub_Configs}}{{if .Fields}}{{if .Key.Type}}
+std::string {{$class_name}}::Init{{.En_name}}Cfg(const PugiXmlNode& RootElement)
+{
+	PugiXmlNode data_element = RootElement.child("data");
+	if (data_element.empty())
+	{
+		return "{{$class_name}}::Init{{.En_name}}Cfg RootElement.child(\"data\") is NULL";
+	}
+	m_{{.En_name}}_cfg.clear()
+	{{.En_name}}_struct config_data;
+	while(data_element)
+	{ {{range .Fields}}
+		{{if ne .Type "ItemConfigData"}}if(!PugiGetSubNodeValue(data_element, "{{.Name}}", config_data.m_{{.Name}})
+		{
+			return "{{$class_name}}::load [[{{.Name}}]] error!! ";
+		}{{else}}{
+			PugiXmlNode element = data_element.child("{{.Name}}");
+			if (element.empty() || !config_data.m_{{.Name}}.ReadConfig(element))
+			{
+				return "{{$class_name}}::load [[{{.Name}}]] error!! ";
+			}
+		}
+		{{end}}
+	{{end}}
+		m_{{.En_name}}_cfg.Insert(std::make_pair(config_data.{{.Key.Name}}, config_data));
+		data_element = data_element.next_sibling();
+	}
+	return ""
+}
+{{end}}{{end}}{{end}}
+{{end}}

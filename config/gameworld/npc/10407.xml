@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--上官策-->
+	<id>10407</id>
+	<default_dialog_id>10407</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

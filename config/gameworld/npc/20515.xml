@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--测宠物副本-20106-->
+	<id>20515</id>
+	<default_dialog_id>20515</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

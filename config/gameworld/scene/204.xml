@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>204</id>
+	<name>BOSS千妖深渊</name>
+	<mapid>204</mapid>
+	<levellimit>200</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>0</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>204</sceneid>
+		<scenex>93</scenex>
+		<sceney>88</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors>
+		<door>
+			<id>0</id>
+			<type>0</type>
+			<level>0</level>
+			<target_scene_id>251</target_scene_id>
+			<target_door_id>204</target_door_id>
+			<x>95</x>
+			<y>90</y>
+		</door>
+	</doors>
+	<gatherpoints />
+</scene>

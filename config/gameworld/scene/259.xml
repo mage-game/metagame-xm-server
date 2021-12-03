@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>259</id>
+	<name>Boss驻城三</name>
+	<mapid>259</mapid>
+	<levellimit>840</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>0</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>259</sceneid>
+		<scenex>95</scenex>
+		<sceney>80</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors>
+		<door>
+			<id>236</id>
+			<type>0</type>
+			<level>840</level>
+			<target_scene_id>236</target_scene_id>
+			<target_door_id>259</target_door_id>
+			<x>49</x>
+			<y>49</y>
+		</door>
+		<door>
+			<id>237</id>
+			<type>0</type>
+			<level>860</level>
+			<target_scene_id>237</target_scene_id>
+			<target_door_id>259</target_door_id>
+			<x>126</x>
+			<y>49</y>
+		</door>
+		<door>
+			<id>105</id>
+			<type>0</type>
+			<level>550</level>
+			<target_scene_id>105</target_scene_id>
+			<target_door_id>259</target_door_id>
+			<x>88</x>
+			<y>87</y>
+		</door>
+		<door>
+			<id>238</id>
+			<type>0</type>
+			<level>880</level>
+			<target_scene_id>238</target_scene_id>
+			<target_door_id>259</target_door_id>
+			<x>51</x>
+			<y>125</y>
+		</door>
+		<door>
+			<id>239</id>
+			<type>0</type>
+			<level>900</level>
+			<target_scene_id>239</target_scene_id>
+			<target_door_id>259</target_door_id>
+			<x>126</x>
+			<y>125</y>
+		</door>
+	</doors>
+	<gatherpoints />
+</scene>

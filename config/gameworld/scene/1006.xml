@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>1006</id>
+	<name>熔岩炼狱</name>
+	<mapid>1006</mapid>
+	<levellimit>0</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>1</is_forbid_pk>
+	<speciallogic_type>64</speciallogic_type>
+	<scene_timeout>300</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>1006</sceneid>
+		<scenex>19</scenex>
+		<sceney>338</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors />
+	<gatherpoints />
+</scene>

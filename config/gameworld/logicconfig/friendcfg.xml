@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <intimacy>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </intimacy>
+  <bless>
+    <data />
+  </bless>
+  <favorable_impression_other>
+    <data>
+      <max_favorable_impression>999998</max_favorable_impression>
+      <max_day_favorable_impression>200</max_day_favorable_impression>
+      <add_favorable_impression>1</add_favorable_impression>
+    </data>
+  </favorable_impression_other>
+  <favorable_impression_level>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </favorable_impression_level>
+</config>

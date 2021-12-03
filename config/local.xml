@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!-- 平台名 -->
+	<plat_name>37w</plat_name>
+	<!-- 配置类型 只要为0就为安卓配置 -->
+	<config_type>0</config_type>
+	
+	<!-- 专服类型 -->
+	<rand_act_zhuanfu_type>1</rand_act_zhuanfu_type>
+	
+	<!-- 是否检查服ID -->
+	<is_check_server_id>0</is_check_server_id>
+	
+	<!-- 允许的服ID列表 -->
+	<allow_server_id_list>
+		<server_id>2001</server_id>
+		<!-- <server_id>2002</server_id>
+		<server_id>2003</server_id>-->
+		
+	</allow_server_id_list>
+	
+	<!-- 是否开启跨服 -->
+	<open_cross>0</open_cross>
+	
+	<!-- 是否是隐藏服 -->
+	<is_hidden_server>0</is_hidden_server>
+</config>
+

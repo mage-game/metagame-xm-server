@@ -1,0 +1,175 @@
+﻿================================================ LOG ================================================ 
+2012-5-21 10:59:24 dzw : First Build 
+
+
+================================================ XML格式说明 ================================================ 
+
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+    <id>956</id>                                    <!-- NPC的id值，同XML文件名 -->
+    <default_dialog_id>39999</default_dialog_id>    <!-- 默认对话id -->
+    <functions>                                     <!-- NPC的功能列表，最多16个 -->
+        <function>                                  <!-- 一个function节点代表一个功能项 -->
+            <npc_type>0</npc_type>                  <!-- npc类型: 这里0表示商店 --> <!-- 0店 1副 2传 3驿 4仓 5随传 6塔 7退出副本 --> <!-- 除npc_type外，function节点有哪些其它子节点，由npc_type决定--> <!-- c++: enum FUNCTION_TYPE-->
+            <consume_type>0</consume_type>          <!-- 消费货币类型 0：铜币 1：声望 -->
+            <shopitem>                              <!-- 商店物品,不可超过32个 -->
+                <item>                              <!--   一个物品，每个物品包括以下4项 -->
+                    <item_id>11547</item_id>        <!--      物品类型id -->
+                    <price>2000</price>             <!--      价格 -->
+                    <is_limit>0</is_limit>          <!--      是否有数量限制 0:否 1:是 -->
+                    <max_num>3</max_num>            <!--      最大数量 -->
+                </item>
+                <item>                              <!--   一个物品，同上 -->
+                    <item_id>11514</item_id>
+                    <price>2000</price>
+                    <is_limit>0</is_limit>
+                    <max_num>1</max_num>
+                </item>
+            </shopitem>
+        </function>
+        <function>                                  <!-- 一个function节点代表一个功能项 -->
+            <npc_type>1</npc_type>                  <!-- npc类型，这里1表示副本 -->  <!-- c++: enum FUNCTION_TYPE -->
+            <fb_type>3</fb_type>                    <!-- 副本类型 0:个人 1:组队 2:宗派驻地 --> <!-- c++: enum FB_REQUIRE_CHECK_TYPE -->
+            <team_member_num>0</team_member_num>    <!-- 队伍成员数量(0则不限制，注意，如果配0的话，则也不会检查是否是组队状态) -->
+            <level>25</level>                       <!-- 等级限制，大于或等于此等级可进副本 -->
+            <fb_day_count>0</fb_day_count>          <!-- 每日限制次数,0则不限次数 -->
+            <fb_count_id>4</fb_count_id>            <!-- 副本计数id，用来做每日限制用，计算该id的副本刷了多少次(这个字段的意思是：对该标记会检查fb_day_count次，如果fb_day_count是配0的话，则这里也配置0) -->
+            <scene_id>601</scene_id>                <!-- 目标场景ID -->
+            <scene_x>44</scene_x>                   <!-- 目标场景位置x -->
+            <scene_y>102</scene_y>                  <!-- 目标场景位置y -->
+        </function>
+        <function>                                  <!-- 一个function节点代表一个功能项 -->
+            <npc_type>2</npc_type>                  <!-- NPC类型，这里2代表传送 ->
+            <level>0</level>                        <!-- 进入等级 -->
+            <to_last_scene>1</to_last_scene>        <!-- 是否返回上个场景(0:否 1:是)，否则使用下面的场景和坐标 -->
+            <scene_id>0</scene_id>                  <!-- 场景id -->
+            <scene_x>0</scene_x>                    <!-- x坐标 -->
+            <scene_y>0</scene_y>                    <!-- y坐标 -->
+            <red_name_forbid>0</red_name_forbid>    <!-- 红名是否禁止传送, 0:否 1:是 -->
+            <max_level>0</max_level>                <!-- 允许的最高等级， 小于或等于此等级可传送 -->
+        </function>
+        <function>                                  <!-- 一个function节点代表一个功能项 -->
+            <npc_type>3</npc_type>                  <!-- NPC类型，这里3表示驿站 -->
+            <post_id>100</post_id>                  <!-- 驿站id -->
+        </function>
+        <function>                                  <!-- 一个function节点代表一个功能项 -->
+            <npc_type>4</npc_type>                  <!-- NPC类型，这里4表示仓库-->
+        </function>
+        <function>                                  <!-- 一个function节点代表一个功能项 -->
+            <npc_type>5</npc_type>                  <!-- NPC类型，这里5代表随机传送 -->
+            <scene_range>                           <!-- 随机传送的场景,最多8个 -->
+                <scene>                             <!--   一个目标点，每个目标点包括3项 -->
+                    <scene_id></scene_id>           <!--     场景id -->
+                    <scene_x></scene_x>             <!--     x坐标 -->
+                    <scene_y></scene_y>             <!--     y坐标 -->
+                </scene>
+                <scene>
+                </scene>
+            </scene_range>
+        </function>
+        <function>                                  <!-- 一个function节点代表一个功能项 -->
+            <npc_type>6</npc_type>                  <!-- NPC类型，这里6代表爬塔玩法下一层传送 -->
+            <exit_sign>0</exit_sign>                <!-- 爬塔的最后一层退出标志,0默认不退出，1表示退出 -->
+            <scene_id>1022</scene_id>               <!-- 目标场景ID -->
+            <scene_x>18</scene_x>                   <!-- 目标场景位置x -->
+            <scene_y>41</scene_y>                   <!-- 目标场景位置y -->
+            <coin_bind>0</coin_bind>                <!-- 绑定铜 -->
+            <exp>0</exp>                            <!-- 经验 -->
+            <vitality>0</vitality>                  <!-- 元气 -->
+            <trans_limit>2</trans_limit>            <!-- 传送限制，目前无定义，直接填0  --> <!-- c++: enum FB_NEXT_TOWER_TRANS_LIMIT -->
+            <trans_condition>0</trans_condition>    <!-- 传送条件 0:剩余怪物数量 --><!-- c++: enum  FB_NEXT_TOWER_TRANS_CONDITION -->
+            <monster_num>0</monster_num>            <!-- 剩余怪物数量，用于传送条件为0时 -->            
+        </function>
+        <function>                                  <!-- 一个function节点代表一个功能项 -->
+            <npc_type>7</npc_type>                  <!-- NPC类型，这里7表示退出副本-->
+        </function>
+    </functions>
+    <tasks/>
+</npc>
+
+
+================================================ XML节点详细说明 ================================================ 
+
+npc:npc详情
+    id:npc的id值，同文件名
+    default_dialog_id:默认对话id
+        
+    functions:npc功能,最多8个
+        function:一个功能项
+            npc_type:npc类型
+                0:商店
+                1:进入副本
+                2:传送到特定场景
+                3:驿站
+                4:仓库
+                5:随机传送
+                6:爬塔玩法的下一层传送
+                
+            当npc_type = 0，商店:
+                consume_type:消费货币类型
+                    0:铜币
+                shopitem:商店物品,不可超过32个
+                    item:一个物品
+                        item_id:物品类型id
+                        price:价格
+                        is_limit:是否有数量限制
+                            0:否
+                            1:是
+                        max_num:最大数量
+                
+            当npc_type = 1，副本:
+                fb_type:副本类型 【0:个人副本(只传送个人) 1:组队fb(即整个队伍传送) 2:帮派驻地】
+                team_member_num:队伍成员数量(0则不限制，注意，如果配0的话，则也不会检查是否是组队状态)
+                level:等级限制(大于或等于此等级可进副本)
+                fb_day_count:每日限制次数,0则不限次数
+                fb_count_id:副本计数id，用来做每日限制用，计算该id的副本刷了多少次(这个字段的意思是：对该标记会检查fb_day_count次，如果fb_day_count是配0的话，则这里也配置0)
+                scene_id:目标场景ID
+                scene_x:目标场景位置x
+                scene_y:目标场景位置y
+                
+            当npc_type = 2，传送点:
+                level:进入等级
+                max_level:允许传送的最大等级限制
+                to_last_scene:是否返回上个场景，否则使用下面的场景和坐标
+                    0:否
+                    1:是
+                scene_id:场景id
+                scene_x:x坐标
+                scene_y:y坐标
+                red_name_forbid:红名是否禁止传送
+                    0:否
+                    1:是
+                
+            当npc_type = 3，驿站:
+                post_id:驿站id                
+            
+            当npc+type = 4, 仓库：
+                无附加参数
+            
+            当npc_type = 5, 随机传送:
+                scene_range:可随机的场景,最多8个
+                    scene:一个目标点，每个元素包括以下三项
+                        scene_id:场景id
+                        scene_x:x坐标
+                        scene_y:y坐标
+            
+            当npc_type = 6, 爬塔玩法的下一层传送:
+                exit_sign:爬塔的最后一层退出标志,0默认不退出，1表示退出
+                scene_id:目标场景ID
+                scene_x:目标场景位置x
+                scene_y:目标场景位置y
+                coin_bind：绑定铜
+                exp:经验
+                trans_limit: 传送限制，目前无定义，直接填0
+                trans_condition:传送条件
+                    0:剩余怪物数量                    
+                    
+                    trans_condition = 0
+                        monster_num:允许剩余怪物数目
+             
+             当npc_type = 7，退出副本
+             	无附加参数                   
+                   
+                    
+                    
+================================================ END. ================================================ 

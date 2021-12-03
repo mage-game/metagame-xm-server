@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--昆仑使者-->
+	<id>20201</id>
+	<default_dialog_id>20201</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

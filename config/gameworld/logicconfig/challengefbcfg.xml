@@ -1,0 +1,2684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <levelcfg>
+    <data>
+      <level>0</level>
+      <layer>0</layer>
+      <scene_id>1700</scene_id>
+      <boss_id>30800</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>10000</zhanli>
+    </data>
+    <data>
+      <level>0</level>
+      <layer>1</layer>
+      <scene_id>1701</scene_id>
+      <boss_id>30801</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>20000</zhanli>
+    </data>
+    <data>
+      <level>0</level>
+      <layer>2</layer>
+      <scene_id>1702</scene_id>
+      <boss_id>30802</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>30000</zhanli>
+    </data>
+    <data>
+      <level>0</level>
+      <layer>3</layer>
+      <scene_id>1703</scene_id>
+      <boss_id>30803</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>40000</zhanli>
+    </data>
+    <data>
+      <level>0</level>
+      <layer>4</layer>
+      <scene_id>1704</scene_id>
+      <boss_id>30804</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>50000</zhanli>
+    </data>
+    <data>
+      <level>0</level>
+      <layer>5</layer>
+      <scene_id>1705</scene_id>
+      <boss_id>30805</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>60000</zhanli>
+    </data>
+    <data>
+      <level>0</level>
+      <layer>6</layer>
+      <scene_id>1706</scene_id>
+      <boss_id>30806</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>70000</zhanli>
+    </data>
+    <data>
+      <level>0</level>
+      <layer>7</layer>
+      <scene_id>1707</scene_id>
+      <boss_id>30807</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>80000</zhanli>
+    </data>
+    <data>
+      <level>0</level>
+      <layer>8</layer>
+      <scene_id>1708</scene_id>
+      <boss_id>30808</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>90000</zhanli>
+    </data>
+    <data>
+      <level>0</level>
+      <layer>9</layer>
+      <scene_id>1709</scene_id>
+      <boss_id>30809</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>100000</zhanli>
+    </data>
+    <data>
+      <level>1</level>
+      <layer>0</layer>
+      <scene_id>1710</scene_id>
+      <boss_id>30810</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>130000</zhanli>
+    </data>
+    <data>
+      <level>1</level>
+      <layer>1</layer>
+      <scene_id>1711</scene_id>
+      <boss_id>30811</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>160000</zhanli>
+    </data>
+    <data>
+      <level>1</level>
+      <layer>2</layer>
+      <scene_id>1712</scene_id>
+      <boss_id>30812</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>190000</zhanli>
+    </data>
+    <data>
+      <level>1</level>
+      <layer>3</layer>
+      <scene_id>1713</scene_id>
+      <boss_id>30813</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>220000</zhanli>
+    </data>
+    <data>
+      <level>1</level>
+      <layer>4</layer>
+      <scene_id>1714</scene_id>
+      <boss_id>30814</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>250000</zhanli>
+    </data>
+    <data>
+      <level>1</level>
+      <layer>5</layer>
+      <scene_id>1715</scene_id>
+      <boss_id>30815</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>280000</zhanli>
+    </data>
+    <data>
+      <level>1</level>
+      <layer>6</layer>
+      <scene_id>1716</scene_id>
+      <boss_id>30816</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>310000</zhanli>
+    </data>
+    <data>
+      <level>1</level>
+      <layer>7</layer>
+      <scene_id>1717</scene_id>
+      <boss_id>30817</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>340000</zhanli>
+    </data>
+    <data>
+      <level>1</level>
+      <layer>8</layer>
+      <scene_id>1718</scene_id>
+      <boss_id>30818</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>370000</zhanli>
+    </data>
+    <data>
+      <level>1</level>
+      <layer>9</layer>
+      <scene_id>1719</scene_id>
+      <boss_id>30819</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>400000</zhanli>
+    </data>
+    <data>
+      <level>2</level>
+      <layer>0</layer>
+      <scene_id>1720</scene_id>
+      <boss_id>30820</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>460000</zhanli>
+    </data>
+    <data>
+      <level>2</level>
+      <layer>1</layer>
+      <scene_id>1721</scene_id>
+      <boss_id>30821</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>520000</zhanli>
+    </data>
+    <data>
+      <level>2</level>
+      <layer>2</layer>
+      <scene_id>1722</scene_id>
+      <boss_id>30822</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>580000</zhanli>
+    </data>
+    <data>
+      <level>2</level>
+      <layer>3</layer>
+      <scene_id>1723</scene_id>
+      <boss_id>30823</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>640000</zhanli>
+    </data>
+    <data>
+      <level>2</level>
+      <layer>4</layer>
+      <scene_id>1724</scene_id>
+      <boss_id>30824</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>700000</zhanli>
+    </data>
+    <data>
+      <level>2</level>
+      <layer>5</layer>
+      <scene_id>1725</scene_id>
+      <boss_id>30825</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>760000</zhanli>
+    </data>
+    <data>
+      <level>2</level>
+      <layer>6</layer>
+      <scene_id>1726</scene_id>
+      <boss_id>30826</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>820000</zhanli>
+    </data>
+    <data>
+      <level>2</level>
+      <layer>7</layer>
+      <scene_id>1727</scene_id>
+      <boss_id>30827</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>880000</zhanli>
+    </data>
+    <data>
+      <level>2</level>
+      <layer>8</layer>
+      <scene_id>1728</scene_id>
+      <boss_id>30828</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>940000</zhanli>
+    </data>
+    <data>
+      <level>2</level>
+      <layer>9</layer>
+      <scene_id>1729</scene_id>
+      <boss_id>30829</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>1000000</zhanli>
+    </data>
+    <data>
+      <level>3</level>
+      <layer>0</layer>
+      <scene_id>1730</scene_id>
+      <boss_id>30830</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>1150000</zhanli>
+    </data>
+    <data>
+      <level>3</level>
+      <layer>1</layer>
+      <scene_id>1731</scene_id>
+      <boss_id>30831</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>1300000</zhanli>
+    </data>
+    <data>
+      <level>3</level>
+      <layer>2</layer>
+      <scene_id>1732</scene_id>
+      <boss_id>30832</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>1450000</zhanli>
+    </data>
+    <data>
+      <level>3</level>
+      <layer>3</layer>
+      <scene_id>1733</scene_id>
+      <boss_id>30833</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>1600000</zhanli>
+    </data>
+    <data>
+      <level>3</level>
+      <layer>4</layer>
+      <scene_id>1734</scene_id>
+      <boss_id>30834</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>1750000</zhanli>
+    </data>
+    <data>
+      <level>3</level>
+      <layer>5</layer>
+      <scene_id>1735</scene_id>
+      <boss_id>30835</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>1900000</zhanli>
+    </data>
+    <data>
+      <level>3</level>
+      <layer>6</layer>
+      <scene_id>1736</scene_id>
+      <boss_id>30836</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>2050000</zhanli>
+    </data>
+    <data>
+      <level>3</level>
+      <layer>7</layer>
+      <scene_id>1737</scene_id>
+      <boss_id>30837</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>2200000</zhanli>
+    </data>
+    <data>
+      <level>3</level>
+      <layer>8</layer>
+      <scene_id>1738</scene_id>
+      <boss_id>30838</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>2350000</zhanli>
+    </data>
+    <data>
+      <level>3</level>
+      <layer>9</layer>
+      <scene_id>1739</scene_id>
+      <boss_id>30839</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>2500000</zhanli>
+    </data>
+    <data>
+      <level>4</level>
+      <layer>0</layer>
+      <scene_id>1740</scene_id>
+      <boss_id>30840</boss_id>
+      <boss_x>35</boss_x>
+      <boss_y>38</boss_y>
+      <zhanli>2750000</zhanli>
+    </data>
+    <data>
+      <level>4</level>
+      <layer>1</layer>
+      <scene_id>1741</scene_id>
+      <boss_id>30841</boss_id>
+      <boss_x>35</boss_x>
+      <boss_y>38</boss_y>
+      <zhanli>3000000</zhanli>
+    </data>
+    <data>
+      <level>4</level>
+      <layer>2</layer>
+      <scene_id>1742</scene_id>
+      <boss_id>30842</boss_id>
+      <boss_x>35</boss_x>
+      <boss_y>38</boss_y>
+      <zhanli>3250000</zhanli>
+    </data>
+    <data>
+      <level>4</level>
+      <layer>3</layer>
+      <scene_id>1743</scene_id>
+      <boss_id>30843</boss_id>
+      <boss_x>35</boss_x>
+      <boss_y>38</boss_y>
+      <zhanli>3500000</zhanli>
+    </data>
+    <data>
+      <level>4</level>
+      <layer>4</layer>
+      <scene_id>1744</scene_id>
+      <boss_id>30844</boss_id>
+      <boss_x>35</boss_x>
+      <boss_y>38</boss_y>
+      <zhanli>3750000</zhanli>
+    </data>
+    <data>
+      <level>4</level>
+      <layer>5</layer>
+      <scene_id>1745</scene_id>
+      <boss_id>30845</boss_id>
+      <boss_x>35</boss_x>
+      <boss_y>38</boss_y>
+      <zhanli>4000000</zhanli>
+    </data>
+    <data>
+      <level>4</level>
+      <layer>6</layer>
+      <scene_id>1746</scene_id>
+      <boss_id>30846</boss_id>
+      <boss_x>35</boss_x>
+      <boss_y>38</boss_y>
+      <zhanli>4250000</zhanli>
+    </data>
+    <data>
+      <level>4</level>
+      <layer>7</layer>
+      <scene_id>1747</scene_id>
+      <boss_id>30847</boss_id>
+      <boss_x>35</boss_x>
+      <boss_y>38</boss_y>
+      <zhanli>4500000</zhanli>
+    </data>
+    <data>
+      <level>4</level>
+      <layer>8</layer>
+      <scene_id>1748</scene_id>
+      <boss_id>30848</boss_id>
+      <boss_x>35</boss_x>
+      <boss_y>38</boss_y>
+      <zhanli>4750000</zhanli>
+    </data>
+    <data>
+      <level>4</level>
+      <layer>9</layer>
+      <scene_id>1749</scene_id>
+      <boss_id>30849</boss_id>
+      <boss_x>35</boss_x>
+      <boss_y>38</boss_y>
+      <zhanli>5000000</zhanli>
+    </data>
+    <data>
+      <level>5</level>
+      <layer>0</layer>
+      <scene_id>1750</scene_id>
+      <boss_id>30850</boss_id>
+      <boss_x>31</boss_x>
+      <boss_y>32</boss_y>
+      <zhanli>5300000</zhanli>
+    </data>
+    <data>
+      <level>5</level>
+      <layer>1</layer>
+      <scene_id>1751</scene_id>
+      <boss_id>30851</boss_id>
+      <boss_x>31</boss_x>
+      <boss_y>32</boss_y>
+      <zhanli>5600000</zhanli>
+    </data>
+    <data>
+      <level>5</level>
+      <layer>2</layer>
+      <scene_id>1752</scene_id>
+      <boss_id>30852</boss_id>
+      <boss_x>31</boss_x>
+      <boss_y>32</boss_y>
+      <zhanli>5900000</zhanli>
+    </data>
+    <data>
+      <level>5</level>
+      <layer>3</layer>
+      <scene_id>1753</scene_id>
+      <boss_id>30853</boss_id>
+      <boss_x>31</boss_x>
+      <boss_y>32</boss_y>
+      <zhanli>6200000</zhanli>
+    </data>
+    <data>
+      <level>5</level>
+      <layer>4</layer>
+      <scene_id>1754</scene_id>
+      <boss_id>30854</boss_id>
+      <boss_x>31</boss_x>
+      <boss_y>32</boss_y>
+      <zhanli>6500000</zhanli>
+    </data>
+    <data>
+      <level>5</level>
+      <layer>5</layer>
+      <scene_id>1755</scene_id>
+      <boss_id>30855</boss_id>
+      <boss_x>31</boss_x>
+      <boss_y>32</boss_y>
+      <zhanli>6800000</zhanli>
+    </data>
+    <data>
+      <level>5</level>
+      <layer>6</layer>
+      <scene_id>1756</scene_id>
+      <boss_id>30856</boss_id>
+      <boss_x>31</boss_x>
+      <boss_y>32</boss_y>
+      <zhanli>7100000</zhanli>
+    </data>
+    <data>
+      <level>5</level>
+      <layer>7</layer>
+      <scene_id>1757</scene_id>
+      <boss_id>30857</boss_id>
+      <boss_x>31</boss_x>
+      <boss_y>32</boss_y>
+      <zhanli>7400000</zhanli>
+    </data>
+    <data>
+      <level>5</level>
+      <layer>8</layer>
+      <scene_id>1758</scene_id>
+      <boss_id>30858</boss_id>
+      <boss_x>31</boss_x>
+      <boss_y>32</boss_y>
+      <zhanli>7700000</zhanli>
+    </data>
+    <data>
+      <level>5</level>
+      <layer>9</layer>
+      <scene_id>1759</scene_id>
+      <boss_id>30859</boss_id>
+      <boss_x>31</boss_x>
+      <boss_y>32</boss_y>
+      <zhanli>8000000</zhanli>
+    </data>
+    <data>
+      <level>6</level>
+      <layer>0</layer>
+      <scene_id>1760</scene_id>
+      <boss_id>30860</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>8400000</zhanli>
+    </data>
+    <data>
+      <level>6</level>
+      <layer>1</layer>
+      <scene_id>1761</scene_id>
+      <boss_id>30861</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>8800000</zhanli>
+    </data>
+    <data>
+      <level>6</level>
+      <layer>2</layer>
+      <scene_id>1762</scene_id>
+      <boss_id>30862</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>9200000</zhanli>
+    </data>
+    <data>
+      <level>6</level>
+      <layer>3</layer>
+      <scene_id>1763</scene_id>
+      <boss_id>30863</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>9600000</zhanli>
+    </data>
+    <data>
+      <level>6</level>
+      <layer>4</layer>
+      <scene_id>1764</scene_id>
+      <boss_id>30864</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>10000000</zhanli>
+    </data>
+    <data>
+      <level>6</level>
+      <layer>5</layer>
+      <scene_id>1765</scene_id>
+      <boss_id>30865</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>10400000</zhanli>
+    </data>
+    <data>
+      <level>6</level>
+      <layer>6</layer>
+      <scene_id>1766</scene_id>
+      <boss_id>30866</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>10800000</zhanli>
+    </data>
+    <data>
+      <level>6</level>
+      <layer>7</layer>
+      <scene_id>1767</scene_id>
+      <boss_id>30867</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>11200000</zhanli>
+    </data>
+    <data>
+      <level>6</level>
+      <layer>8</layer>
+      <scene_id>1768</scene_id>
+      <boss_id>30868</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>11600000</zhanli>
+    </data>
+    <data>
+      <level>6</level>
+      <layer>9</layer>
+      <scene_id>1769</scene_id>
+      <boss_id>30869</boss_id>
+      <boss_x>24</boss_x>
+      <boss_y>36</boss_y>
+      <zhanli>12000000</zhanli>
+    </data>
+    <data>
+      <level>7</level>
+      <layer>0</layer>
+      <scene_id>1770</scene_id>
+      <boss_id>30870</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>12600000</zhanli>
+    </data>
+    <data>
+      <level>7</level>
+      <layer>1</layer>
+      <scene_id>1771</scene_id>
+      <boss_id>30871</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>13200000</zhanli>
+    </data>
+    <data>
+      <level>7</level>
+      <layer>2</layer>
+      <scene_id>1772</scene_id>
+      <boss_id>30872</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>13800000</zhanli>
+    </data>
+    <data>
+      <level>7</level>
+      <layer>3</layer>
+      <scene_id>1773</scene_id>
+      <boss_id>30873</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>14400000</zhanli>
+    </data>
+    <data>
+      <level>7</level>
+      <layer>4</layer>
+      <scene_id>1774</scene_id>
+      <boss_id>30874</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>15000000</zhanli>
+    </data>
+    <data>
+      <level>7</level>
+      <layer>5</layer>
+      <scene_id>1775</scene_id>
+      <boss_id>30875</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>15600000</zhanli>
+    </data>
+    <data>
+      <level>7</level>
+      <layer>6</layer>
+      <scene_id>1776</scene_id>
+      <boss_id>30876</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>16200000</zhanli>
+    </data>
+    <data>
+      <level>7</level>
+      <layer>7</layer>
+      <scene_id>1777</scene_id>
+      <boss_id>30877</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>16800000</zhanli>
+    </data>
+    <data>
+      <level>7</level>
+      <layer>8</layer>
+      <scene_id>1778</scene_id>
+      <boss_id>30878</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>17400000</zhanli>
+    </data>
+    <data>
+      <level>7</level>
+      <layer>9</layer>
+      <scene_id>1779</scene_id>
+      <boss_id>30879</boss_id>
+      <boss_x>27</boss_x>
+      <boss_y>24</boss_y>
+      <zhanli>18000000</zhanli>
+    </data>
+    <data>
+      <level>8</level>
+      <layer>0</layer>
+      <scene_id>1780</scene_id>
+      <boss_id>30880</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>18450000</zhanli>
+    </data>
+    <data>
+      <level>8</level>
+      <layer>1</layer>
+      <scene_id>1781</scene_id>
+      <boss_id>30881</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>18900000</zhanli>
+    </data>
+    <data>
+      <level>8</level>
+      <layer>2</layer>
+      <scene_id>1782</scene_id>
+      <boss_id>30882</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>19350000</zhanli>
+    </data>
+    <data>
+      <level>8</level>
+      <layer>3</layer>
+      <scene_id>1783</scene_id>
+      <boss_id>30883</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>19800000</zhanli>
+    </data>
+    <data>
+      <level>8</level>
+      <layer>4</layer>
+      <scene_id>1784</scene_id>
+      <boss_id>30884</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>20250000</zhanli>
+    </data>
+    <data>
+      <level>8</level>
+      <layer>5</layer>
+      <scene_id>1785</scene_id>
+      <boss_id>30885</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>20700000</zhanli>
+    </data>
+    <data>
+      <level>8</level>
+      <layer>6</layer>
+      <scene_id>1786</scene_id>
+      <boss_id>30886</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>21150000</zhanli>
+    </data>
+    <data>
+      <level>8</level>
+      <layer>7</layer>
+      <scene_id>1787</scene_id>
+      <boss_id>30887</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>21600000</zhanli>
+    </data>
+    <data>
+      <level>8</level>
+      <layer>8</layer>
+      <scene_id>1788</scene_id>
+      <boss_id>30888</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>22050000</zhanli>
+    </data>
+    <data>
+      <level>8</level>
+      <layer>9</layer>
+      <scene_id>1789</scene_id>
+      <boss_id>30889</boss_id>
+      <boss_x>33</boss_x>
+      <boss_y>35</boss_y>
+      <zhanli>22500000</zhanli>
+    </data>
+    <data>
+      <level>9</level>
+      <layer>0</layer>
+      <scene_id>1790</scene_id>
+      <boss_id>30890</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>23250000</zhanli>
+    </data>
+    <data>
+      <level>9</level>
+      <layer>1</layer>
+      <scene_id>1791</scene_id>
+      <boss_id>30891</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>24000000</zhanli>
+    </data>
+    <data>
+      <level>9</level>
+      <layer>2</layer>
+      <scene_id>1792</scene_id>
+      <boss_id>30892</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>24750000</zhanli>
+    </data>
+    <data>
+      <level>9</level>
+      <layer>3</layer>
+      <scene_id>1793</scene_id>
+      <boss_id>30893</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>25500000</zhanli>
+    </data>
+    <data>
+      <level>9</level>
+      <layer>4</layer>
+      <scene_id>1794</scene_id>
+      <boss_id>30894</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>26250000</zhanli>
+    </data>
+    <data>
+      <level>9</level>
+      <layer>5</layer>
+      <scene_id>1795</scene_id>
+      <boss_id>30895</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>27000000</zhanli>
+    </data>
+    <data>
+      <level>9</level>
+      <layer>6</layer>
+      <scene_id>1796</scene_id>
+      <boss_id>30896</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>27750000</zhanli>
+    </data>
+    <data>
+      <level>9</level>
+      <layer>7</layer>
+      <scene_id>1797</scene_id>
+      <boss_id>30897</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>28500000</zhanli>
+    </data>
+    <data>
+      <level>9</level>
+      <layer>8</layer>
+      <scene_id>1798</scene_id>
+      <boss_id>30898</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>29250000</zhanli>
+    </data>
+    <data>
+      <level>9</level>
+      <layer>9</layer>
+      <scene_id>1799</scene_id>
+      <boss_id>30899</boss_id>
+      <boss_x>28</boss_x>
+      <boss_y>22</boss_y>
+      <zhanli>30000000</zhanli>
+    </data>
+  </levelcfg>
+  <chaptercfg>
+    <data>
+      <level>0</level>
+      <pos_x>16</pos_x>
+      <pos_y>59</pos_y>
+      <role_level>138</role_level>
+      <star_min_time_3>0</star_min_time_3>
+      <star_max_time_3>300</star_max_time_3>
+      <star_reward_item_3_list>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+      </star_reward_item_3_list>
+      <star_min_time_2>301</star_min_time_2>
+      <star_max_time_2>450</star_max_time_2>
+      <star_reward_item_2_list>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+      </star_reward_item_2_list>
+      <star_min_time_1>451</star_min_time_1>
+      <star_max_time_1>600</star_max_time_1>
+      <star_reward_item_1_list>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+      </star_reward_item_1_list>
+      <find_reward_list>
+        <find_reward>
+          <item_id>27690</item_id>
+          <num>10</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+      </find_reward_list>
+    </data>
+    <data>
+      <level>1</level>
+      <pos_x>28</pos_x>
+      <pos_y>3</pos_y>
+      <role_level>138</role_level>
+      <star_min_time_3>0</star_min_time_3>
+      <star_max_time_3>300</star_max_time_3>
+      <star_reward_item_3_list>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>3</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>3</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>3</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+      </star_reward_item_3_list>
+      <star_min_time_2>301</star_min_time_2>
+      <star_max_time_2>450</star_max_time_2>
+      <star_reward_item_2_list>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+      </star_reward_item_2_list>
+      <star_min_time_1>451</star_min_time_1>
+      <star_max_time_1>600</star_max_time_1>
+      <star_reward_item_1_list>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+      </star_reward_item_1_list>
+      <find_reward_list>
+        <find_reward>
+          <item_id>27690</item_id>
+          <num>40</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+      </find_reward_list>
+    </data>
+    <data>
+      <level>2</level>
+      <pos_x>20</pos_x>
+      <pos_y>19</pos_y>
+      <role_level>138</role_level>
+      <star_min_time_3>0</star_min_time_3>
+      <star_max_time_3>300</star_max_time_3>
+      <star_reward_item_3_list>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>5</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>5</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>5</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+      </star_reward_item_3_list>
+      <star_min_time_2>301</star_min_time_2>
+      <star_max_time_2>450</star_max_time_2>
+      <star_reward_item_2_list>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+      </star_reward_item_2_list>
+      <star_min_time_1>451</star_min_time_1>
+      <star_max_time_1>600</star_max_time_1>
+      <star_reward_item_1_list>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+      </star_reward_item_1_list>
+      <find_reward_list>
+        <find_reward>
+          <item_id>27690</item_id>
+          <num>60</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+        <find_reward>
+          <item_id>27691</item_id>
+          <num>14</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+      </find_reward_list>
+    </data>
+    <data>
+      <level>3</level>
+      <pos_x>39</pos_x>
+      <pos_y>12</pos_y>
+      <role_level>138</role_level>
+      <star_min_time_3>0</star_min_time_3>
+      <star_max_time_3>300</star_max_time_3>
+      <star_reward_item_3_list>
+        <star_reward_item_3>
+          <item_id>26095</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>5</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>5</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+      </star_reward_item_3_list>
+      <star_min_time_2>301</star_min_time_2>
+      <star_max_time_2>450</star_max_time_2>
+      <star_reward_item_2_list>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+      </star_reward_item_2_list>
+      <star_min_time_1>451</star_min_time_1>
+      <star_max_time_1>600</star_max_time_1>
+      <star_reward_item_1_list>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+      </star_reward_item_1_list>
+      <find_reward_list>
+        <find_reward>
+          <item_id>27691</item_id>
+          <num>40</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+        <find_reward>
+          <item_id>27692</item_id>
+          <num>14</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+      </find_reward_list>
+    </data>
+    <data>
+      <level>4</level>
+      <pos_x>34</pos_x>
+      <pos_y>38</pos_y>
+      <role_level>138</role_level>
+      <star_min_time_3>0</star_min_time_3>
+      <star_max_time_3>300</star_max_time_3>
+      <star_reward_item_3_list>
+        <star_reward_item_3>
+          <item_id>26095</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>10</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>10</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+      </star_reward_item_3_list>
+      <star_min_time_2>301</star_min_time_2>
+      <star_max_time_2>450</star_max_time_2>
+      <star_reward_item_2_list>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+      </star_reward_item_2_list>
+      <star_min_time_1>451</star_min_time_1>
+      <star_max_time_1>600</star_max_time_1>
+      <star_reward_item_1_list>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+      </star_reward_item_1_list>
+      <find_reward_list>
+        <find_reward>
+          <item_id>27692</item_id>
+          <num>40</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+        <find_reward>
+          <item_id>27693</item_id>
+          <num>7</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+      </find_reward_list>
+    </data>
+    <data>
+      <level>5</level>
+      <pos_x>12</pos_x>
+      <pos_y>14</pos_y>
+      <role_level>138</role_level>
+      <star_min_time_3>0</star_min_time_3>
+      <star_max_time_3>300</star_max_time_3>
+      <star_reward_item_3_list>
+        <star_reward_item_3>
+          <item_id>26095</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>10</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>10</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+      </star_reward_item_3_list>
+      <star_min_time_2>301</star_min_time_2>
+      <star_max_time_2>450</star_max_time_2>
+      <star_reward_item_2_list>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+      </star_reward_item_2_list>
+      <star_min_time_1>451</star_min_time_1>
+      <star_max_time_1>600</star_max_time_1>
+      <star_reward_item_1_list>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+      </star_reward_item_1_list>
+      <find_reward_list>
+        <find_reward>
+          <item_id>27693</item_id>
+          <num>40</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+        <find_reward>
+          <item_id>27694</item_id>
+          <num>7</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+      </find_reward_list>
+    </data>
+    <data>
+      <level>6</level>
+      <pos_x>16</pos_x>
+      <pos_y>59</pos_y>
+      <role_level>138</role_level>
+      <star_min_time_3>0</star_min_time_3>
+      <star_max_time_3>300</star_max_time_3>
+      <star_reward_item_3_list>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+      </star_reward_item_3_list>
+      <star_min_time_2>301</star_min_time_2>
+      <star_max_time_2>450</star_max_time_2>
+      <star_reward_item_2_list>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+      </star_reward_item_2_list>
+      <star_min_time_1>451</star_min_time_1>
+      <star_max_time_1>600</star_max_time_1>
+      <star_reward_item_1_list>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+      </star_reward_item_1_list>
+      <find_reward_list>
+        <find_reward>
+          <item_id>27694</item_id>
+          <num>20</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+        <find_reward>
+          <item_id>27695</item_id>
+          <num>5</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+      </find_reward_list>
+    </data>
+    <data>
+      <level>7</level>
+      <pos_x>28</pos_x>
+      <pos_y>3</pos_y>
+      <role_level>138</role_level>
+      <star_min_time_3>0</star_min_time_3>
+      <star_max_time_3>300</star_max_time_3>
+      <star_reward_item_3_list>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>3</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>3</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>3</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+      </star_reward_item_3_list>
+      <star_min_time_2>301</star_min_time_2>
+      <star_max_time_2>450</star_max_time_2>
+      <star_reward_item_2_list>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+      </star_reward_item_2_list>
+      <star_min_time_1>451</star_min_time_1>
+      <star_max_time_1>600</star_max_time_1>
+      <star_reward_item_1_list>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+      </star_reward_item_1_list>
+      <find_reward_list>
+        <find_reward>
+          <item_id>27695</item_id>
+          <num>20</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+        <find_reward>
+          <item_id>27722</item_id>
+          <num>4</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+      </find_reward_list>
+    </data>
+    <data>
+      <level>8</level>
+      <pos_x>20</pos_x>
+      <pos_y>19</pos_y>
+      <role_level>138</role_level>
+      <star_min_time_3>0</star_min_time_3>
+      <star_max_time_3>300</star_max_time_3>
+      <star_reward_item_3_list>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>5</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>5</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>5</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+      </star_reward_item_3_list>
+      <star_min_time_2>301</star_min_time_2>
+      <star_max_time_2>450</star_max_time_2>
+      <star_reward_item_2_list>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+      </star_reward_item_2_list>
+      <star_min_time_1>451</star_min_time_1>
+      <star_max_time_1>600</star_max_time_1>
+      <star_reward_item_1_list>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+      </star_reward_item_1_list>
+      <find_reward_list>
+        <find_reward>
+          <item_id>27722</item_id>
+          <num>20</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+        <find_reward>
+          <item_id>27723</item_id>
+          <num>4</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+      </find_reward_list>
+    </data>
+    <data>
+      <level>9</level>
+      <pos_x>39</pos_x>
+      <pos_y>12</pos_y>
+      <role_level>138</role_level>
+      <star_min_time_3>0</star_min_time_3>
+      <star_max_time_3>300</star_max_time_3>
+      <star_reward_item_3_list>
+        <star_reward_item_3>
+          <item_id>26095</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>5</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+        <star_reward_item_3>
+          <item_id>26094</item_id>
+          <num>5</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_3>
+      </star_reward_item_3_list>
+      <star_min_time_2>301</star_min_time_2>
+      <star_max_time_2>450</star_max_time_2>
+      <star_reward_item_2_list>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>2</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+        <star_reward_item_2>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_2>
+      </star_reward_item_2_list>
+      <star_min_time_1>451</star_min_time_1>
+      <star_max_time_1>600</star_max_time_1>
+      <star_reward_item_1_list>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+        <star_reward_item_1>
+          <item_id>26099</item_id>
+          <num>1</num>
+          <is_bind>1</is_bind>
+        </star_reward_item_1>
+      </star_reward_item_1_list>
+      <find_reward_list>
+        <find_reward>
+          <item_id>27723</item_id>
+          <num>20</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+        <find_reward>
+          <item_id>27724</item_id>
+          <num>4</num>
+          <is_bind>1</is_bind>
+        </find_reward>
+      </find_reward_list>
+    </data>
+  </chaptercfg>
+  <other>
+    <data>
+      <auto_need_star>3</auto_need_star>
+      <day_free_times>2</day_free_times>
+      <buy_max_times>2</buy_max_times>
+      <max_layer>10</max_layer>
+      <add_role_gongji_per>5000</add_role_gongji_per>
+    </data>
+  </other>
+  <buy_cost>
+    <data>
+      <buy_times>5</buy_times>
+      <gold_cost>200</gold_cost>
+    </data>
+    <data>
+      <buy_times>4</buy_times>
+      <gold_cost>200</gold_cost>
+    </data>
+    <data>
+      <buy_times>3</buy_times>
+      <gold_cost>200</gold_cost>
+    </data>
+    <data>
+      <buy_times>2</buy_times>
+      <gold_cost>200</gold_cost>
+    </data>
+    <data>
+      <buy_times>1</buy_times>
+      <gold_cost>200</gold_cost>
+    </data>
+    <data>
+      <buy_times>0</buy_times>
+      <gold_cost>200</gold_cost>
+    </data>
+  </buy_cost>
+  <strongreminder>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </strongreminder>
+</config>

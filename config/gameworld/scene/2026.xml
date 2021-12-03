@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <id>2026</id>
+  <name>须臾幻境</name>
+  <mapid>2026</mapid>
+  <istax>0</istax>
+  <is_forbid_pk>0</is_forbid_pk>
+  <speciallogic_type>0</speciallogic_type>
+  <scene_timeout>180</scene_timeout>
+  <is_timeout_kick>1</is_timeout_kick>
+  <npcs/>
+  <doors/>
+  <triggerareas/>
+  <triggers/>
+  <townpoint>
+    <sceneid>2026</sceneid>
+    <scenex>32</scenex>
+    <sceney>47</sceney>
+  </townpoint>
+  <monsterpoints/>
+  <gatherpoints/>
+</scene>

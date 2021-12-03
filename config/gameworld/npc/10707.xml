@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--方青书-->
+	<id>10707</id>
+	<default_dialog_id>10707</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

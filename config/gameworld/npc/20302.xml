@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--蓬莱护法-->
+	<id>20302</id>
+	<default_dialog_id>20302</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

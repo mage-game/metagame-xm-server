@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!-- 活动时间 -->
+	<activity_time_cfg>
+		<is_open>1</is_open>
+
+		<open_day_list>
+			<open_day>1</open_day>
+			<open_day>2</open_day>
+			<open_day>3</open_day>
+			<open_day>4</open_day>
+			<open_day>5</open_day>
+			<open_day>6</open_day>
+			<open_day>7</open_day>
+		</open_day_list>
+
+		<day_open_time_list>
+			<open_timestamp>
+				<hour>11</hour>
+				<minute>58</minute>
+				<second>0</second>
+			</open_timestamp>
+			<open_timestamp>
+				<hour>17</hour>
+				<minute>58</minute>
+				<second>0</second>
+			</open_timestamp>
+		</day_open_time_list>
+
+		<time_interval>
+			<standby_dur_s>120</standby_dur_s>
+			<open_dur_s>1200</open_dur_s>
+		</time_interval>
+
+	</activity_time_cfg>
+
+	<other>
+		<enter_pos_x>242</enter_pos_x>
+		<enter_pos_y>109</enter_pos_y>
+		<scene_id>1110</scene_id>
+		<refresh_rank_interval_s>30</refresh_rank_interval_s>
+		<cross_info_clear_time>1400601600</cross_info_clear_time>
+	</other>
+
+</config>
+

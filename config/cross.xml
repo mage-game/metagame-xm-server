@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<CrossServerAddr>
+		<AddrItem>
+			<CrossType>1</CrossType> 	<!-- 战区类型 -->
+			<Ip>127.0.0.1</Ip> 			<!-- cross ip -->
+			<Port>10777</Port> 			<!-- cross 端口 -->
+		</AddrItem>
+	</CrossServerAddr>
+
+	<!-- 跨服功能对应战区类型 -->
+	<!-- func_type定义：
+		0 通用跨服功能（没有配置的默认当作通用跨服功能）
+		1 跨服排行榜
+
+		<跨服活动>
+		3073 跨服修罗塔 	3074 跨服1v1 		3075 跨服3v3
+		3076 跨服团战 		3077 跨服牧场 		3078 跨服boss
+		3079 跨服组队 		3080 跨服温泉 		3081 跨服水晶
+		3082 跨服帮派战 	3083 跨服月黑风高 	3084 跨服钓鱼
+		3085 夜战王城 		3086 乱斗战场 		3087 猎鲲地带
+	-->
+	<cross_function_list>
+		<function_item func_type='0' cross_type='1' opengame_day='0'/>
+		<function_item func_type='1' cross_type='1' opengame_day='0'/>
+	</cross_function_list>
+	
+	<!-- 是否开启跨服 -->
+	<open_cross>0</open_cross>
+
+	<!-- 是否是隐藏服 -->
+	<is_hidden_server>0</is_hidden_server>
+
+	<!-- 当前隐藏服所在的战区 -->
+	<hidden_server_cross_type>1</hidden_server_cross_type>
+</config>
+

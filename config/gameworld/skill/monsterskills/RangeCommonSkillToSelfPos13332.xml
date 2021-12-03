@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill>
+  <SkillID>13332</SkillID>
+  <skillname>51层读条群体</skillname>
+  <Distance>0</Distance>
+  <ProfLimit>4</ProfLimit>
+  <RangeType>5</RangeType>
+  <Range>10</Range>
+  <IsSelfPos>1</IsSelfPos>
+  <Range2>0</Range2>
+  <CoolDown>20</CoolDown>
+  <CheckShanbi>0</CheckShanbi>
+  <HurtPercent>185000</HurtPercent>
+  <FixHurt>0</FixHurt>
+  <EffectTarget>4</EffectTarget>
+  <ReadingTime>5</ReadingTime>
+  <ContinueTime>0</ContinueTime>
+  <FaZhenType>0</FaZhenType>
+  <FaZhenInterval>0</FaZhenInterval>
+  <FaZhenLifeTime>0</FaZhenLifeTime>
+  <EffectNow>0</EffectNow>
+  <RandZoneCount>0</RandZoneCount>
+  <SubZoneRange>0</SubZoneRange>
+  <RectLength>0</RectLength>
+  <RectWidth>0</RectWidth>
+  <DirType>0</DirType>
+</Skill>

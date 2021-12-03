@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <refresh_time>
+    <data>
+      <refresh_timestamp>1140</refresh_timestamp>
+    </data>
+    <data>
+      <refresh_timestamp>2130</refresh_timestamp>
+    </data>
+  </refresh_time>
+  <refresh_info>
+    <data>
+      <scene_id>6021</scene_id>
+      <pos_x>47</pos_x>
+      <pos_y>37</pos_y>
+      <attr_level>60</attr_level>
+      <exp_level>65</exp_level>
+      <top_hurt_dropid>0|0|0|0|0|0|0|0</top_hurt_dropid>
+      <join_dropid>0|0|0|0|0|0|0|0</join_dropid>
+      <kill_drop_id>0|0|0|0|0|0|0|0</kill_drop_id>
+    </data>
+    <data>
+      <scene_id>6022</scene_id>
+      <pos_x>61</pos_x>
+      <pos_y>35</pos_y>
+      <attr_level>62</attr_level>
+      <exp_level>70</exp_level>
+      <top_hurt_dropid>0|0|0|0|0|0|0|0</top_hurt_dropid>
+      <join_dropid>0|0|0|0|0|0|0|0</join_dropid>
+      <kill_drop_id>0|0|0|0|0|0|0|0</kill_drop_id>
+    </data>
+    <data>
+      <scene_id>6023</scene_id>
+      <pos_x>34</pos_x>
+      <pos_y>34</pos_y>
+      <attr_level>65</attr_level>
+      <exp_level>75</exp_level>
+      <top_hurt_dropid>0|0|0|0|0|0|0|0</top_hurt_dropid>
+      <join_dropid>0|0|0|0|0|0|0|0</join_dropid>
+      <kill_drop_id>0|0|0|0|0|0|0|0</kill_drop_id>
+    </data>
+  </refresh_info>
+</config>

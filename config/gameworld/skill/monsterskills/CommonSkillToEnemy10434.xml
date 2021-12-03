@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill>
+  <SkillID>10434</SkillID>
+  <skillname>80层减速怪减速</skillname>
+  <Distance>8</Distance>
+  <ProfLimit>4</ProfLimit>
+  <RangeType>5</RangeType>
+  <Range>7</Range>
+  <IsSelfPos>0</IsSelfPos>
+  <Range2>0</Range2>
+  <CoolDown>1</CoolDown>
+  <CheckShanbi>0</CheckShanbi>
+  <HurtPercent>10000</HurtPercent>
+  <FixHurt>0</FixHurt>
+  <EffectTarget>4</EffectTarget>
+  <ReadingTime>1</ReadingTime>
+  <ContinueTime>0</ContinueTime>
+  <FaZhenType>0</FaZhenType>
+  <FaZhenInterval>0</FaZhenInterval>
+  <FaZhenLifeTime>0</FaZhenLifeTime>
+  <EffectNow>0</EffectNow>
+  <RandZoneCount>0</RandZoneCount>
+  <SubZoneRange>0</SubZoneRange>
+  <RectLength>0</RectLength>
+  <RectWidth>0</RectWidth>
+  <DirType>0</DirType>
+  <effect_list>
+    <effect>
+      <effect_type>4</effect_type>
+      <param0>50</param0>
+      <param1>2</param1>
+      <param2>0</param2>
+      <param3>0</param3>
+      <param4>0</param4>
+      <param5>0</param5>
+    </effect>
+  </effect_list>
+</Skill>

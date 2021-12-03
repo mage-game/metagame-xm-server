@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--小书童-->
+	<id>20570</id>
+	<default_dialog_id>20570</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

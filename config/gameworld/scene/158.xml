@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <id>158</id>
+  <name>琼华禁地</name>
+  <mapid>158</mapid>
+  <istax>0</istax>
+  <is_forbid_pk>0</is_forbid_pk>
+  <speciallogic_type>0</speciallogic_type>
+  <scene_timeout>0</scene_timeout>
+  <is_timeout_kick>0</is_timeout_kick>
+  <npcs/>
+  <doors>
+    <door>
+      <id>255</id>
+      <x>17</x>
+      <y>127</y>
+    </door>
+    <door>
+      <id>254</id>
+      <x>18</x>
+      <y>52</y>
+    </door>
+    <door>
+      <id>253</id>
+      <x>34</x>
+      <y>16</y>
+    </door>
+    <door>
+      <id>256</id>
+      <x>125</x>
+      <y>31</y>
+    </door>
+  </doors>
+  <triggerareas/>
+  <triggers/>
+  <townpoint>
+    <sceneid>158</sceneid>
+    <scenex>87</scenex>
+    <sceney>73</sceney>
+  </townpoint>
+  <monsterpoints/>
+  <gatherpoints/>
+</scene>

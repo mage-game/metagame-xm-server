@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--新增七-->
+	<id>20142</id>
+	<default_dialog_id>20142</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

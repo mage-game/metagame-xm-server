@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- 
+	special_logic_type (param1, param2, param3, param4)
+		1 双生怪 (key, 复活时间ms)
+		2 关联怪 (key, 百分比, 固定值)
+		
+		percent, fix 不可同时为0
+	
+例：
+	<special_monster>
+		<monster_id>46001</monster_id>
+		<logic_item>	最多1个logic_item
+			<special_logic_type>1</special_logic_type>
+			<param1>46002</param1>
+			<param2>10000</param2>
+			<param3>0</param3>
+			<param4>0</param4>
+		</logic_item>
+	</special_monster>
+ -->
+ 	<special_monster>     <!---->
+		<monster_id>7</monster_id>
+		<logic_item><!--双生怪,key=1-->
+			<special_logic_type>1</special_logic_type>
+			<param1>1</param1>
+			<param2>10000</param2>
+			<param3>0</param3>
+			<param4>0</param4>
+		</logic_item>
+	</special_monster>
+
+	<special_monster>     <!---->
+		<monster_id>8</monster_id>
+		<logic_item><!--双生怪,key=1-->
+			<special_logic_type>1</special_logic_type>
+			<param1>1</param1>
+			<param2>10000</param2>
+			<param3>0</param3>
+			<param4>0</param4>
+		</logic_item>
+	</special_monster>
+
+</config>
+

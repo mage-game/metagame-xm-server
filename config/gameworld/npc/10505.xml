@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--琼华仙地西子-->
+	<id>10505</id>
+	<default_dialog_id>10505</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

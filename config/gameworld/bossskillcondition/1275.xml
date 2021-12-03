@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <id>1275</id>
+  <goback>1</goback>
+  <hate_drive>0</hate_drive>
+  <cond_list>
+    <cond>
+      <cond_type>1</cond_type>
+      <param0>30</param0>
+      <param1>60</param1>
+      <param2>0</param2>
+      <param3>0</param3>
+      <skill_list>
+        <skill>
+          <skill_id>15001</skill_id>
+        </skill>
+      </skill_list>
+    </cond>
+    <cond>
+      <cond_type>1</cond_type>
+      <param0>0</param0>
+      <param1>30</param1>
+      <param2>0</param2>
+      <param3>0</param3>
+      <skill_list>
+        <skill>
+          <skill_id>13005</skill_id>
+        </skill>
+      </skill_list>
+    </cond>
+  </cond_list>
+</config>

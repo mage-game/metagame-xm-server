@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene>
+  <id>8102</id>
+  <name>觉醒试炼</name>
+  <mapid>8102</mapid>
+  <istax>0</istax>
+  <is_forbid_pk>0</is_forbid_pk>
+  <speciallogic_type>0</speciallogic_type>
+  <scene_timeout>300</scene_timeout>
+  <is_timeout_kick>1</is_timeout_kick>
+  <npcs/>
+  <doors/>
+  <triggerareas/>
+  <triggers/>
+  <townpoint>
+    <sceneid>8102</sceneid>
+    <scenex>67</scenex>
+    <sceney>90</sceney>
+  </townpoint>
+  <monsterpoints>
+    <point>
+      <x>74</x>
+      <y>67</y>
+      <interval>1000</interval>
+      <num>1</num>
+      <histroytotalnum>1</histroytotalnum>
+      <monsterid>32003</monsterid>
+    </point>
+  </monsterpoints>
+  <gatherpoints/>
+</scene>

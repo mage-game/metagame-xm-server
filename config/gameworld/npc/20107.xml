@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--护送使者-->
+	<id>20107</id>
+	<default_dialog_id>20107</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

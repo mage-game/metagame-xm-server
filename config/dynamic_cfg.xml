@@ -1,0 +1,1333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<activitylist>
+		<!------------------------------------------------------  诛邪战场    ------------------------------------------------------>
+		<activity>
+			<type>1</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>4</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>15</hour>
+					<min>55</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>16</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>2700</dur_s>
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  答题活动-旧版    ------------------------------------------------------>
+		<activity>
+			<type>2</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>2</weekday>
+				<weekday>3</weekday>
+				<weekday>4</weekday>
+				<weekday>5</weekday>
+				<weekday>6</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>16</hour>
+					<min>55</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>17</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>2700</dur_s>
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  双倍护送  ------------------------------------------------------>
+		<activity>
+			<type>3</type>
+			<is_open>1</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>2</weekday>
+				<weekday>3</weekday>
+				<weekday>4</weekday>
+				<weekday>5</weekday>
+				<weekday>6</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>18</hour>
+					<min>59</min>
+					<sec>59</sec>
+					<dur_s>1</dur_s>
+				</standytime>
+				<opentime>
+					<hour>19</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>1200</dur_s>				<!--18:30正式开始活动 持续30分钟  -->
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  三界争锋  ------------------------------------------------------>
+		<activity>
+			<type>5</type>
+			<is_open>1</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>4</weekday>
+				<weekday>6</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>19</hour>
+					<min>58</min>
+					<sec>0</sec>
+					<dur_s>120</dur_s>
+				</standytime>
+				<opentime>
+					<hour>20</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>900</dur_s>
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  攻城之战  ------------------------------------------------------>
+		<activity>
+			<type>6</type>
+			<is_open>1</is_open>
+
+			<weekdaylist>
+				<weekday>3</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>19</hour>
+					<min>58</min>
+					<sec>0</sec>
+					<dur_s>120</dur_s>
+				</standytime>
+				<opentime>
+					<hour>20</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>1200</dur_s>				<!--  20：00开始活动 持续15分钟  -->
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  宝石迷阵  ------------------------------------------------------>
+		<activity>
+			<type>14</type>
+			<is_open>1</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>2</weekday>
+				<weekday>3</weekday>
+				<weekday>4</weekday>
+				<weekday>5</weekday>
+				<weekday>6</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>20</hour>
+					<min>58</min>
+					<sec>0</sec>
+					<dur_s>120</dur_s>
+				</standytime>
+				<opentime>
+					<hour>21</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>900</dur_s>				<!--21:00正式开始活动 持续15分钟  -->
+				</opentime>
+			</activity_time>
+		</activity>
+
+				<!------------------------------------------------------  一站到底  ------------------------------------------------------>
+		<activity>
+			<type>9</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>4</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>18</hour>
+					<min>55</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>19</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>900</dur_s>				<!--15:30正式开始活动 持续30分钟  -->
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  皇城会战  ------------------------------------------------------>
+		<activity>
+			<type>15</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>2</weekday>
+				<weekday>3</weekday>
+				<weekday>4</weekday>
+				<weekday>5</weekday>
+				<weekday>6</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>16</hour>
+					<min>55</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>17</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>2700</dur_s>				<!--17:00正式开始活动 持续45分钟  -->
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  守卫雕象1  ------------------------------------------------------>
+		<activity>
+			<type>16</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>2</weekday>
+				<weekday>3</weekday>
+				<weekday>4</weekday>
+				<weekday>5</weekday>
+				<weekday>6</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>13</hour>
+					<min>55</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>14</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>1200</dur_s>				<!--12:00正式开始活动 持续20分钟  -->
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  守卫雕象2  ------------------------------------------------------>
+		<activity>
+			<type>17</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>2</weekday>
+				<weekday>3</weekday>
+				<weekday>4</weekday>
+				<weekday>5</weekday>
+				<weekday>6</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>14</hour>
+					<min>25</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>14</hour>
+					<min>30</min>
+					<sec>0</sec>
+					<dur_s>1200</dur_s>				<!--12:30正式开始活动 持续20分钟  -->
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  守卫雕象3  ------------------------------------------------------>
+		<activity>
+			<type>18</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>2</weekday>
+				<weekday>3</weekday>
+				<weekday>4</weekday>
+				<weekday>5</weekday>
+				<weekday>6</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>14</hour>
+					<min>55</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>15</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>1200</dur_s>				<!--15:00正式开始活动 持续20分钟  -->
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  领土战  ------------------------------------------------------>
+		<activity>
+			<type>19</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>5</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>19</hour>
+					<min>55</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>20</hour>
+					<min>00</min>
+					<sec>0</sec>
+					<dur_s>1800</dur_s>				<!--20:00正式开始活动 持续30分钟  -->
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  天降财宝  ------------------------------------------------------>
+		<activity>
+			<type>20</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>2</weekday>
+				<weekday>4</weekday>
+				<weekday>6</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>18</hour>
+					<min>25</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>18</hour>
+					<min>30</min>
+					<sec>0</sec>
+					<dur_s>1200</dur_s>
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  仙盟抢旗  ------------------------------------------------------>
+		<activity>
+			<type>21</type>
+			<is_open>1</is_open>
+
+			<weekdaylist>
+				<weekday>2</weekday>
+				<weekday>5</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>19</hour>
+					<min>58</min>
+					<sec>0</sec>
+					<dur_s>120</dur_s>
+				</standytime>
+				<opentime>
+					<hour>20</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>1200</dur_s>				<!--  20：00开始活动 持续15分钟  -->
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  欢乐果树成长值兑换    ------------------------------------------------------>
+		<activity>
+			<type>22</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>5</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>0</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>1</dur_s>
+				</standytime>
+				<opentime>
+					<hour>0</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>86400</dur_s>
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  怒战九霄  ------------------------------------------------------>
+		<activity>							 
+			<type>23</type>
+			<is_open>1</is_open>
+			<openserverday_limit>0</openserverday_limit>
+			
+			<openserverday_close>21</openserverday_close> <!--X天后关闭-->
+		
+			<weekdaylist>
+				<weekday>2</weekday>
+				<weekday>4</weekday>
+				<weekday>6</weekday>
+			</weekdaylist>
+			
+			<activity_time>
+				<standytime>
+					<hour>21</hour>
+					<min>25</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>21</hour>
+					<min>30</min>
+					<sec>0</sec>
+					<dur_s>1200</dur_s>				<!--  21：30开始活动 持续20分钟  --->  
+				</opentime>
+			</activity_time>
+		</activity>	
+
+		<!------------------------------------------------------  仙盟boss   ------------------------------------------------------>
+		<activity>
+			<type>24</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>3</weekday>
+				<weekday>5</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>21</hour>
+					<min>55</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>22</hour>
+					<min>00</min>
+					<sec>0</sec>
+					<dur_s>1800</dur_s>
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  大富豪    ------------------------------------------------------>
+		<activity>
+			<type>25</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>2</weekday>
+				<weekday>3</weekday>
+				<weekday>4</weekday>
+				<weekday>5</weekday>
+				<weekday>6</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>14</hour>
+					<min>55</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>15</hour>
+					<min>0</min>
+					<sec>0</sec>
+					<dur_s>1200</dur_s>
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  地宫探险  ------------------------------------------------------>
+		<activity>
+			<type>26</type>
+			<is_open>1</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>2</weekday>
+				<weekday>3</weekday>
+				<weekday>4</weekday>
+				<weekday>5</weekday>
+				<weekday>6</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>18</hour>
+					<min>28</min>
+					<sec>0</sec>
+					<dur_s>120</dur_s>
+				</standytime>
+				<opentime>
+					<hour>18</hour>
+					<min>30</min>
+					<sec>0</sec>
+					<dur_s>1200</dur_s>
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  仙盟运镖  ------------------------------------------------------>
+		<activity>
+			<type>27</type>
+			<is_open>1</is_open>
+
+			<weekdaylist>
+				<weekday>2</weekday>
+				<weekday>4</weekday>
+				<weekday>6</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>19</hour>
+					<min>28</min>
+					<sec>0</sec>
+					<dur_s>120</dur_s>
+				</standytime>
+				<opentime>
+					<hour>19</hour>
+					<min>30</min>
+					<sec>0</sec>
+					<dur_s>900</dur_s>
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  星座遗迹  ------------------------------------------------------>
+		<activity>
+			<type>28</type>
+			<is_open>0</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>2</weekday>
+				<weekday>3</weekday>
+				<weekday>4</weekday>
+				<weekday>5</weekday>
+				<weekday>6</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>16</hour>
+					<min>29</min>
+					<sec>59</sec>
+					<dur_s>1</dur_s>
+				</standytime>
+				<opentime>
+					<hour>16</hour>
+					<min>30</min>
+					<sec>0</sec>
+					<dur_s>1799</dur_s>
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  仙盟答题  ------------------------------------------------------>
+		<activity>							 
+			<type>30</type>
+			<is_open>1</is_open>
+		
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>2</weekday>
+				<weekday>3</weekday>
+				<weekday>4</weekday>
+				<weekday>5</weekday>
+				<weekday>6</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+			
+			<activity_time>
+				<standytime>
+					<hour>20</hour>
+					<min>43</min>
+					<sec>0</sec>
+					<dur_s>120</dur_s>
+				</standytime>
+				<opentime>
+					<hour>20</hour>
+					<min>45</min>
+					<sec>0</sec>
+					<dur_s>900</dur_s>				<!--20:45正式开始活动 持续15分钟  -->
+				</opentime>
+			</activity_time>
+		</activity>		
+	
+		<!------------------------------------------------------  乱斗战场  ------------------------------------------------------>
+		<activity>							 
+			<type>31</type>
+			<is_open>1</is_open>
+			<openserverday_limit>0</openserverday_limit>
+			
+			<openserverday_close>21</openserverday_close> <!--X天后关闭-->
+		
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>3</weekday>
+				<weekday>5</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+			
+			<activity_time>
+				<standytime>
+					<hour>21</hour>
+					<min>25</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</standytime>
+				<opentime>
+					<hour>21</hour>
+					<min>30</min>
+					<sec>0</sec>
+					<dur_s>1200</dur_s>				<!--  19：30开始活动 持续30分钟  --->  
+				</opentime>
+			</activity_time>
+		</activity>	
+	
+		<!------------------------------------------------------  膜拜城主    ------------------------------------------------------>
+		<activity>
+			<type>32</type>
+			<is_open>1</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>2</weekday>
+				<weekday>3</weekday>
+				<weekday>4</weekday>
+				<weekday>5</weekday>
+				<weekday>6</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>19</hour>
+					<min>19</min>
+					<sec>59</sec>
+					<dur_s>1</dur_s>
+				</standytime>
+				<opentime>
+					<hour>19</hour>
+					<min>20</min>
+					<sec>0</sec>
+					<dur_s>300</dur_s>
+				</opentime>
+			</activity_time>
+		</activity>
+
+		<!------------------------------------------------------  仙盟试炼  ------------------------------------------------------>
+		<activity>
+			<type>34</type>
+			<is_open>1</is_open>
+
+			<weekdaylist>
+				<weekday>1</weekday>
+				<weekday>3</weekday>
+				<weekday>5</weekday>
+				<weekday>7</weekday>
+			</weekdaylist>
+
+			<activity_time>
+				<standytime>
+					<hour>19</hour>
+					<min>28</min>
+					<sec>0</sec>
+					<dur_s>120</dur_s>
+				</standytime>
+				<opentime>
+					<hour>19</hour>
+					<min>30</min>
+					<sec>0</sec>
+					<dur_s>900</dur_s>				<!--20:00正式开始活动 持续15分钟  -->
+				</opentime>
+			</activity_time>
+		</activity>
+		
+	</activitylist>
+	
+	<special_activity_list>
+		<!------------------------------------------------------  封测活动 ------------------------------------------------------>
+		<special_activity>
+			<type>1026</type>
+			<is_open>0</is_open>
+			<begin_time>2015-12-02 00:00:00</begin_time>
+			<end_time>2015-12-25 23:59:00</end_time>
+		</special_activity>
+
+	</special_activity_list>
+
+	<rand_activity_list>
+		<!------------------------------------------------------  幸运转盘活动 ------------------------------------------------------>
+		<rand_activity>
+			<type>2048</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2049</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2050</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2051</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2052</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2053</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2054</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2055</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2056</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2057</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2058</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2059</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2060</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2061</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2062</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2064</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2065</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2066</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2067</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2068</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2069</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2070</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2071</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2072</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2073</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2074</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2075</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2076</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2079</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2080</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2081</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2082</type>
+			<is_open>1</is_open>
+			<duration_day>1</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2083</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2084</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2085</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2086</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2087</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2088</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2089</type>
+			<is_open>0</is_open>
+			<duration_day>1</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2090</type>
+			<is_open>0</is_open>
+			<duration_day>1</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2091</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2092</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2093</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2094</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2095</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2096</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2097</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2098</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2099</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2100</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2101</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2102</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2103</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2104</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2105</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2106</type>
+			<is_open>0</is_open>
+			<duration_day>3</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2107</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2108</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2109</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2110</type>
+			<is_open>0</is_open>
+			<duration_day>3</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2111</type>
+			<is_open>0</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2115</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2174</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2175</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2128</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2129</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2130</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2131</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2132</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2133</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2134</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2135</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2136</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2137</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2138</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2139</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2140</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2141</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2142</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2143</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2144</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2145</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2146</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2147</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+
+		<rand_activity>
+			<type>2148</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2188</type>
+			<is_open>1</is_open>
+			<duration_day>1</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2193</type>
+			<is_open>1</is_open>
+			<duration_day>3</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2200</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2201</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2202</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2224</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2228</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2232</type>
+			<is_open>1</is_open>
+			<duration_day>1</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2233</type>
+			<is_open>1</is_open>
+			<duration_day>1</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2236</type>
+			<is_open>1</is_open>
+			<duration_day>6</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2237</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2239</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2241</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2242</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2244</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+		<rand_activity>
+			<type>2245</type>
+			<is_open>1</is_open>
+			<duration_day>7</duration_day>
+		</rand_activity>
+	</rand_activity_list>
+</config>

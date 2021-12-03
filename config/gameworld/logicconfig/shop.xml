@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <item>
+    <data>
+      <itemid>26300</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26301</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26296</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26295</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26297</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26310</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26373</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26299</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26309</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26374</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26308</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26375</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26302</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26318</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26376</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26377</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26378</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26379</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26298</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26371</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26372</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27269</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26303</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26304</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26100</itemid>
+      <gold>10</gold>
+      <bind_gold>10</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26200</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26210</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26220</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>64100</itemid>
+      <gold>388</gold>
+      <bind_gold>388</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>64200</itemid>
+      <gold>688</gold>
+      <bind_gold>688</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>23089</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27287</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26430</itemid>
+      <gold>80</gold>
+      <bind_gold>80</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26433</itemid>
+      <gold>80</gold>
+      <bind_gold>80</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26497</itemid>
+      <gold>199</gold>
+      <bind_gold>199</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26498</itemid>
+      <gold>999</gold>
+      <bind_gold>999</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26499</itemid>
+      <gold>1999</gold>
+      <bind_gold>1999</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26436</itemid>
+      <gold>58</gold>
+      <bind_gold>58</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26441</itemid>
+      <gold>58</gold>
+      <bind_gold>58</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27984</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27986</itemid>
+      <gold>200</gold>
+      <bind_gold>200</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26465</itemid>
+      <gold>100</gold>
+      <bind_gold>100</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26457</itemid>
+      <gold>5</gold>
+      <bind_gold>5</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26565</itemid>
+      <gold>300</gold>
+      <bind_gold>300</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26575</itemid>
+      <gold>300</gold>
+      <bind_gold>300</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26107</itemid>
+      <gold>380</gold>
+      <bind_gold>380</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27838</itemid>
+      <gold>50</gold>
+      <bind_gold>50</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27839</itemid>
+      <gold>100</gold>
+      <bind_gold>100</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27299</itemid>
+      <gold>30</gold>
+      <bind_gold>0</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27585</itemid>
+      <gold>30</gold>
+      <bind_gold>30</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27589</itemid>
+      <gold>50</gold>
+      <bind_gold>50</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27983</itemid>
+      <gold>100</gold>
+      <bind_gold>100</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26681</itemid>
+      <gold>5</gold>
+      <bind_gold>5</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27286</itemid>
+      <gold>88</gold>
+      <bind_gold>0</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26901</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27583</itemid>
+      <gold>5</gold>
+      <bind_gold>5</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26903</itemid>
+      <gold>1</gold>
+      <bind_gold>1</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26904</itemid>
+      <gold>99</gold>
+      <bind_gold>99</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26905</itemid>
+      <gold>520</gold>
+      <bind_gold>520</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26906</itemid>
+      <gold>999</gold>
+      <bind_gold>999</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27582</itemid>
+      <gold>100</gold>
+      <bind_gold>100</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>22081</itemid>
+      <gold>188</gold>
+      <bind_gold>188</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26466</itemid>
+      <gold>50</gold>
+      <bind_gold>0</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26467</itemid>
+      <gold>50</gold>
+      <bind_gold>0</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26470</itemid>
+      <gold>50</gold>
+      <bind_gold>0</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26471</itemid>
+      <gold>50</gold>
+      <bind_gold>0</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26472</itemid>
+      <gold>50</gold>
+      <bind_gold>0</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26473</itemid>
+      <gold>50</gold>
+      <bind_gold>0</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26918</itemid>
+      <gold>498</gold>
+      <bind_gold>498</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>27278</itemid>
+      <gold>88</gold>
+      <bind_gold>88</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26922</itemid>
+      <gold>998</gold>
+      <bind_gold>998</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26913</itemid>
+      <gold>50</gold>
+      <bind_gold>50</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26911</itemid>
+      <gold>88</gold>
+      <bind_gold>88</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26914</itemid>
+      <gold>10</gold>
+      <bind_gold>10</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26915</itemid>
+      <gold>10</gold>
+      <bind_gold>10</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26094</itemid>
+      <gold>10</gold>
+      <bind_gold>10</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26095</itemid>
+      <gold>30</gold>
+      <bind_gold>30</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>25512</itemid>
+      <gold>200</gold>
+      <bind_gold>0</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>25513</itemid>
+      <gold>600</gold>
+      <bind_gold>0</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+    <data>
+      <itemid>26739</itemid>
+      <gold>20</gold>
+      <bind_gold>20</bind_gold>
+      <is_notice>0</is_notice>
+    </data>
+  </item>
+  <fenqu>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </fenqu>
+</config>

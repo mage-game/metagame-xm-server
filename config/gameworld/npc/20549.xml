@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--测璇星-20105-->
+	<id>20549</id>
+	<default_dialog_id>20549</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

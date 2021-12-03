@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>1462</id>
+	<name>木·城</name>
+	<mapid>1462</mapid>
+	<levellimit>0</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>22</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>1462</sceneid>
+		<scenex>202</scenex>
+		<sceney>112</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors>
+		<door>
+			<id>1450</id>
+			<type>0</type>
+			<level>0</level>
+			<target_scene_id>1450</target_scene_id>
+			<target_door_id>1462</target_door_id>
+			<x>9</x>
+			<y>113</y>
+		</door>
+	</doors>
+	<gatherpoints />
+</scene>

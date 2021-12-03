@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--独孤-->
+	<id>20112</id>
+	<default_dialog_id>20112</default_dialog_id>
+	<functions>
+		<function>
+			<npc_type>1</npc_type>
+			<fb_type>0</fb_type>
+			<team_member_num>0</team_member_num>
+			<level>45</level>
+			<fb_count_id>208</fb_count_id>
+			<require_task_id>0</require_task_id>
+			<scene_id>3301</scene_id>
+			<scene_x>14</scene_x>
+			<scene_y>90</scene_y>
+			<level_entry_list/>
+		</function>
+	</functions>
+	<tasks/>
+</npc>

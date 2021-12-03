@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>170</id>
+	<name>索克冰原</name>
+	<mapid>170</mapid>
+	<levellimit>10</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>54</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>170</sceneid>
+		<scenex>133</scenex>
+		<sceney>58</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs>
+		<npc>
+			<id>402</id>
+			<x>248</x>
+			<y>146</y>
+		</npc>
+	</npcs>
+	<monsterpoints />
+	<doors />
+	<gatherpoints />
+</scene>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--韩凌莎-->
+	<id>10509</id>
+	<default_dialog_id>10509</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

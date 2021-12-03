@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--琼华仙地怀书-->
+	<id>10503</id>
+	<default_dialog_id>10503</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

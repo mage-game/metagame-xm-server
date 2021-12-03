@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--神木林靖原-->
+	<id>10215</id>
+	<default_dialog_id>10215</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

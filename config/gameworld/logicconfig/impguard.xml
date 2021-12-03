@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <other>
+    <data>
+      <free_imp_type>1</free_imp_type>
+      <free_imp_item_id>64101</free_imp_item_id>
+      <range>20</range>
+    </data>
+  </other>
+  <imp>
+    <data>
+      <imp_type>1</imp_type>
+      <item_id>64100</item_id>
+      <add_per_exp>50</add_per_exp>
+      <per_mianshang>0</per_mianshang>
+      <fangyu>750</fangyu>
+      <max_hp>15000</max_hp>
+      <fujia_shanghai>0</fujia_shanghai>
+      <per_kangbao>0</per_kangbao>
+      <pvp_reduce_hurt_per>0</pvp_reduce_hurt_per>
+      <gold_price>388</gold_price>
+      <bind_gold_price>388</bind_gold_price>
+      <appe_image_id>1</appe_image_id>
+      <is_bind_gold>1</is_bind_gold>
+      <level_limit>1</level_limit>
+      <use_day>7</use_day>
+    </data>
+    <data>
+      <imp_type>2</imp_type>
+      <item_id>64200</item_id>
+      <add_per_exp>0</add_per_exp>
+      <per_mianshang>2000</per_mianshang>
+      <fangyu>1000</fangyu>
+      <max_hp>20000</max_hp>
+      <fujia_shanghai>0</fujia_shanghai>
+      <per_kangbao>0</per_kangbao>
+      <pvp_reduce_hurt_per>0</pvp_reduce_hurt_per>
+      <gold_price>688</gold_price>
+      <bind_gold_price>688</bind_gold_price>
+      <appe_image_id>2</appe_image_id>
+      <is_bind_gold>1</is_bind_gold>
+      <level_limit>1</level_limit>
+      <use_day>7</use_day>
+    </data>
+  </imp>
+</config>

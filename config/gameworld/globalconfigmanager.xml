@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	全局配置管理配置文件
+-->
+<globalconfig>
+	<role>globalconfig/role.xml</role>									<!--角色全局配置-->
+	<roleexp>globalconfig/roleexp.xml</roleexp>							<!--角色经验配置-->
+	<other>globalconfig/otherconfig.xml</other>							<!--其他拉杂的配置-->
+	<key>globalconfig/keyconfig.xml</key>								<!--关键配置-->
+	<equip>globalconfig/equipforge.xml</equip>							<!--装备配置-->
+	<compose>globalconfig/composeconfig.xml</compose>					<!--炼炉配置-->
+	<rolezhuansheng>globalconfig/rolezhuansheng.xml</rolezhuansheng>	<!--转生配置-->
+</globalconfig>

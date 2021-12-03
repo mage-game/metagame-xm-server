@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<is_open>0</is_open>
+	
+	<plat_name_list>
+		<!-- <plat_name>platname_dbindex</plat_name> -->
+		<plat_name>kyodream1_1</plat_name>
+	</plat_name_list>
+</config>

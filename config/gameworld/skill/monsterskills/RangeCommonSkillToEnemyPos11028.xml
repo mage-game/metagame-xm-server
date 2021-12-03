@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skill>
+  <SkillID>11028</SkillID>
+  <skillname>禁足IV</skillname>
+  <Distance>10</Distance>
+  <ProfLimit>4</ProfLimit>
+  <RangeType>4</RangeType>
+  <Range>1</Range>
+  <IsSelfPos>0</IsSelfPos>
+  <Range2>0</Range2>
+  <CoolDown>2</CoolDown>
+  <CheckShanbi>0</CheckShanbi>
+  <HurtPercent>0</HurtPercent>
+  <FixHurt>0</FixHurt>
+  <EffectTarget>6</EffectTarget>
+  <ReadingTime>0</ReadingTime>
+  <ContinueTime>0</ContinueTime>
+  <FaZhenType>0</FaZhenType>
+  <FaZhenInterval>0</FaZhenInterval>
+  <FaZhenLifeTime>0</FaZhenLifeTime>
+  <EffectNow>0</EffectNow>
+  <RandZoneCount>0</RandZoneCount>
+  <SubZoneRange>0</SubZoneRange>
+  <RectLength>0</RectLength>
+  <RectWidth>0</RectWidth>
+  <DirType>0</DirType>
+  <effect_list>
+    <effect>
+      <effect_type>4</effect_type>
+      <param0>12</param0>
+      <param1>3</param1>
+      <param2>0</param2>
+      <param3>0</param3>
+      <param4>0</param4>
+      <param5>0</param5>
+    </effect>
+    <effect>
+      <effect_type>15</effect_type>
+      <param0>16</param0>
+      <param1>0</param1>
+      <param2>0</param2>
+      <param3>0</param3>
+      <param4>0</param4>
+      <param5>0</param5>
+    </effect>
+  </effect_list>
+</Skill>

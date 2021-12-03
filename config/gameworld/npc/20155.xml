@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--酱油五-->
+	<id>20155</id>
+	<default_dialog_id>20155</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

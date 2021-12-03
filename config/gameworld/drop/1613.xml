@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drop>
+  <drop_id>1613</drop_id>
+  <drop_item_prob_list>
+    <drop_item_prob>
+      <item_id>27365</item_id>
+      <is_bind>1</is_bind>
+      <prob>2000000</prob>
+      <num>1</num>
+      <broadcast>0</broadcast>
+    </drop_item_prob>
+    <drop_item_prob>
+      <item_id>27366</item_id>
+      <is_bind>1</is_bind>
+      <prob>2000000</prob>
+      <num>1</num>
+      <broadcast>0</broadcast>
+    </drop_item_prob>
+    <drop_item_prob>
+      <item_id>27367</item_id>
+      <is_bind>1</is_bind>
+      <prob>2000000</prob>
+      <num>1</num>
+      <broadcast>0</broadcast>
+    </drop_item_prob>
+    <drop_item_prob>
+      <item_id>27368</item_id>
+      <is_bind>1</is_bind>
+      <prob>2000000</prob>
+      <num>1</num>
+      <broadcast>0</broadcast>
+    </drop_item_prob>
+    <drop_item_prob>
+      <item_id>27369</item_id>
+      <is_bind>1</is_bind>
+      <prob>2000000</prob>
+      <num>1</num>
+      <broadcast>0</broadcast>
+    </drop_item_prob>
+  </drop_item_prob_list>
+</drop>

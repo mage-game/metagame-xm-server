@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--崇光-->
+	<id>10516</id>
+	<default_dialog_id>10516</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

@@ -1,0 +1,74 @@
+
+created by wangwenhuo 20140806
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+loginservermodule.cpp	是消息入口
+loginserver.cpp			是逻辑中心
+
+
+
+todo:
+	去掉global，要把global与login之前的逻辑移到gamesvr
+	去掉角色管理(m_user_manager)、反沉迷(m_wallow_timer)、多线逻辑(m_thread_record)
+	在线信息被去掉 login的作用已经很弱了 仅供登录取数据用
+
+	协议修改，md5校验方式修改
+
+	global相关处理函数
+		OnRegisterGlobal
+		OnGlobalUserLogin
+		OnGlobalUserLogout
+		OnGlobalKickUserFail
+		OnUserInfoRecover
+
+	gamesvr封号后T人，被屏蔽了，得处理 (解决方案：gamesvr封号的时候，顺便把人踢了，不用管loginsvr是否成功了，但是不是直接在role的forbit里面写，这样会出现角色无效的情况)
+
+
+	创建角色需要加2S的CD时间
+	
+	
+	1：帐号登录流程
+		LoginServer::OnLoginReq（帐号登录入口）
+			MergeLoginManager::OnLoginReq（绕一次合服登录检查）
+				MergeLoginManager::PlatLoginReq（多次或一次DB调用 RMIUserLoginBackObjectImpl）
+					RMIUserLoginBackObjectImpl::UserLoginRet （db返回帐号信息，如果没角色直接返回，否则继续查询角色的详细信息）
+						RMIGetRoleInfoBackObjectImpl（继续查询角色的详细信息，包括prof，sex）
+							MergeLoginManager::AddRoleInfoList（缓存角色信息，并返回客户端）
+							
+							
+					
+	2：角色登录流程 （上面流程已经拿到所有角色的相关prof，sex信息，这里是选取某一个角色ID进行角色登录）
+		LoginServer::OnRoleReq（角色登录入口）
+			RMIUserLoginBackObjectImplRole::UserLoginRet（抓回账号下的所有角色，确定角色ID有效，之所这么做是因为不想在登录服保存角色信息，这个需要管理的）
+				RMIGetRoleInfoBackObjectImplRoleReq::GetRoleInfoRet（取到角色的场景相关信息，随机返回一个gateway，同时返回最近登录的场景所在的gamesvr的索引）				
+				
+	
+	3：创建角色流程 
+		LoginServer::OnCreateRole（创建角色入口）
+			RMIUserLoginBackObjectImplCreate::UserLoginRet（当前可创建，并且发起名字唯一性检查）
+				RMIAddNameInfoBackObjectImpl::AddNameInfoRet（若重名通知客户端，否则插入role表一条记录）
+					RMICreateRoleBackObjectImpl::CreateRoleRet（如果创建失败，删除已被占用的名字，否则把角色ID加入到帐号表）
+						RMIAddRoleBackObjectImpl::AddRoleRet（角色ID加入账号表失败则删除已经插入的role表记录，并删除已被占用的名字，否则去DB更新名字所对应的角色ID）
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

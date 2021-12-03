@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <show_cfg>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </show_cfg>
+  <other>
+    <data />
+  </other>
+  <score>
+    <data />
+    <data />
+    <data />
+    <data />
+    <data />
+  </score>
+  <rank_title>
+    <data>
+      <rank>0</rank>
+      <title_id>3025</title_id>
+    </data>
+    <data>
+      <rank>1</rank>
+      <title_id>3026</title_id>
+    </data>
+    <data>
+      <rank>2</rank>
+      <title_id>3027</title_id>
+    </data>
+  </rank_title>
+  <gather>
+    <data>
+      <gather_index>0</gather_index>
+      <gather_id>324</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>56</pos_x>
+      <pos_y>61</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+    <data>
+      <gather_index>1</gather_index>
+      <gather_id>324</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>61</pos_x>
+      <pos_y>51</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+    <data>
+      <gather_index>2</gather_index>
+      <gather_id>324</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>52</pos_x>
+      <pos_y>51</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+    <data>
+      <gather_index>3</gather_index>
+      <gather_id>325</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>78</pos_x>
+      <pos_y>82</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+    <data>
+      <gather_index>4</gather_index>
+      <gather_id>325</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>57</pos_x>
+      <pos_y>82</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+    <data>
+      <gather_index>5</gather_index>
+      <gather_id>325</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>31</pos_x>
+      <pos_y>82</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+    <data>
+      <gather_index>6</gather_index>
+      <gather_id>325</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>31</pos_x>
+      <pos_y>61</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+    <data>
+      <gather_index>7</gather_index>
+      <gather_id>325</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>31</pos_x>
+      <pos_y>42</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+    <data>
+      <gather_index>8</gather_index>
+      <gather_id>325</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>31</pos_x>
+      <pos_y>31</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+    <data>
+      <gather_index>9</gather_index>
+      <gather_id>325</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>57</pos_x>
+      <pos_y>31</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+    <data>
+      <gather_index>10</gather_index>
+      <gather_id>325</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>78</pos_x>
+      <pos_y>31</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+    <data>
+      <gather_index>11</gather_index>
+      <gather_id>325</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>78</pos_x>
+      <pos_y>42</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+    <data>
+      <gather_index>12</gather_index>
+      <gather_id>325</gather_id>
+      <gather_time>15</gather_time>
+      <pos_x>78</pos_x>
+      <pos_y>61</pos_y>
+      <disappear_s>60</disappear_s>
+    </data>
+  </gather>
+</config>

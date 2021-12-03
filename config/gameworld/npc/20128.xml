@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--精英神魔之井-->
+	<id>20128</id>
+	<default_dialog_id>20128</default_dialog_id>
+	<functions>
+		<function>
+			<npc_type>1</npc_type>
+			<fb_type>6</fb_type>
+			<team_member_num>1</team_member_num>
+			<level>58</level>
+			<fb_count_id>5</fb_count_id>
+			<require_task_id>0</require_task_id>
+			<scene_id>508</scene_id>
+			<scene_x>50</scene_x>
+			<scene_y>42</scene_y>
+			<level_entry_list/>
+		</function>
+	</functions>
+	<tasks/>
+</npc>

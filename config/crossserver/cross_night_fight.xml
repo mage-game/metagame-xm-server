@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <other>
+    <data>
+      <is_open>1</is_open>
+    </data>
+  </other>
+  <activity_open_time>
+    <data>
+      <activity_week_day>1</activity_week_day>
+      <activity_ready_time>1958</activity_ready_time>
+      <activity_start_time>2000</activity_start_time>
+      <activity_end_time>2015</activity_end_time>
+    </data>
+    <data>
+      <activity_week_day>4</activity_week_day>
+      <activity_ready_time>1958</activity_ready_time>
+      <activity_start_time>2000</activity_start_time>
+      <activity_end_time>2015</activity_end_time>
+    </data>
+    <data>
+      <activity_week_day>6</activity_week_day>
+      <activity_ready_time>1958</activity_ready_time>
+      <activity_start_time>2000</activity_start_time>
+      <activity_end_time>2015</activity_end_time>
+    </data>
+  </activity_open_time>
+</config>

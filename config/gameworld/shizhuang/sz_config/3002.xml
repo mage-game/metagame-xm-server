@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShizhuangPool>
+	<sz_id>3002</sz_id>
+	<sz_name>灵山袈裟武器</sz_name>
+	<part>3</part>
+	<seq>2</seq>
+	<zhuozhuang_degree>40</zhuozhuang_degree>
+	<valid_secs>604800</valid_secs>
+	<sz_suit_id>2</sz_suit_id>
+	<maxhp>0</maxhp>
+	<maxmp>0</maxmp>
+	<gongji>40</gongji>
+	<fangyu>0</fangyu>
+	<mingzhong>0</mingzhong>
+	<shanbi>0</shanbi>
+	<baoji>0</baoji>
+	<jianren>40</jianren>
+</ShizhuangPool>

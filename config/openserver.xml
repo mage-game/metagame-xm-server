@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<server_real_start_time>2018-03-15 10:00:00</server_real_start_time>		<!-- 正式开服时间 格式 yyyy-MM-dd HH:mm:ss -->
+	<server_real_combine_time>2013-05-04 10:00:00</server_real_combine_time>		<!-- 正式合服时间 格式 yyyy-MM-dd HH:mm:ss 默认不填 -->
+	
+	<server_version>2018031002</server_version>				<!-- 服务器版本号 -->
+
+	<opengame_activity_day>7</opengame_activity_day>		<!-- 开服活动持续天数 0不开启 -->
+	<opengame_chongci_day>8</opengame_chongci_day>			<!-- 开服冲刺持续天数 0不开启 -->
+	<combine_server_activity_day>8</combine_server_activity_day>	<!--合服活动持续天数 0不开启-->
+	<newhand_guide_day>8</newhand_guide_day>				<!-- 新手指导员持续天数 0不开启 -->
+	<kill_monster_double_exp_day>3</kill_monster_double_exp_day>	<!--开服打怪双倍持续天数-->
+	<combine_qingdian_activity_day>7</combine_qingdian_activity_day>	<!--合服庆典持续天数 0不开启-->
+
+	<pingbi_worldexp_add>0</pingbi_worldexp_add> 			<!--是否开启世界等级加成 1不开启-->
+
+	<channel_open_level_world>152</channel_open_level_world>
+	<channel_open_level_scene>10</channel_open_level_scene>
+	<channel_open_level_camp>1</channel_open_level_camp>
+	<channel_open_level_team>1</channel_open_level_team>
+	<channel_open_level_guild>1</channel_open_level_guild>
+	<single_chat_level>152</single_chat_level>
+	<send_mail_level>1</send_mail_level>
+
+	<line_num>3</line_num>									<!-- 新手村分线数1～4 -->
+	<is_ios_examine>0</is_ios_examine>						<!-- 是否ios审核服 -->
+</config>

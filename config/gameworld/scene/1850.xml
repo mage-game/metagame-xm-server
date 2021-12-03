@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>1850</id>
+	<name>幻境十六层</name>
+	<mapid>1850</mapid>
+	<levellimit>0</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>13</speciallogic_type>
+	<scene_timeout>150</scene_timeout>
+	<is_timeout_kick>1</is_timeout_kick>
+	<townpoint>
+		<sceneid>1850</sceneid>
+		<scenex>35</scenex>
+		<sceney>14</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors>
+		<door>
+			<id>1851</id>
+			<type>0</type>
+			<level>0</level>
+			<target_scene_id>1851</target_scene_id>
+			<target_door_id>1851</target_door_id>
+			<x>13</x>
+			<y>34</y>
+		</door>
+	</doors>
+	<gatherpoints />
+</scene>

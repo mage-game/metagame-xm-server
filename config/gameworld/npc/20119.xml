@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--王城若曦-->
+	<id>20119</id>
+	<default_dialog_id>20119</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

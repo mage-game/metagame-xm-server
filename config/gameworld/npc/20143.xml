@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--仙境·冰龙守护-->
+	<id>20143</id>
+	<default_dialog_id>20143</default_dialog_id>
+	<functions>
+		<function>
+			<npc_type>1</npc_type>
+			<fb_type>11</fb_type>
+			<team_member_num>0</team_member_num>
+			<level>75</level>
+			<fb_count_id>10</fb_count_id>
+			<require_task_id>0</require_task_id>
+			<scene_id>523</scene_id>
+			<scene_x>118</scene_x>
+			<scene_y>104</scene_y>
+			<level_entry_list/>
+		</function>
+	</functions>
+	<tasks/>
+</npc>

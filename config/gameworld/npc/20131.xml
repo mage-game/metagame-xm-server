@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--精英神殿使者-->
+	<id>20131</id>
+	<default_dialog_id>20131</default_dialog_id>
+	<functions>
+		<function>
+			<npc_type>1</npc_type>
+			<fb_type>9</fb_type>
+			<team_member_num>1</team_member_num>
+			<level>63</level>
+			<fb_count_id>9</fb_count_id>
+			<require_task_id>0</require_task_id>
+			<scene_id>531</scene_id>
+			<scene_x>53</scene_x>
+			<scene_y>53</scene_y>
+			<level_entry_list/>
+		</function>
+	</functions>
+	<tasks/>
+</npc>

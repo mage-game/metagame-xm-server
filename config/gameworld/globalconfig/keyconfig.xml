@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+关键全局配置
+		
+	zone_matrix_x：zone matrix 单元区域大小x
+	zone_matrix_y：zone matrix 单元区域大小y
+		
+	role_aoi_x：role的aoi区域大小x
+	role_aoi_y：role的aoi区域大小y
+	role_aoi_leave_more_then_enter：Role的AOI离开大于进入范围的值
+		
+	role_aoi_sensitive_distance：角色aoi敏感区域的距离
+	pet_aoi_sensitive_distance：宠物aoi敏感区域的距离
+		
+	role_save_time:角色存储时间间隔，秒
+-->
+<config>
+	<zone_matrix_x>35</zone_matrix_x>
+	<zone_matrix_y>25</zone_matrix_y>
+		
+	<role_aoi_x>80</role_aoi_x>
+	<role_aoi_y>60</role_aoi_y>
+	<role_aoi_leave_more_then_enter>4</role_aoi_leave_more_then_enter>
+		
+	<role_aoi_sensitive_distance>4</role_aoi_sensitive_distance>
+	<pet_aoi_sensitive_distance>8</pet_aoi_sensitive_distance>
+
+	<role_save_time>180</role_save_time>
+</config>

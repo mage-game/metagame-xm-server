@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--羲和神剑-->
+	<id>10115</id>
+	<default_dialog_id>10115</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

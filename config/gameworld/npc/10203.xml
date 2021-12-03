@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--樰渐-->
+	<id>10203</id>
+	<default_dialog_id>10203</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

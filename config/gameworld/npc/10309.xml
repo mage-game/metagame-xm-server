@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--问剑平原逍遥大侠-->
+	<id>10309</id>
+	<default_dialog_id>10309</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

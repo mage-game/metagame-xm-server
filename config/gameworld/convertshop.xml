@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<convert_shop_list>
+		<convert_shop>
+			<type>1</type>
+			<item_list>
+				<item>
+					<item_id>24000</item_id>
+					<is_bind>1</is_bind>
+					<price>3</price>
+					<require_type>0</require_type>
+					<require_value>0</require_value>
+					<max_num>0</max_num>
+				</item>
+			</item_list>
+		</convert_shop>
+	</convert_shop_list>
+</config>

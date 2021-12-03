@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--昆仑护法-->
+	<id>20202</id>
+	<default_dialog_id>20202</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

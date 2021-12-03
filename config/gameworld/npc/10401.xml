@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--秦灵儿-->
+	<id>10401</id>
+	<default_dialog_id>10401</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

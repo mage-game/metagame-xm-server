@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <fairy_buddha_card>
+    <data>
+      <card_type>1</card_type>
+      <useful_time>604800</useful_time>
+      <use_gold>88</use_gold>
+      <add_gongji>200</add_gongji>
+      <title_id>2077</title_id>
+      <add_mojing_per>1000</add_mojing_per>
+      <monster_exp>1000</monster_exp>
+      <day_gold_bind>50</day_gold_bind>
+      <stuff_item>
+        <item_id>26620</item_id>
+        <num>1</num>
+        <is_bind>1</is_bind>
+      </stuff_item>
+    </data>
+    <data>
+      <card_type>2</card_type>
+      <useful_time>604800</useful_time>
+      <use_gold>388</use_gold>
+      <add_gongji>300</add_gongji>
+      <title_id>2078</title_id>
+      <add_mojing_per>2000</add_mojing_per>
+      <monster_exp>2000</monster_exp>
+      <day_gold_bind>100</day_gold_bind>
+      <stuff_item>
+        <item_id>26621</item_id>
+        <num>1</num>
+        <is_bind>1</is_bind>
+      </stuff_item>
+    </data>
+    <data>
+      <card_type>3</card_type>
+      <useful_time>604800</useful_time>
+      <use_gold>1288</use_gold>
+      <add_gongji>500</add_gongji>
+      <title_id>2079</title_id>
+      <add_mojing_per>3000</add_mojing_per>
+      <monster_exp>3000</monster_exp>
+      <day_gold_bind>150</day_gold_bind>
+      <stuff_item>
+        <item_id>26622</item_id>
+        <num>1</num>
+        <is_bind>1</is_bind>
+      </stuff_item>
+    </data>
+  </fairy_buddha_card>
+  <fairy_description>
+    <data />
+    <data />
+    <data />
+  </fairy_description>
+</config>

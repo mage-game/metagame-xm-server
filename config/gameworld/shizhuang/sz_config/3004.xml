@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShizhuangPool>
+	<sz_id>3004</sz_id>
+	<sz_name>怪物猎人武器</sz_name>
+	<part>3</part>
+	<seq>4</seq>
+	<zhuozhuang_degree>40</zhuozhuang_degree>
+	<valid_secs>604800</valid_secs>
+	<sz_suit_id>4</sz_suit_id>
+	<maxhp>0</maxhp>
+	<maxmp>0</maxmp>
+	<gongji>40</gongji>
+	<fangyu>0</fangyu>
+	<mingzhong>0</mingzhong>
+	<shanbi>0</shanbi>
+	<baoji>0</baoji>
+	<jianren>40</jianren>
+</ShizhuangPool>

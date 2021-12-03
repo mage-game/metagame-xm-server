@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--
+角色的全局配置
+
+	cooldown: 全局冷却时间 毫秒
+
+	in_team_distance: 队伍范围
+
+	xinshuo_protected_level: 新手保护等级
+
+	in_fight_ms: 战斗状态时间 毫秒
+
+	recover_hp_interval: 非战斗状态回血间隔 秒
+	recover_hp_per: 非战斗状态回血万分比
+	recover_hp_fight_per: 战斗状态回血万分比
+-->
+
+<config>
+	<cooldown>300</cooldown>
+	<xinshuo_protected_level>120</xinshuo_protected_level>
+	<upgrade_log_level>130</upgrade_log_level>
+	<in_fight_ms>5000</in_fight_ms>
+
+	<!-- 切回和平模式的间隔时间 -->
+	<peace_mode_interval>1800</peace_mode_interval>
+
+	<!-- 复活间隔时间 -->
+	<realive_interval>500</realive_interval>
+
+	<!-- 队伍范围 -->
+	<in_team_distance>
+		<x>35</x>
+		<y>25</y>
+	</in_team_distance>
+
+	<recover_hp_interval>10</recover_hp_interval>
+	<recover_hp_per>2500</recover_hp_per>
+	<recover_hp_fight_per>500</recover_hp_fight_per>
+
+	<!--  职业相关配置 0:新手，1:狂战士，2:魔剑士，3:魔枪手, 4:元素师 -->
+	<profcfg_list>
+		<profcfg>
+			<prof>0</prof>
+			<default_skill_id>0</default_skill_id>
+		</profcfg>
+		<profcfg>
+			<prof>1</prof>
+			<default_skill_id>111</default_skill_id>
+		</profcfg>
+		<profcfg>
+			<prof>2</prof>
+			<default_skill_id>211</default_skill_id>
+		</profcfg>
+		<profcfg>
+			<prof>3</prof>
+			<default_skill_id>311</default_skill_id>
+		</profcfg>
+		<profcfg>
+			<prof>4</prof>
+			<default_skill_id>411</default_skill_id>
+		</profcfg>
+	</profcfg_list>
+
+	<!-- 飞行模式提高速度百分比 -->
+	<fly_increase_speed_percent>50</fly_increase_speed_percent>
+
+	<!-- 是否屏蔽内玩做一些操作，比如交易，发邮件，购买市场物品等等 -->
+	<forbid_neiwan_action>1</forbid_neiwan_action>
+
+	<!-- 内玩封号条件 -->
+	<forbid_neiwan_account>
+		<is_forbid>1</is_forbid> <!-- 是否开启封号 -->
+		<no_login_day>3</no_login_day> <!-- N天不登录 -->
+		<chongzhi_max>3000</chongzhi_max> <!-- 充值不超过的数量（元宝） -->
+	</forbid_neiwan_account>
+
+	<!-- 禁言条件 -->
+	<forbid_channel>
+		<role_level_limit>160</role_level_limit>
+		<max_world_chat_count1>100</max_world_chat_count1>  <!-- 一个小时超过100条 -->
+		<max_world_chat_count2>150</max_world_chat_count2>  <!--2个小时超过150条 -->
+	</forbid_channel>
+	
+	
+	<!-- 连杀最大数 -->
+	<trigger_continue_kill_interval_max>300</trigger_continue_kill_interval_max>
+	<continue_kill>
+		<data>
+			<kill_count>20</kill_count>
+			<buff_time>15</buff_time>
+			<gongji_add_per>500</gongji_add_per>
+		</data>
+		<data>
+			<kill_count>50</kill_count>
+			<buff_time>15</buff_time>
+			<gongji_add_per>1000</gongji_add_per>
+		</data>
+		<data>
+			<kill_count>100</kill_count>
+			<buff_time>15</buff_time>
+			<gongji_add_per>1250</gongji_add_per>
+		</data>
+		<data>
+			<kill_count>200</kill_count>
+			<buff_time>15</buff_time>
+			<gongji_add_per>1500</gongji_add_per>
+		</data>
+		<data>
+			<kill_count>500</kill_count>
+			<buff_time>15</buff_time>
+			<gongji_add_per>1750</gongji_add_per>
+		</data>
+		<data>
+			<kill_count>999</kill_count>
+			<buff_time>15</buff_time>
+			<gongji_add_per>2000</gongji_add_per>
+		</data>
+	</continue_kill>
+</config>

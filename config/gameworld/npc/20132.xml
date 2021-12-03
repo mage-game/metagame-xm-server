@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--仓库管理员-->
+	<id>20132</id>
+	<default_dialog_id>20132</default_dialog_id>
+	<functions>
+		<function>
+			<npc_type>4</npc_type>
+		</function>
+	</functions>
+	<tasks/>
+</npc>

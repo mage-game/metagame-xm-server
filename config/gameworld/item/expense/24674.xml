@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <id>24674</id>
+  <name>废弃的道具</name>
+  <search_type>905</search_type>
+  <color>5</color>
+  <isbind>0</isbind>
+  <candiscard>0</candiscard>
+  <cansell>0</cansell>
+  <sellprice>100000</sellprice>
+  <recycltype>0</recycltype>
+  <recyclget>100000</recyclget>
+  <pile_limit>1</pile_limit>
+  <isdroprecord>1</isdroprecord>
+  <isbroadcast>0</isbroadcast>
+  <time_length>0</time_length>
+  <invalid_time>0</invalid_time>
+  <colddown_id>0</colddown_id>
+  <server_colddown>0</server_colddown>
+  <limit_prof>5</limit_prof>
+  <limit_sex>2</limit_sex>
+  <limit_level>1</limit_level>
+  <use_type>95</use_type>
+  <use_daytimes>0</use_daytimes>
+  <param1>24674</param1>
+  <param2>1</param2>
+  <param3>183</param3>
+  <param4>0</param4>
+  <param5>0</param5>
+  <other_sex_itemid>0</other_sex_itemid>
+</config>

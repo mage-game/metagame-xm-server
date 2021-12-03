@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!-- 活动时间 -->
+	<activity_time_cfg>
+		<is_open>0</is_open>
+
+		<open_day_list>
+			<open_day>2</open_day>
+			<open_day>5</open_day>
+		</open_day_list>
+
+		<time_interval>
+			<hour>19</hour>
+			<minute>55</minute>
+			<second>0</second>
+			<standby_dur_s>300</standby_dur_s>
+			<open_dur_s>1800</open_dur_s>
+		</time_interval>
+	</activity_time_cfg>
+
+	<!-- 比赛资格 -->
+	<join_limit>
+		<min_level>300</min_level>
+		<min_capability>300</min_capability>
+		<daycount_limit>5</daycount_limit>
+	</join_limit>
+
+	<!-- 比赛场景 -->
+	<match_scene_id>609</match_scene_id>
+
+	<relive_pos_list>
+		<relive_pos_0>
+			<x>19</x>
+			<y>23</y>
+		</relive_pos_0>
+		<relive_pos_1>
+			<x>167</x>
+			<y>105</y>
+		</relive_pos_1>
+	</relive_pos_list>
+
+	<finish_match_score>600</finish_match_score>	<!-- 提前结束比赛分值 -->
+
+	<!-- 比赛计算参数 -->
+	<kill_add_score>15</kill_add_score>
+	<occupy_add_score>10</occupy_add_score>
+	<stronghold_add_score>2</stronghold_add_score>
+	<stronghold_gather_id>138</stronghold_gather_id>
+
+	<!-- 据点坐标 -->
+	<stronghold_pos_list>
+		<stronghold_pos>
+			<pos_x>17</pos_x>
+			<pos_y>102</pos_y>
+		</stronghold_pos>
+		<stronghold_pos>
+			<pos_x>94</pos_x>
+			<pos_y>65</pos_y>
+		</stronghold_pos>
+		<stronghold_pos>
+			<pos_x>172</pos_x>
+			<pos_y>28</pos_y>
+		</stronghold_pos>
+	</stronghold_pos_list>
+
+	<!-- 荣誉计算参赛 -->
+	<win_add_honor>200</win_add_honor>
+	<lose_add_honor>50</lose_add_honor>
+	<draw_add_honor>100</draw_add_honor>
+	<mvp_add_honor>200</mvp_add_honor>
+
+	<day_reward_honor>500</day_reward_honor>
+
+	<!-- 每周排名奖励 -->
+	<challenge_score_rank_reward>
+		<reward_data>										<!-- 第1名 -->
+			<rank_pos_min>0</rank_pos_min>
+			<rank_pos_max>0</rank_pos_max>
+			<honor>3000</honor>
+		</reward_data>
+		<reward_data>										<!-- 第2名 -->
+			<rank_pos_min>1</rank_pos_min>
+			<rank_pos_max>1</rank_pos_max>
+			<honor>2500</honor>
+		</reward_data>
+		<reward_data>										<!-- 第3名 -->
+			<rank_pos_min>2</rank_pos_min>
+			<rank_pos_max>2</rank_pos_max>
+			<honor>2000</honor>
+		</reward_data>
+		<reward_data>										<!-- 第4~10名 -->
+			<rank_pos_min>3</rank_pos_min>
+			<rank_pos_max>9</rank_pos_max>
+			<honor>1500</honor>
+		</reward_data>
+		<reward_data>										<!-- 第11~20名 -->
+			<rank_pos_min>10</rank_pos_min>
+			<rank_pos_max>19</rank_pos_max>
+			<honor>1200</honor>
+		</reward_data>
+		<reward_data>										<!-- 第21~50名 -->
+			<rank_pos_min>20</rank_pos_min>
+			<rank_pos_max>49</rank_pos_max>
+			<honor>800</honor>
+		</reward_data>
+		<reward_data>										<!-- 第51~100名 -->
+			<rank_pos_min>50</rank_pos_min>
+			<rank_pos_max>99</rank_pos_max>
+			<honor>500</honor>
+		</reward_data>
+	</challenge_score_rank_reward>
+
+
+	<challenge_day_count_reward>							<!-- 每日参赛奖励 -->
+		<reward_daycount>5</reward_daycount>				<!-- 目标奖励场数 -->
+
+		<shengwang>100</shengwang>
+		<item_id>28593</item_id>
+		<item_num>1</item_num>
+		<is_bind>1</is_bind>
+	</challenge_day_count_reward>
+
+</config>
+

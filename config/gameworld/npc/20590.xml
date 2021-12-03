@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--七杀-->
+	<id>20590</id>
+	<default_dialog_id>20590</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

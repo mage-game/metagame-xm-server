@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>1110</id>
+	<name>休闲温泉</name>
+	<mapid>1110</mapid>
+	<levellimit>80</levellimit>
+	<istax>1</istax>
+	<is_forbid_pk>1</is_forbid_pk>
+	<speciallogic_type>45</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>1110</sceneid>
+		<scenex>242</scenex>
+		<sceney>109</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors />
+	<gatherpoints />
+</scene>

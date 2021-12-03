@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>255</id>
+	<name>天枢广场</name>
+	<mapid>255</mapid>
+	<levellimit>550</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>0</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>255</sceneid>
+		<scenex>92</scenex>
+		<sceney>88</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors>
+		<door>
+			<id>109</id>
+			<type>0</type>
+			<level>0</level>
+			<target_scene_id>109</target_scene_id>
+			<target_door_id>255</target_door_id>
+			<x>93</x>
+			<y>62</y>
+		</door>
+		<door>
+			<id>216</id>
+			<type>0</type>
+			<level>800</level>
+			<target_scene_id>216</target_scene_id>
+			<target_door_id>0</target_door_id>
+			<x>93</x>
+			<y>115</y>
+		</door>
+	</doors>
+	<gatherpoints />
+</scene>

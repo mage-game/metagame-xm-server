@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>1300</id>
+	<name>宝宝梦境</name>
+	<mapid>1300</mapid>
+	<levellimit>0</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>0</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>1300</sceneid>
+		<scenex>122</scenex>
+		<sceney>48</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors>
+		<door>
+			<id>1</id>
+			<type>0</type>
+			<level>0</level>
+			<target_scene_id>1300</target_scene_id>
+			<target_door_id>2</target_door_id>
+			<x>160</x>
+			<y>254</y>
+		</door>
+		<door>
+			<id>2</id>
+			<type>0</type>
+			<level>0</level>
+			<target_scene_id>1300</target_scene_id>
+			<target_door_id>1</target_door_id>
+			<x>44</x>
+			<y>258</y>
+		</door>
+	</doors>
+	<gatherpoints />
+</scene>

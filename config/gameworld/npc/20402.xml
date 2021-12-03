@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--蜀山护法-->
+	<id>20402</id>
+	<default_dialog_id>20402</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

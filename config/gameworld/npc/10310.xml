@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--鸿钧修真者-->
+	<id>10310</id>
+	<default_dialog_id>10310</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

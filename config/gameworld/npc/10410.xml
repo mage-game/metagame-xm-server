@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--云飞道长-->
+	<id>10410</id>
+	<default_dialog_id>10410</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

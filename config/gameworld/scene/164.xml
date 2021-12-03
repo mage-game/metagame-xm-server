@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>164</id>
+	<name>水晶幻境</name>
+	<mapid>164</mapid>
+	<levellimit>0</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>54</speciallogic_type>
+	<scene_timeout>0</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>164</sceneid>
+		<scenex>98</scenex>
+		<sceney>49</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors />
+	<gatherpoints>
+		<gather>
+			<id>334</id>
+			<index>0</index>
+			<create_interval>999999</create_interval>
+			<gather_time>10000</gather_time>
+			<evil_add>0</evil_add>
+			<disappear_after_gather>1</disappear_after_gather>
+			<x>210</x>
+			<y>50</y>
+		</gather>
+		<gather>
+			<id>333</id>
+			<index>0</index>
+			<create_interval>999999999</create_interval>
+			<gather_time>10000</gather_time>
+			<evil_add>0</evil_add>
+			<disappear_after_gather>1</disappear_after_gather>
+			<x>160</x>
+			<y>50</y>
+		</gather>
+		<gather>
+			<id>332</id>
+			<index>0</index>
+			<create_interval>99999999</create_interval>
+			<gather_time>10000</gather_time>
+			<evil_add>0</evil_add>
+			<disappear_after_gather>1</disappear_after_gather>
+			<x>124</x>
+			<y>50</y>
+		</gather>
+	</gatherpoints>
+</scene>

@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<marry_level_cfg_list>			<!--不同等级婚礼的配置-->
+		<marry_level_cfg>
+			<marry_level>1</marry_level>			<!--婚礼等级-->
+			<need_intimacy>999</need_intimacy>		<!--需要的亲密度-->
+			<need_coin>201314</need_coin>				<!--所需铜币-->
+			<need_gold>0</need_gold>				<!--所需元宝-->
+			<reward_shizhuang_list>
+				<reward_shizhuang>
+					<prof>1</prof>
+					<sex>0</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>1</prof>
+					<sex>1</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>2</prof>
+					<sex>0</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>2</prof>
+					<sex>1</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>3</prof>
+					<sex>0</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>3</prof>
+					<sex>1</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>4</prof>
+					<sex>0</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>4</prof>
+					<sex>1</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+			</reward_shizhuang_list>
+			<reward_item>
+				<item_id>26000</item_id>
+				<item_num>1</item_num>
+				<is_bind>1</is_bind>
+			</reward_item>
+			<reward_item>
+				<item_id>26000</item_id>
+				<item_num>5</item_num>
+				<is_bind>1</is_bind>
+			</reward_item>
+		</marry_level_cfg>
+		<marry_level_cfg>
+			<marry_level>2</marry_level>
+			<need_intimacy>1999</need_intimacy>
+			<need_coin>0</need_coin>
+			<need_gold>1314</need_gold>
+			<reward_shizhuang_list>
+				<reward_shizhuang>
+					<prof>1</prof>
+					<sex>0</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>1</prof>
+					<sex>1</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>2</prof>
+					<sex>0</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>2</prof>
+					<sex>1</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>3</prof>
+					<sex>0</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>3</prof>
+					<sex>1</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>4</prof>
+					<sex>0</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>4</prof>
+					<sex>1</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+			</reward_shizhuang_list>
+			<reward_item>
+				<item_id>26000</item_id>
+				<item_num>1</item_num>
+				<is_bind>1</is_bind>
+			</reward_item>
+			<reward_item>
+				<item_id>26000</item_id>
+				<item_num>10</item_num>
+				<is_bind>1</is_bind>
+			</reward_item>
+		</marry_level_cfg>
+		<marry_level_cfg>
+			<marry_level>3</marry_level>
+			<need_intimacy>2999</need_intimacy>
+			<need_coin>0</need_coin>
+			<need_gold>3344</need_gold>
+			<reward_shizhuang_list>
+				<reward_shizhuang>
+					<prof>1</prof>
+					<sex>0</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>1</prof>
+					<sex>1</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>2</prof>
+					<sex>0</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>2</prof>
+					<sex>1</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>3</prof>
+					<sex>0</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>3</prof>
+					<sex>1</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>4</prof>
+					<sex>0</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+				<reward_shizhuang>
+					<prof>4</prof>
+					<sex>1</sex>
+					<item_id>26000</item_id>
+					<item_num>1</item_num>
+					<is_bind>1</is_bind>
+				</reward_shizhuang>
+			</reward_shizhuang_list>
+			<reward_item>
+				<item_id>26000</item_id>
+				<item_num>1</item_num>
+				<is_bind>1</is_bind>
+			</reward_item>
+			<reward_item>
+				<item_id>26000</item_id>
+				<item_num>15</item_num>
+				<is_bind>1</is_bind>
+			</reward_item>
+		</marry_level_cfg>
+	</marry_level_cfg_list>
+	
+	<marry_xunyou>						<!--巡游配置-->
+		<sa_hongbao_count>10</sa_hongbao_count>				<!--撒红包次数-->	
+		<ranfang_yanhua_count>10</ranfang_yanhua_count>		<!--燃放烟花次数-->
+		<meigui_biaobai_count>1</meigui_biaobai_count>		<!--不同等级婚礼的配置-->
+		<hongbao_item_id>26000</hongbao_item_id>			<!--红包物品ID-->
+		<flower_item_id>26000</flower_item_id>				<!--鲜花的物品ID-->	
+		<xunyou_point_list>									<!--巡游路径配置-->
+			<des_point>
+				<pos_x>441</pos_x>							<!--下一个点的X坐标-->
+				<pos_y>88</pos_y>							<!--下一个点的Y坐标-->
+				<stop_time>2</stop_time>					<!--当前停留几秒才开始动-->
+			</des_point>
+                        <des_point>
+				<pos_x>421</pos_x>
+				<pos_y>105</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>412</pos_x>
+				<pos_y>117</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>436</pos_x>
+				<pos_y>144</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+                        <des_point>
+				<pos_x>463</pos_x>
+				<pos_y>167</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>486</pos_x>
+				<pos_y>181</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>453</pos_x>
+				<pos_y>211</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+                        <des_point>
+				<pos_x>412</pos_x>
+				<pos_y>227</pos_y>
+				<stop_time>2</stop_time>
+				</des_point>
+			<des_point>
+				<pos_x>377</pos_x>
+				<pos_y>234</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+                         <des_point>
+				<pos_x>338</pos_x>
+				<pos_y>227</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>312</pos_x>
+				<pos_y>211</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>264</pos_x>
+				<pos_y>231</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>208</pos_x>
+				<pos_y>253</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>173</pos_x>
+				<pos_y>218</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+                        <des_point>
+				<pos_x>244</pos_x>
+				<pos_y>194</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>287</pos_x>
+				<pos_y>175</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>335</pos_x>
+				<pos_y>148</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>386</pos_x>
+				<pos_y>171</pos_y>
+				<stop_time>3</stop_time>
+			</des_point>
+                        <des_point>
+				<pos_x>411</pos_x>
+				<pos_y>154</pos_y>
+				<stop_time>3</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>436</pos_x>
+				<pos_y>140</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+                         <des_point>
+				<pos_x>407</pos_x>
+				<pos_y>122</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>362</pos_x>
+				<pos_y>113</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>326</pos_x>
+				<pos_y>93</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>292</pos_x>
+				<pos_y>74</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+                       <des_point>
+				<pos_x>308</pos_x>
+				<pos_y>46</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+                       <des_point>
+				<pos_x>351</pos_x>
+				<pos_y>31</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+                        <des_point>
+				<pos_x>380</pos_x>
+				<pos_y>42</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+                         <des_point>
+				<pos_x>432</pos_x>
+				<pos_y>51</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+			<des_point>
+				<pos_x>472</pos_x>
+				<pos_y>72</pos_y>
+				<stop_time>2</stop_time>
+			</des_point>
+<des_point>
+				<pos_x>500</pos_x>
+				<pos_y>86</pos_y>
+				<stop_time>3</stop_time>
+			</des_point>
+		</xunyou_point_list>
+	</marry_xunyou>
+	
+	<marry_hunyan>				<!--婚宴配置-->
+		<hunyan_scene_id>534</hunyan_scene_id>			<!--婚宴场景ID-->
+		<enter_pos_x>50</enter_pos_x>					<!--进入的坐标-->
+		<enter_pos_y>50</enter_pos_y>
+		<add_exp>1314</add_exp>							<!--婚宴里每次增加的经验-->
+		<invite_rune_item_id>26000</invite_rune_item_id>		<!--请柬物品ID-->
+		<firework_item_id>26000</firework_item_id>			<!--婚礼烟花物品ID-->
+		<firework_add_exp>1314</firework_add_exp>			<!--婚礼烟花增加经验-->
+
+		<invite_rune_item_id>26000</invite_rune_item_id>		<!--请柬物品ID-->
+		<firework_item_id>26000</firework_item_id>			<!--婚礼烟花物品ID-->
+		<firework_add_exp>2000</firework_add_exp>			<!--婚礼烟花增加经验-->
+		<bless_gift_list>
+			<bless_gift>
+				<gift_coin>10000</gift_coin>			<!--祝福铜币-->
+				<item_cost_gold>0</item_cost_gold>		<!--送花所需元宝数，如果不要就连同物品一起填0-->
+				<item_id>0</item_id>
+				<item_num>0</item_num>
+				<item_is_bind>0</item_is_bind>
+			</bless_gift>
+<bless_gift>
+				<gift_coin>0</gift_coin>
+				<item_cost_gold>27</item_cost_gold>
+				<item_id>26000</item_id>
+				<item_num>9</item_num>
+				<item_is_bind>1</item_is_bind>
+			</bless_gift>
+			<bless_gift>
+				<gift_coin>30000</gift_coin>
+				<item_cost_gold>0</item_cost_gold>
+				<item_id>0</item_id>
+				<item_num>0</item_num>
+				<item_is_bind>0</item_is_bind>
+			</bless_gift>
+<bless_gift>
+				<gift_coin>0</gift_coin>
+				<item_cost_gold>198</item_cost_gold>
+				<item_id>26000</item_id>
+				<item_num>1</item_num>
+				<item_is_bind>1</item_is_bind>
+			</bless_gift>
+			<bless_gift>
+				<gift_coin>50000</gift_coin>
+				<item_cost_gold>0</item_cost_gold>
+				<item_id>0</item_id>
+				<item_num>0</item_num>
+				<item_is_bind>0</item_is_bind>
+			</bless_gift>
+			
+			
+			<bless_gift>
+				<gift_coin>0</gift_coin>
+				<item_cost_gold>888</item_cost_gold>
+				<item_id>26000</item_id>
+				<item_num>1</item_num>
+				<item_is_bind>1</item_is_bind>
+			</bless_gift>
+		</bless_gift_list>
+	</marry_hunyan>
+	
+	<marry_scene_id>201</marry_scene_id>				<!--拜天地场景ID和坐标-->
+	<marry_bai_tiandi_pos_x>472</marry_bai_tiandi_pos_x>
+	<marry_bai_tiandi_pos_y>72</marry_bai_tiandi_pos_y>
+	
+	<marry_need_intimacy>999</marry_need_intimacy>		<!--结婚需要的亲密度-->
+	<marry_xunyou_hongbao_drop_num>10</marry_xunyou_hongbao_drop_num>			<!--撒红包数量-->
+	<marry_xunyou_hongbao_drop_dis>5</marry_xunyou_hongbao_drop_dis>			<!--红包撒落距离范围-->
+	<marry_xunyou_add_exp_interval>5</marry_xunyou_add_exp_interval>			<!--婚宴增加exp间隔-->
+	<marry_xunyou_marryobj_dis>10</marry_xunyou_marryobj_dis>					<!--巡游对象的间距-->
+	<marry_xunyou_marryobj_speed>200</marry_xunyou_marryobj_speed>				<!--巡游对象速度-->
+	
+	<marry_reserve_item_id>26000</marry_reserve_item_id>						<!--姻缘石物品ID-->
+	
+	<marry_xunyou_marryobj_num>7</marry_xunyou_marryobj_num>				<!--巡游结婚对象数量-->
+	<marry_xunyou_marryobj_dis_list>
+		<dis>0</dis>
+		<dis>3</dis>
+		<dis>4</dis>
+		<dis>4</dis>
+		<dis>4</dis>
+		<dis>5</dis>
+		<dis>7</dis>
+	</marry_xunyou_marryobj_dis_list>
+	
+	<buy_xunyou_opera_cfg>
+		<hongbao_need_gold>10</hongbao_need_gold>
+		<hongbao_buy_times>5</hongbao_buy_times>
+		<yanhua_need_gold>5</yanhua_need_gold>
+		<yanhua_buy_times>5</yanhua_buy_times>
+		<meigui_need_gold>888</meigui_need_gold>
+		<meigui_buy_times>1</meigui_buy_times>
+	</buy_xunyou_opera_cfg>
+</config>

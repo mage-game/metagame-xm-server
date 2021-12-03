@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--测狗蛋-10304-->
+	<id>20520</id>
+	<default_dialog_id>20520</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

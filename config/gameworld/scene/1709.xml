@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>1709</id>
+	<name>幻境一层</name>
+	<mapid>1709</mapid>
+	<levellimit>130</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>0</is_forbid_pk>
+	<speciallogic_type>13</speciallogic_type>
+	<scene_timeout>63</scene_timeout>
+	<is_timeout_kick>1</is_timeout_kick>
+	<townpoint>
+		<sceneid>1709</sceneid>
+		<scenex>30</scenex>
+		<sceney>14</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors>
+		<door>
+			<id>1</id>
+			<type>100</type>
+			<level>0</level>
+			<target_scene_id>1709</target_scene_id>
+			<target_door_id>0</target_door_id>
+			<x>20</x>
+			<y>49</y>
+		</door>
+	</doors>
+	<gatherpoints />
+</scene>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <falling_msg>
+    <data>
+      <broadcast_type>0</broadcast_type>
+      <sys_msg_type>0</sys_msg_type>
+      <color>5</color>
+      <game_string_0>{r;%d;%s;%d}人品爆发！获得了{monster;%d;ffff37}掉落的{i;%d}！令人羡慕！</game_string_0>
+      <game_string_1>{r;%d;%s;%d}人品爆发！获得了{monster;%d;ffff37}掉落的{eq;%d;%s}！令人羡慕！</game_string_1>
+      <game_string_2>{r;%d;%s;%d} 在{monster;%d}的残骸上挖掘出珍稀的{i;%d}，仙友快{activityPos;%d;%d;%d;2}</game_string_2>
+      <game_string_3>{r;%d;%s;%d} 仙游在{monster;%d}的残骸上挖掘出珍稀的{eq;%d;%s}，仙友快{activityPos;%d;%d;%d;2}</game_string_3>
+    </data>
+    <data>
+      <broadcast_type>1</broadcast_type>
+      <sys_msg_type>15</sys_msg_type>
+      <color>4</color>
+      <game_string_0>{r;%d;%s;%d}人品爆发！获得了{monster;%d;ffff37}掉落的{i;%d}！令人羡慕！</game_string_0>
+      <game_string_1>{r;%d;%s;%d}人品爆发！获得了{monster;%d;ffff37}掉落的{eq;%d;%s}！令人羡慕！</game_string_1>
+      <game_string_2>{r;%d;%s;%d} 在{monster;%d}的残骸上挖掘出珍稀的{i;%d}，仙友快{activityPos;%d;%d;%d;2}</game_string_2>
+      <game_string_3>{r;%d;%s;%d} 仙游在{monster;%d}的残骸上挖掘出珍稀的{eq;%d;%s}，仙友快{activityPos;%d;%d;%d;2}</game_string_3>
+    </data>
+    <data>
+      <broadcast_type>2</broadcast_type>
+      <sys_msg_type>2</sys_msg_type>
+      <color>4</color>
+      <game_string_0>{r;%d;%s;%d}锦鲤附体！击杀{monster;%d;ffff37}获得了{i;%d}！</game_string_0>
+      <game_string_1>{r;%d;%s;%d}锦鲤附体！击杀{monster;%d;ffff37}获得了{eq;%d;%s}！</game_string_1>
+      <game_string_2>{r;%d;%s;%d} 在{monster;%d}的残骸上挖掘出珍稀的{i;%d}，仙友快{activityPos;%d;%d;%d;2}</game_string_2>
+      <game_string_3>{r;%d;%s;%d} 仙游在{monster;%d}的残骸上挖掘出珍稀的{eq;%d;%s}，仙友快{activityPos;%d;%d;%d;2}</game_string_3>
+    </data>
+  </falling_msg>
+</config>

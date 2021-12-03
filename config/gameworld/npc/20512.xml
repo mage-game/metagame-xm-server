@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--测鬼王-10313-->
+	<id>20512</id>
+	<default_dialog_id>20512</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

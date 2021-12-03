@@ -1,0 +1,10 @@
+<door>
+  <id>70</id>
+  <level>601</level>
+  <type>0</type>
+  <targetscene>
+    <sceneid>120</sceneid>
+    <x>36</x>
+    <y>164</y>
+  </targetscene>
+</door>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc>
+<!--测齐昊-10405-->
+	<id>20508</id>
+	<default_dialog_id>20508</default_dialog_id>
+	<functions/>
+	<tasks/>
+</npc>

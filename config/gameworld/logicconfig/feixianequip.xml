@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <composeList>
+    <data>
+      <itemid>54100</itemid>
+      <bind>1</bind>
+      <coin>100</coin>
+      <shuxing>80</shuxing>
+    </data>
+  </composeList>
+  <levelupList>
+    <data>
+      <itemid>54100</itemid>
+      <dirid>54101</dirid>
+      <stuff_id_1>26820</stuff_id_1>
+      <stuff_count_1>1</stuff_count_1>
+      <stuff_id_2>0</stuff_id_2>
+      <stuff_count_2>0</stuff_count_2>
+    </data>
+  </levelupList>
+  <Star_score>
+    <data>
+      <Totle_min>0</Totle_min>
+      <Totle_max>14</Totle_max>
+      <attr_Star>0</attr_Star>
+    </data>
+    <data>
+      <Totle_min>15</Totle_min>
+      <Totle_max>64</Totle_max>
+      <attr_Star>1</attr_Star>
+    </data>
+    <data>
+      <Totle_min>65</Totle_min>
+      <Totle_max>149</Totle_max>
+      <attr_Star>2</attr_Star>
+    </data>
+    <data>
+      <Totle_min>150</Totle_min>
+      <Totle_max>195</Totle_max>
+      <attr_Star>3</attr_Star>
+    </data>
+  </Star_score>
+</config>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<id>9995</id>
+	<name>火山熔岩</name>
+	<mapid>9995</mapid>
+	<levellimit>0</levellimit>
+	<istax>0</istax>
+	<is_forbid_pk>1</is_forbid_pk>
+	<speciallogic_type>64</speciallogic_type>
+	<scene_timeout>120</scene_timeout>
+	<is_timeout_kick>0</is_timeout_kick>
+	<townpoint>
+		<sceneid>9995</sceneid>
+		<scenex>281</scenex>
+		<sceney>59</sceney>
+	</townpoint>
+	<triggerareas />
+	<triggers />
+	<npcs />
+	<monsterpoints />
+	<doors />
+	<gatherpoints />
+</scene>
