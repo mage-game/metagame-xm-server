@@ -8,10 +8,11 @@
 #### 软件架构
 框架图
 
-![image](https://user-images.githubusercontent.com/13159191/168148386-e6b01874-7e1d-4359-8589-f7fc189226b4.png)
+![image](https://user-images.githubusercontent.com/13159191/168154068-74e4f1c7-a59f-4a76-b805-e715acabed21.png)
 
 
 部署图
+
 ![image](https://user-images.githubusercontent.com/13159191/168153754-dd2f07f8-133d-47de-9181-cf69459f5b57.png)
 
 #### 安装教程
