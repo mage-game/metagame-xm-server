@@ -9,6 +9,8 @@
 ![image](https://user-images.githubusercontent.com/13159191/168148386-e6b01874-7e1d-4359-8589-f7fc189226b4.png)
 
 
+部署图
+![image](https://user-images.githubusercontent.com/13159191/168153754-dd2f07f8-133d-47de-9181-cf69459f5b57.png)
 
 #### 安装教程
 
